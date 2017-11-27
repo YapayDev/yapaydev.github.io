@@ -1,0 +1,281 @@
+
+
+
+| Method                      | Processor        |
+|-----------------------------|------------------|
+| visa                        | cielo            |
+| mastercard                  | cielo            |
+| elo                         | cielo            |
+| discover                    | cielo            |
+| diners                      | cielo            |
+| visa_redirect               | cielo            |
+| mastercard_redirect         | cielo            |
+| elo_redirect                | cielo            |
+| discover_redirect           | cielo            |
+| diners_redirect             | cielo            |
+| american_express            | cielo            |
+| aura                        | cielo            |
+| jcb                         | cielo            |
+| aura_redirect               | cielo            |
+| jcb_redirect                | cielo            |
+| maestro                     | cielo            |
+| discover_redirect           | redecard         |
+| visa                        | redecard         |
+| mastercard                  | redecard         |
+| diners                      | redecard         |
+| visa_redirect               | redecard         |
+| mastercard_redirect         | redecard         |
+| diners_redirect             | redecard         |
+| hipercard                   | redecard         |
+| hiper                       | redecard         |
+| hipercard_redirect          | redecard         |
+| hiper_redirect              | redecard         |
+
+
+
+method                         processor
+
+visa                           /cielo
+mastercard                     /cielo
+elo                            /cielo
+discover                       /cielo
+diners                         /cielo
+visa_redirect                  /cielo
+mastercard_redirect            /cielo
+elo_redirect                   /cielo
+discover_redirect              /cielo
+diners_redirect                /cielo
+visa_electron                  /cielo
+visa_electron_redirect         /cielo
+american_express               /cielo
+american_express_redirect      /cielo
+aura                           /cielo
+jcb                            /cielo
+aura_redirect                  /cielo
+jcb_redirect                   /cielo
+maestro                        /cielo
+visa                           /cielo3
+mastercard                     /cielo3
+american_express               /cielo3
+elo                            /cielo3
+aura                           /cielo3
+jcb                            /cielo3
+diners                         /cielo3
+discover                       /cielo3
+visa_debit                     /cielo3
+mastercard_debit               /cielo3
+
+
+
+itaushopline                   /itaushopline
+itaushopline_card              /itaushopline
+itaushopline_billet            /itaushopline
+
+bb                             /bb
+
+hsbc                           /hsbc
+
+visa                           /redecard_cielo
+mastercard                     /redecard_cielo
+diners                         /redecard_cielo
+visa_redirect                  /redecard_cielo
+mastercard_redirect            /redecard_cielo
+diners_redirect                /redecard_cielo
+
+discover                       /redecard
+
+mercado_pago                   /mercado_pago
+
+
+clearsale                      /clearsale
+
+american_express_redirect      /american_express
+american_express               /american_express
+
+pagseguro                      /pagseguro
+
+
+moip_redirect                  /moip
+hipercard                      /moip
+aura                           /moip
+visa                           /moip
+mastercard                     /moip
+american_express               /moip
+diners                         /moip
+oi_paggo                       /moip
+billet                         /moip
+banrisul                       /moip
+unibanco                       /moip
+banco_real                     /moip
+itau                           /moip
+bradesco                       /moip
+bb                             /moip
+
+bb_offline                     /bb_offline
+
+billet                         /itaushopline_offline
+
+
+dinheiro_mail_redirect         /dinheiro_mail
+billet                         /dinheiro_mail
+visa                           /dinheiro_mail
+mastercard                     /dinheiro_mail
+american_express               /dinheiro_mail
+diners                         /dinheiro_mail
+aura                           /dinheiro_mail
+hipercard                      /dinheiro_mail
+
+discover_redirect              /redecard
+visa                           /redecard
+mastercard                     /redecard
+diners                         /redecard
+visa_redirect                  /redecard
+mastercard_redirect            /redecard
+diners_redirect                /redecard
+hipercard                      /redecard
+hiper                          /redecard
+hipercard_redirect             /redecard
+hiper_redirect                 /redecard
+
+palpay_redirect                /paypal
+
+peela                          /peela
+
+billet                         /bradesco
+financing                      /bradesco
+b2b                            /bradesco
+transference                   /bradesco
+debit_card                     /bradesco
+
+pagamento_digital_redirect     /b_cash
+pagament_digital               /b_cash
+mastercard                     /b_cash
+billet                         /b_cash
+american_express               /b_cash
+aura                           /b_cash
+diners                         /b_cash
+hipercard                      /b_cash
+bb_transference                /b_cash
+bradesco_transference          /b_cash
+itau_transference              /b_cash
+banrisul_transference          /b_cash
+hsbc_transference              /b_cash
+visa_redirect                  /b_cash
+mastercard_redirect            /b_cash
+american_express_redirect      /b_cash
+diners_redirect                /b_cash
+hipercard_redirect             /b_cash
+billet_redirect                /b_cash
+bb_transference_redirect       /b_cash
+bradesco_transference_redirect /b_cash
+itau_transference_redirect     /b_cash
+elo_redirect                   /b_cash
+banrisul_transference_redirect /b_cash
+hsbc_transference_redirect     /b_cash
+aura_redirect                  /b_cash
+elo                            /b_cash
+
+
+
+visa                           /mercado_pago
+american_express               /mercado_pago
+mastercard                     /mercado_pago
+aura                           /mercado_pago
+diners                         /mercado_pago
+hipercard                      /mercado_pago
+elo                            /mercado_pago
+mercadolivre_card              /mercado_pago
+billet                         /mercado_pago
+bb_transference                /mercado_pago
+bradesco_transference          /mercado_pago
+account_money                  /mercado_pago
+mercado_pago_ws                /mercado_pago
+
+m_clearsale                    /clearsale
+
+fcontrol_frame                 /fcontrol
+fcontrol                       /fcontrol
+
+
+
+
+billet                         /banrisul
+cash                           /banrisul
+splitted                       /banrisul
+pre_dated                      /banrisul
+
+
+hipercard                      /cobre_bem
+
+hsbc_debit                     /hsbc
+
+
+
+clearsale_start                /clearsale
+
+
+
+mastercard_debit               /data_cash
+diners_club                    /data_cash
+maestro                        /data_cash
+mastercard                     /data_cash
+hipercard                      /data_cash
+visa                           /data_cash
+visa_debit                     /data_cash
+visa_electron                  /data_cash
+itau_billet                    /data_cash
+bradesco_billet                /data_cash
+bb_billet                      /data_cash
+hsbc_billet                    /data_cash
+santander_billet               /data_cash
+caixa_billet                   /data_cash
+
+
+visa                           /elavon
+mastercard                     /elavon
+diners                         /elavon
+discover                       /elavon
+
+
+
+is                             /cielo_is
+
+
+visa                           /stone
+mastercard                     /stone
+
+
+historic                       /traycheckout_analysis
+risk                           /traycheckout_analysis
+
+visa                           /erede
+mastercard                     /erede
+diners                         /erede
+hipercard                      /erede
+hiper                          /erede
+
+billet                         /bradesco2
+transference                   /bradesco2
+
+visa                           /getnet
+mastercard                     /getnet
+
+itau_billet                    /traycheckout
+diners                         /traycheckout
+mastercard                     /traycheckout
+american_express               /traycheckout
+itau_transference              /traycheckout
+peela                          /traycheckout
+discover                       /traycheckout
+elo                            /traycheckout
+aura                           /traycheckout
+jcb                            /traycheckout
+hipercard                      /traycheckout
+bradesco_transference          /traycheckout
+bb_transference                /traycheckout
+bradesco_billet                /traycheckout
+hiper                          /traycheckout
+visa                           /traycheckout
+
+cielo                          /zero_auth
+getnet                         /zero_auth

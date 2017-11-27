@@ -1,0 +1,25 @@
+---
+layout: null
+sitemap: false
+---
+
+$brand-colour: #FFF;
+
+$nav-header-height: 170px;
+$nav-background-color: #e6e6e6;
+$nav-width: 100%;
+
+
+$corPadrao1:#293272;
+$corPadrao2:#3ec723;
+$corPadrao3:#e6e6e6;
+
+$space: 20px;
+
+$mobile-break: 768px;
+
+@import "mixins";
+@import "main";
+@import "borland";
+@import "monaki";
+ 

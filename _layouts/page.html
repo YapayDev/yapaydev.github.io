@@ -1,0 +1,21 @@
+---
+layout: default
+---
+		<section class="doc-content">
+			<section class="left-docs">
+				<h3>{{ page.title }}</h3>  
+					{{ content }}
+			</section>   
+
+		{% if page.right_code %}
+			<section class="right-code">
+				{{ page.right_code | markdownify }}
+			</section>
+		{% endif %}
+
+    </section>
+
+
+
+
+

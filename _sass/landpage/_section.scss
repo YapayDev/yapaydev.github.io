@@ -1,0 +1,239 @@
+section  {
+
+
+  h2{
+    margin: 0;
+    font-size: 2em;
+  }
+
+.textoVerde {
+  margin-top: 20px;
+}
+
+.textoVerde h2 {
+  color: $section-corYapay2;
+  font-size: 30px;
+  line-height: 43px;
+  font-weight: normal;
+} 
+
+.textoVerde hr {
+  border-top: 1px solid $section-corYapay2;
+}
+
+.textoBranco {
+  margin-top: 20px;
+
+}
+
+.textoBranco h2 {
+  color: $section-corYapay3;
+  font-size: 30px;
+  line-height: 43px;
+  font-weight: normal;
+} 
+
+.textoBranco hr {
+  border-top: 1px solid $section-corYapay3;
+}
+
+.itemTrayCheckout, .itemRecorrencia, .itemGateway {
+  margin-top: 80px;
+}
+
+.itemTrayCheckout .item a p, .itemRecorrencia .item a p {
+  color: $section-corPadrao;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 23px;
+  line-height: 30px;  
+}
+
+.itemGateway .item a p {
+  color: $section-corYapay3;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 23px;
+  line-height: 30px;    
+}
+
+.itemTrayCheckout .item, .itemRecorrencia .item, .itemGateway .item {
+  text-align: center;  
+}
+
+.itemTrayCheckout .item a span, .itemRecorrencia .item a span {
+  color: #555555;
+  max-width: 400px;  
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.itemGateway .item a span {
+  color: #e3e3e3;
+  max-width: 400px;  
+  font-size: 14px;
+  line-height: 18px;  
+}
+
+.itemTrayCheckout img, .itemRecorrencia img, .itemGateway img {
+  width: 50%;
+  height: 50%;
+  max-width: 50%;
+  max-height: 50%;
+  margin-bottom: 40px;
+}
+
+  @media (max-width: $mobile) { 
+    .textoBranco h2, .textoVerde h2 {
+      font-size: 21px;
+    }
+
+    .itemTrayCheckout, .itemRecorrencia, .itemGateway {
+      margin-top: 15px;
+    }
+
+    .itemTrayCheckout img, .itemRecorrencia img, .itemGateway img {      
+      padding: 30px 0;      
+      max-width: 260px;
+      max-height: 264px;  
+      margin-bottom: 0px;
+    }    
+
+    .item {
+      margin-top: 10px;
+    }   
+
+  }
+
+
+// Button Intermediador
+.btnIntermediador, .btnRecorrencia {
+  text-align: center;
+  padding-bottom: 80px;
+  margin: 80px 0 0 0;
+}
+
+.btnIntermediador button a, .btnRecorrencia button a {
+  color: $section-corYapay3;
+  text-decoration: none;
+}
+
+.btnIntermediador button, .btnRecorrencia button {
+  font-size: 17px;
+  padding: 15px 100px;
+  border: 1px solid $section-corYapay2;
+  background-color: $section-corYapay2;
+  color: $section-corYapay3;
+}
+
+.btnIntermediador button:hover, .btnRecorrencia button:hover {
+  border: 1px solid $section-corYapay2;
+  background-color: #FFF;
+  color: $section-corYapay2;
+  transition: all 0.3s ease; 
+  
+  a {
+    color: $section-corYapay2;
+  }
+}
+
+// Button Gateway
+.btnGateway {
+  text-align: center;
+  padding-bottom: 80px;
+  margin: 80px 0 0 0;
+}
+
+.btnGateway button {
+  font-size: 17px;
+  padding: 15px 100px;
+  border: 1px solid $section-corYapay2;
+  background-color: $section-corYapay2;
+  color: $section-corYapay3;
+}
+
+.btnGateway button:hover {
+  border: 1px solid $section-corYapay2;
+  background-color: $section-corYapay;
+  color: $section-corYapay2;
+  transition: all 0.3s ease; 
+}
+
+.btnIntermediador button, .btnGateway button, .btnRecorrencia button {
+  @media (max-width: $mobile) { 
+    font-size: 13px;
+  padding: 10px 50px;
+  } 
+}
+
+    @media (max-width: $mobile) {
+      padding: 75px 0;
+
+        .first{
+                padding-top: 75px;
+        }
+     }
+}
+
+.success {
+    background: $section-corYapay;
+    color:$section-corYapay3;
+ }
+
+
+   .item {
+    a {
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;    
+      
+
+      img {
+        opacity: 1;
+        -webkit-transition: .3s ease;
+        transition: all 0.3s ease;   
+        
+  
+      }
+
+      &:hover {
+        -webkit-transition: .3s ease;
+        transition: all 0.3s ease;   
+        opacity: .5;
+
+        &:before {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          content: url('/images/search.png');
+          text-align: center;
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          background: transparent;
+          border-radius: 100%;
+          
+
+          
+        }        
+      }
+    }
+    
+
+   
+}
+
+
+.btn-default.focus, .btn-default:focus, .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+  color: $section-corYapay;
+  background-color: $section-corYapay3;
+  border-color: $section-corYapay;
+  outline: none;
+}

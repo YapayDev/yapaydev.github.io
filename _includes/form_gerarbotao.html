@@ -1,0 +1,47 @@
+<div id="page-developers" class="single-page">
+
+    <div id="block-buttons" class="block-content text-center bg-green block-content">
+        <div class="container">
+            <div id="form-content-button" class="form-traycheckout text-left clearfix center col-sm-6">
+                <div class="col-sm-12 row">
+                    <form id="form-generate-button" class="form-tc " action="" method="post">
+                        <fieldset class="block-person form-block-content col-sm-12 row">
+                            <div class="form-group col-sm-12 ">
+                                <label class="form-label" for="generator_token_account"> Token de Conta* :</label>
+
+                                <input id="generator_token_account" class="form-control input-wide" name="generator_token_account" size="40" type="text" value="" placeholder="">
+
+                            </div>
+                            <div class="form-group col-sm-12 ">
+                                <label class="form-label" for="generator_product_description"> Nome Produto:</label>
+
+                                <input id="generator_product_description" class="form-control input-wide" name="generator_product_description" size="80" type="text" value="">
+                            </div>
+                            <div class="form-group col-sm-12 ">
+                                <label class="form-label" for="generator-product-price"> Valor Produto: </label>
+
+                                <input id="generator-product-price" class="form-control input-wide" name="generator-product-price" size="10" type="text" value="" data-thousands="." data-decimal="," data-prefix="R$ ">
+                            </div>
+                            <div class="col-sm-12 text-center">
+                                <input id="create_button" class="btn btn-default btn-hg btnForm" type="submit" value="Gerar Botão">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div id="block-result" class="col-sm-12" style="display:none">
+                    <span class="title-result">Copie e cole esse código:</span>
+
+                    <div class="button-result text-left codigoBtn">
+                        <pre><code class="xml hljs" id="result-button">
+                        </code></pre>
+                    </div>
+
+
+                </div>
+            </div>         
+
+        </div>
+        <div class="divider-bottom-line-green"></div>
+    </div>
+
+</div>

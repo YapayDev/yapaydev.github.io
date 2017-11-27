@@ -1,0 +1,63 @@
+section  {  
+
+  h2{
+    margin: 0;
+    font-size: 2em;
+  }
+
+  .textoRoxo {
+    margin-top: 20px;
+  }
+
+  .textoRoxo h2 {
+    color: $theme-color;
+    font-size: 30px;
+    line-height: 43px;
+    font-weight: normal;
+  } 
+
+  .textoRoxo hr {
+    border-top: 1px solid $theme-color;
+  }
+
+    @media (max-width: $mobile) { 
+      .textoRoxo h2 {
+        font-size: 21px;
+      }
+
+    }
+    
+    .itemTrayCheckout .item a p {
+      color: $theme-color;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 23px;
+      line-height: 30px;  
+      border-bottom: 1px solid transparent;
+
+      &:hover {
+        border-bottom: 1px solid $theme-color;
+        opacity: 0.8;        
+        -webkit-transition: .3s ease;
+        transition: all 0.3s ease;  
+      }
+    }    
+
+.btnGateway button {
+  font-size: 17px;
+  padding: 15px 100px;
+  border: 1px solid $section-corYapay;
+  background-color: $section-corYapay;
+  color: $section-corYapay3;
+}
+
+.btnGateway button:hover {
+  border: 1px solid $section-corYapay;
+  background-color: #FFF;
+  color: $section-corYapay;
+  transition: all 0.3s ease; 
+}
+
+ 
+   
+}

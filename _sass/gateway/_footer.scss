@@ -1,0 +1,28 @@
+footer {
+  color: $footer-textoPadrao;  
+
+    .footer-above {
+        padding-top: 50px;
+        background-color: $theme-color;        
+        padding-top: 30px;        
+    }
+
+
+.footer-col .btn-outline {
+        &:hover,
+        &:focus,
+        &:active{
+                color: $footer-text;
+                background: $footer-color;
+                border: solid 2px $footer-color;
+        }
+   }
+
+
+
+}
+
+
+
+
+    

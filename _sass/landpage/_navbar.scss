@@ -1,0 +1,99 @@
+.navbar-custom {
+  background: $nav-color;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 50px;
+//   border-bottom: 3px solid $nav-text;
+  .navbar-brand{
+      color: $nav-text;
+
+      &:hover,
+      &:focus,
+      &:active{
+          color: $nav-hover;
+          
+      }
+       
+       
+       img{
+        width: 65px;
+        margin-top: -13px;
+      }
+
+  }
+
+  .navbar-nav{
+        letter-spacing: 1px;
+      li{
+            a{
+                color: $nav-link;
+                &:hover,
+                &:focus,
+                &:active{
+                      color: $nav-active;
+                }
+            }
+
+        .active a{
+             color: $nav-active;
+             background: $nav-active-bg;
+
+             &:hover,
+             &:focus,
+             &:active{
+                  color: $nav-active;
+                  background: $nav-active-bg;
+             }
+        }
+      }
+
+  }
+
+  .navbar-toggle{
+    color: $nav-text;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-color: white;
+    margin-right: 30px;    
+
+    &:hover,
+    &:focus{
+        background-color: $nav-text;
+        color: white;
+    }
+  }
+  @media (min-width: 768px) {
+        .navbar-custom {
+            -webkit-transition: padding 0.3s;
+            -moz-transition: padding 0.3s;
+            transition: padding 0.3s;
+
+            .navbar-brand{
+                font-size: 2em;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                transition: all 0.3s;
+            }
+
+            .affix{
+                padding: 10px 0;
+                .navbar-brand{
+                        font-size: 1.5em;
+                }
+            }
+        }
+  }
+
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: $nav-color;
+    background-color: $theme-color;
+}
+
+.navbar-custom .navbar-nav li a:hover, .navbar-custom .navbar-nav li a:focus, .navbar-custom .navbar-nav li a:active {
+    color: $nav-color;
+    background-color: $theme-color;
+    -webkit-transition: .3s ease; 
+    transition: all 0.3s ease; 
+}

@@ -1,0 +1,334 @@
+# ----
+# Site
+
+title: TrayCheckout Integração
+description: TrayCheckout API Documentação.
+url: ""
+google_analytics_key:
+permalink: ""
+
+
+collections:
+# Intermediador
+  como-comecar:
+    name: como-comecar
+    title: Como Começar
+    position: 1        
+    permalink: /intermediador/como-comecar/
+    origem: /intermediador/como-comecar/
+    menu: intermediador    
+    navbar: intermediador
+
+  botao-compra:
+    name: botao-compra
+    title: Botão Compra
+    position: 2    
+    permalink: /intermediador/botao-compra/
+    origem: /intermediador/botao-compra/
+    menu: intermediador  
+    navbar: intermediador
+
+  integracao-loja-virtual:
+    title: Integração de Loja Virtual
+    name: integracao-loja-virtual
+    permalink: /intermediador/integracao-loja-virtual/
+    position: 3    
+    origem: /intermediador/integracao-loja-virtual/
+    menu: intermediador
+    navbar: intermediador
+
+  integracao-marketplace:
+    title: Integração de Marketplace
+    name: integracao-marketplace
+    permalink: /intermediador/integracao-marketplace/
+    position: 4    
+    origem: /intermediador/integracao-marketplace/
+    menu: intermediador
+    navbar: intermediador
+    
+  notificacao-automatica-status:
+    title: Notificação Automática de Status
+    name: notificacao-automatica-status
+    permalink: /intermediador/notificacao-automatica-status/
+    position: 5    
+    origem: /intermediador/notificacao-automatica-status/
+    menu: intermediador
+    navbar: intermediador
+
+  modulos-integracao-intermediador:  
+    title: Módulos de Integração
+    name: modulos-integracao
+    permalink: /intermediador/modulos-integracao-intermediador/
+    position: 6    
+    origem: /intermediador/modulos-integracao-intermediador/
+    menu: intermediador
+    navbar: intermediador
+
+  apis:
+    title: APIs
+    name: apis
+    position: 8    
+    permalink: /intermediador/apis/
+    origem: /intermediador/apis/
+    menu: intermediador     
+    navbar: intermediador 
+
+  #Gateway SOAP
+  # sobre-soap:
+  #   name: sobre-soap
+  #   title: Sobre
+  #   position: 1        
+  #   permalink: /gateway/soap/sobre-soap/
+  #   origem: /gateway/soap/sobre-soap/
+  #   menu: gateway
+  #   navbar: soap
+
+  # credenciais-de-acesso-soap:
+  #   name: credenciais-de-acesso-soap
+  #   title: Credenciais de Acesso      
+  #   position: 2        
+  #   permalink: /gateway/soap/credenciais-de-acesso-soap/
+  #   origem: /gateway/soap/credenciais-de-acesso-soap/
+  #   menu: gateway   
+  #   navbar: soap  
+
+  # pagamentos-cartao-credito-soap:
+  #   name: pagamentos-cartao-credito-soap
+  #   title: Pagamentos com Cartão de Crédito
+  #   position: 3        
+  #   permalink: /gateway/soap/pagamentos-cartao-credito-soap/
+  #   origem: /gateway/soap/pagamentos-cartao-credito-soap/
+  #   menu: gateway   
+  #   navbar: soap     
+
+  # pagamentos-cartao-debito:
+  #   name: pagamentos-cartao-debito-soap
+  #   title: Pagamentos com Cartão de Débito
+  #   position: 4        
+  #   permalink: /gateway/soap/pagamentos-cartao-debito-soap/
+  #   origem: /gateway/soap/pagamentos-cartao-debito-soap/
+  #   menu: gateway   
+  #   navbar: soap 
+
+  # pagamentos-boleto-soap:
+  #   name: pagamentos-boleto-soap
+  #   title: Pagamentos com Boleto
+  #   position: 5       
+  #   permalink: /gateway/soap/pagamentos-boleto-soap/
+  #   origem: /gateway/soap/pagamentos-boleto-soap/
+  #   menu: gateway   
+  #   navbar: soap 
+
+  # pagamentos-tef-soap:
+  #   name: pagamentos-tef-soap
+  #   title: Pagamentos com TEF
+  #   position: 6       
+  #   permalink: /gateway/soap/pagamentos-tef-soap/
+  #   origem: /gateway/soap/pagamentos-tef-soap/
+  #   menu: gateway   
+  #   navbar: soap 
+
+  # pagamentos-recorrentes-soap:
+  #   name: pagamentos-recorrentes-soap
+  #   title: Pagamentos Recorrentes
+  #   position: 7       
+  #   permalink: /gateway/soap/pagamentos-recorrentes-soap/
+  #   origem: /gateway/soap/pagamentos-recorrentes-soap/
+  #   menu: gateway   
+  #   navbar: soap 
+
+  # pagamentos-token-soap:
+  #   name: pagamentos-token-soap
+  #   title: Pagamentos Token (OneClick)
+  #   position: 8       
+  #   permalink: /gateway/soap/pagamentos-token-soap/
+  #   origem: /gateway/soap/pagamentos-token-soap/
+  #   menu: gateway   
+  #   navbar: soap 
+
+  # consultas-soap:
+  #   name: consultas-soap
+  #   title: Consultas
+  #   position: 9       
+  #   permalink: /gateway/soap/consultas-soap/
+  #   origem: /gateway/soap/consultas-soap/
+  #   menu: gateway   
+  #   navbar: soap 
+
+  # post-notificacao-soap:
+  #   name: post-notificacao-soap
+  #   title: Post de Notificação
+  #   position: 10       
+  #   permalink: /gateway/soap/post-notificacao-soap/
+  #   origem: /gateway/soap/post-notificacao-soap/
+  #   menu: gateway   
+  #   navbar: soap 
+
+  # codigos-da-api-soap:
+  #   name: codigos-da-api-soap
+  #   title: Códigos da API
+  #   position: 11        
+  #   permalink: /gateway/soap/codigos-da-api-soap/
+  #   origem: /gateway/soap/codigos-da-api-soap/
+  #   menu: gateway   
+  #   navbar: soap     
+
+  # downloads-soap:
+  #   name: downloads-soap
+  #   title: Downloads
+  #   position: 12        
+  #   permalink: /gateway/soap/downloads-soap/
+  #   origem: /gateway/soap/downloads-soap/
+  #   menu: gateway   
+  #   navbar: soap     
+
+  
+  #Gateway REST
+  sobre-rest:
+    name: sobre-rest
+    title: Sobre
+    position: 1        
+    permalink: /gateway/rest/sobre-rest/
+    origem: /gateway/rest/sobre-rest/
+    menu: gateway
+    navbar: rest    
+
+  credenciais-de-acesso-rest:
+    name: credenciais-de-acesso-rest
+    title: Credenciais de Acesso      
+    position: 2        
+    permalink: /gateway/rest/credenciais-de-acesso-rest/
+    origem: /gateway/rest/credenciais-de-acesso-rest/
+    menu: gateway   
+    navbar: rest
+
+  pagamentos-cartao-credito-rest:
+    name: pagamentos-cartao-credito-rest
+    title: Pagamentos com Cartão de Crédito
+    position: 3        
+    permalink: /gateway/rest/pagamentos-cartao-credito-rest/
+    origem: /gateway/rest/pagamentos-cartao-credito-rest/
+    menu: gateway   
+    navbar: rest       
+
+  pagamentos-cartao-debito-rest:
+    name: pagamentos-cartao-debito-rest
+    title: Pagamentos com Cartão de Débito
+    position: 4        
+    permalink: /gateway/rest/pagamentos-cartao-debito-rest/
+    origem: /gateway/rest/pagamentos-cartao-debito-rest/
+    menu: gateway   
+    navbar: rest  
+
+  pagamentos-boleto-rest:
+    name: pagamentos-boleto-rest
+    title: Pagamentos com Boleto
+    position: 5        
+    permalink: /gateway/rest/pagamentos-boleto-rest/
+    origem: /gateway/rest/pagamentos-boleto-rest/
+    menu: gateway   
+    navbar: rest  
+
+  pagamentos-tef-rest:
+    name: pagamentos-tef-rest
+    title: Pagamentos com TEF
+    position: 6        
+    permalink: /gateway/rest/pagamentos-tef-rest/
+    origem: /gateway/rest/pagamentos-tef-rest/
+    menu: gateway   
+    navbar: rest  
+
+  pagamentos-recorrentes-rest:
+    name: pagamentos-recorrentes-rest
+    title: Pagamentos Recorrentes
+    position: 7        
+    permalink: /gateway/rest/pagamentos-recorrentes-rest/
+    origem: /gateway/rest/pagamentos-recorrentes-rest/
+    menu: gateway   
+    navbar: rest  
+
+  checkout-yapay-rest:
+    name: checkout-yapay-rest
+    title: Checkout Yapay
+    position: 8        
+    permalink: /gateway/rest/checkout-yapay-rest/
+    origem: /gateway/rest/checkout-yapay-rest/
+    menu: gateway   
+    navbar: rest 
+
+  consultas-rest:
+    name: consultas-rest
+    title: Consultas
+    position: 9       
+    permalink: /gateway/rest/consultas-rest/
+    origem: /gateway/rest/consultas-rest/
+    menu: gateway   
+    navbar: rest     
+
+  post-notificacao-rest:
+    name: post-notificacao-rest
+    title: Post de Notificação
+    position: 10       
+    permalink: /gateway/rest/post-notificacao-rest/
+    origem: /gateway/rest/post-notificacao-rest/
+    menu: gateway   
+    navbar: rest 
+
+  codigos-da-api-rest:
+    name: codigos-da-api-rest
+    title: Códigos da API
+    position: 11        
+    permalink: /gateway/rest/codigos-da-api-rest/
+    origem: /gateway/rest/codigos-da-api-rest/
+    menu: gateway   
+    navbar: rest     
+
+  downloads-rest:
+    name: downloads-rest
+    title: Downloads
+    position: 12        
+    permalink: /gateway/rest/downloads-rest/
+    origem: /gateway/rest/downloads-rest/
+    menu: gateway   
+    navbar: rest 
+
+  funcionalidades-rest:
+    name: funcionalidades-rest
+    title: Funcionalidades
+    position: 12        
+    permalink: /gateway/rest/funcionalidades-rest/
+    origem: /gateway/rest/funcionalidades-rest/
+    menu: gateway   
+    navbar: rest 
+
+  contratacao-e-informacoes-rest:
+    name: contratacao-e-informacoes-rest
+    title: Contratação e informações
+    position: 13        
+    permalink: /gateway/rest/contratacao-e-informacoes-rest/
+    origem: /gateway/rest/contratacao-e-informacoes-rest/
+    menu: gateway   
+    navbar: rest 
+
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  
+
+exclude:
+  - readme.md
+  - LICENCE
+
+defaults:
+  -
+    scope:
+      path: ""      
+    values:
+      layout: default
+      
+
+types:
+  - get
+  - put
+  - delete
+  - post
