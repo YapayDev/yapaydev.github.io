@@ -1,9 +1,10 @@
 # ----
 # Site
 
-title: TrayCheckout Integração
-description: TrayCheckout API Documentação.
+title: Yapay Integração
+description: Yapay API Documentação.
 url: ""
+baseurl: "doc"
 google_analytics_key:
 permalink: ""
 
