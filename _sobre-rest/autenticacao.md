@@ -3,15 +3,6 @@ title: Autenticação
 position: 4
 menu: gateway
 navbar: rest
-right_code: |
-    ~~~ json
-        { "usuario":
-            { "login": "login", 
-              "senha": "senha" 
-            }
-        }
-    ~~~
-    {: title="JSON" }
 ---
 
 
