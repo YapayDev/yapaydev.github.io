@@ -8,38 +8,35 @@ Cartões
 {: .subtituloAzul }
 
 
-| Código  | Bandeira         | Tecnologia       | Adquirente     | Modelo      |
-|---------|------------------|------------------|----------------|-------------|
-| 52      | Checkout         | Cielo e-Commerce | Cielo          | Redirect    | 
-| 170     | Visa             | Cielo API 3.0    | Cielo          | WebService  |
-| 171     | MasterCard       | Cielo API 3.0    | Cielo          | WebService  |
-| 172     | American Express | Cielo API 3.0    | Cielo          | WebService  |
-| 173     | Elo              | Cielo API 3.0    | Cielo          | WebService  |
-| 174     | Diners           | Cielo API 3.0    | Cielo          | WebService  |
-| 175     | Discover         | Cielo API 3.0    | Cielo          | WebService  |
-| 176     | Aura             | Cielo API 3.0    | Cielo          | WebService  |
-| 177     | JCB              | Cielo API 3.0    | Cielo          | WebService  |
-| 178     | Maestro          | Cielo API 3.0    | Cielo          | WebService  |
-| 179     | Visa Electron    | Cielo API 3.0    | Cielo          | WebService  |
-| 80      | Visa             | Komerci          | Rede           | Redirect    |
-| 81      | MasterCard       | Komerci          | Rede           | Redirect    |
-| 82      | Diners           | Komerci          | Rede           | Redirect    |
-| 90      | Visa             | Komerci          | Rede           | WebService  |
-| 91      | MasterCard       | Komerci          | Rede           | WebService  |
-| 92      | Diners           | Komerci          | Rede           | WebService  |
-| 93      | Hipercard        | Komerci          | Rede           | WebService  |
-| 94      | Hiper            | Komerci          | Rede           | WebService  |
-| 204     | Visa             | ElavonWS         | Elavon         | WebService  |
-| 205     | MasterCard       | ElavonWS         | Elavon         | WebService  |
-| 206     | Diners           | ElavonWS         | Elavon         | WebService  |
-| 207     | Discover         | ElavonWS         | Elavon         | WebService  |
-| 270     | Visa             | GetNetWS         | GetNet         | WebService  |
-| 271     | MasterCard       | GetNetWS         | GetNet         | WebService  |
-| 350     | Visa             | StoneWs          | Stone          | WebService  |
-| 351     | MasterCard       | StoneWs          | Stone          | WebService  |
-| 380     | Visa             | BinWS            | Bin-FirstData  | WebService  |
-| 381     | MasterCard       | BinWS            | Bin-FirstData  | WebService  |
-| 382     | Cabal            | BinWS            | Bin-FirstData  | WebService  |
+| Código  | Bandeira         | Tecnologia       | Adquirente    | Modelo     |
+|---------|------------------|------------------|---------------|------------|
+| 52      | Checkout         | Cielo e-Commerce | Cielo         | Redirect   |
+| 170     | Visa             | Cielo API 3.0    | Cielo         | WebService |
+| 171     | MasterCard       | Cielo API 3.0    | Cielo         | WebService |
+| 172     | American Express | Cielo API 3.0    | Cielo         | WebService |
+| 173     | Elo              | Cielo API 3.0    | Cielo         | WebService |
+| 174     | Diners           | Cielo API 3.0    | Cielo         | WebService |
+| 175     | Discover         | Cielo API 3.0    | Cielo         | WebService |
+| 176     | Aura             | Cielo API 3.0    | Cielo         | WebService |
+| 177     | JCB              | Cielo API 3.0    | Cielo         | WebService |
+| 178     | Maestro          | Cielo API 3.0    | Cielo         | WebService |
+| 179     | Visa Electron    | Cielo API 3.0    | Cielo         | WebService |
+| 190     | Visa             | E-Rede           | Rede          | WebService |
+| 191     | MasterCard       | E-Rede           | Rede          | WebService |
+| 192     | Diners           | E-Rede           | Rede          | WebService |
+| 193     | Hipercard        | E-Rede           | Rede          | WebService |
+| 194     | Hiper            | E-Rede           | Rede          | WebService |
+| 195     | JCB              | E-Rede           | Rede          | WebService |
+| 196     | Credz            | E-Rede           | Rede          | WebService |
+| 197     | Maestro          | E-Rede           | Rede          | WebService |
+| 198     | Visa Electron    | E-Rede           | Rede          | WebService |
+| 270     | Visa             | GetNetWS         | GetNet        | WebService |
+| 271     | MasterCard       | GetNetWS         | GetNet        | WebService |
+| 350     | Visa             | StoneWs          | Stone         | WebService |
+| 351     | MasterCard       | StoneWs          | Stone         | WebService |
+| 380     | Visa             | BinWS            | Bin-FirstData | WebService |
+| 381     | MasterCard       | BinWS            | Bin-FirstData | WebService |
+| 382     | Cabal            | BinWS            | Bin-FirstData | WebService |
 
 
 

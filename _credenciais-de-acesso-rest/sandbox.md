@@ -37,27 +37,27 @@ CIELO API 3.0
 | Qualquer | 0000000000000002 | 123                 | qualquer posteiror ao dia corrente  |
 
 
-ELAVON
+E REDE
 {: .subtituloAzul }
 
-Para testar esta modalidade as seguintes regras abaixo devem ser utilizadas:
-
-* Para aprovação da venda, o valor total da venda deve ser em valor inteiro, ou seja, sem centavos;
-* Para negação, basta enviar o valor total da venda quebrado, ou seja, com centavos;
-* Como o ambiente de testes da Elavon é compartilhado, sugerimos gerar o número do pedido baseado em YYMMDDHHMMSS (ano, mês, dia, hora, minuto, segundo).
-
-| Bandeira   | Número do cartão | Código de segurança  | Data de validade                   |
-|------------|------------------|----------------------|------------------------------------|
-| Visa       | 4444111122223333 | 123                  | Qualquer posterior ao dia corrente | 
-| MasterCard | 5431111111111111 | 123                  | Qualquer posterior ao dia corrente | 
-| Diners     | 38000000000006   | 123                  | Qualquer posterior ao dia corrente | 
-| Discover   | 6011111111111117 | 123                  | Qualquer posterior ao dia corrente | 
+Utilize os cartões e valores abaixo para simular uma aprovação ou reprovação.
 
 
-REDE KOMERCI
-{: .subtituloAzul }
+**Aprovação**
 
-Para testes com esta operadora não há necessidade de contratação, basta solicitar ao Suporte Yapay a configuração desta forma de pagamento. Esta operadora não possui regras para aprovação ou negação dos pedidos, os retornos são aleatórios independente dos dados enviados.
+| Bandeira   | Número do cartão | Código de segurança | Data de validade | Valor do Pedido |
+|------------|------------------|---------------------|------------------|-----------------|
+| Visa       | 4002479199570736 | 132                 | 02/2019          | 511100          |
+| MasterCard | 5448280000000007 | 132                 | 01/2019          | 500900          |
+
+
+**Negação**
+
+| Bandeira   | Número do cartão | Código de segurança | Data de validade | Valor do Pedido |
+|------------|------------------|---------------------|------------------|-----------------|
+| Visa       | 4002479199570736 | 132                 | 02/2019          | 511100          |
+| MasterCard | 5448280000000007 | 132                 | 01/2019          | 500900          |
+
 
 
 BIN - FIRST DATA
