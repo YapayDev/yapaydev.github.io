@@ -17,7 +17,8 @@ Adquirente Cielo
 
 Contratando a solução da CIELO para e-commerce será possível oferecer na sua loja:
 
-* Vendas de cŕedito autenticadas;
+Vendas de cŕedito autenticadas (Bandeiras Visa e MasterCard);
+
 * Cartão de crédito Amex;
 * Cartão de crédito Aura;
 * Cartão de crédito Diners;

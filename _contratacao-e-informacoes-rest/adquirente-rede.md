@@ -8,7 +8,10 @@ menu: gateway
 
 Contratação
 
-* Contratando a solução da e-Rede será possível oferecer na sua loja:
+Contratando a solução da e-Rede será possível oferecer na sua loja:
+
+Cartão de crédito aunteticado (Bandeiras Visa e MasterCard);
+
 * Cartão de crédito aunteticado;
 * Cartão de crédito Visa;
 * Cartão de crédito MasterCard;
