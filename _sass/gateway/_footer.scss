@@ -1,5 +1,5 @@
 footer {
-  color: $footer-textoPadrao;  
+  color: #FFF;  
 
     .footer-above {
         padding-top: 50px;
@@ -18,6 +18,9 @@ footer {
         }
    }
 
+.sobrenos p a, .duvidasgateway p a, .duvidasgateway span a {
+    color: $section-corYapay2;
+}
 
 
 }
