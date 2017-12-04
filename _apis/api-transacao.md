@@ -240,6 +240,8 @@ right_code: |
 
 ---
 
+<span class="patch">PATCH</span><span class="beforePost">/api/v3/transactions/cancel</span>
+
 O Yapay disponibiliza uma versão transparente para a integração de transações, permitindo que o usuário efetue o processamento dos pedidos sem necessitar o redirecionamento para outra aplicação e preenchimento de novos formulários.
 
 ![Integração Marketplace Yapay](/images/intermediador/conteudo/Integracao_api_LV.png "Integração Marketplace Yapay"){: width="90%" height="auto" }
