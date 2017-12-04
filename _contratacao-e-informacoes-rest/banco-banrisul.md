@@ -19,7 +19,7 @@ Ao final do processo de contratação, deve-se estar de posse das seguintes info
 * Código da rede;
 * Senha de consulta.
 
-O Superpay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
+O Yapay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
 Informações sobre a contratação, entre em contato com banrisul_cartoes_atendimento_adquirencia@banrisul.com.br
 
@@ -37,8 +37,8 @@ Para o Gateway de Pagamento funcionar corretamente, é necessário configurar al
 
 | Ambiente    | Link Painel Banrisul                      | Url Campainha                                                                | Método para envio |
 |-------------|-------------------------------------------|------------------------------------------------------------------------------|-------------------|
-| HOMOLOGAÇÃO | https://ww4.banrisul.com.br/banricompras/ | https://homologacao.superpay.com.br/checkout/Banrisul/NotificacaoBanrisul.do | POST              |
-| PRODUÇÃO    | https://ww7.banrisul.com.br/banricompras/ | https://superpay2.superpay.com.br/checkout/Banrisul/NotificacaoBanrisul.do   | POST              |
+| HOMOLOGAÇÃO | https://ww4.banrisul.com.br/banricompras/ | https://gateway.sandbox.yapay.com.br/checkout/Banrisul/NotificacaoBanrisul.do | POST              |
+| PRODUÇÃO    | https://ww7.banrisul.com.br/banricompras/ | https://gateway.yapay.com.br/checkout/Banrisul/NotificacaoBanrisul.do   | POST              |
 
 
 
@@ -47,14 +47,14 @@ PÁGINAS DE AVISO DE OPERAÇÃO
 
 | Ambiente    | Link Painel Banrisul                      | Url Sucesso | Url Não Pago |
 |-------------|-------------------------------------------|-------------|--------------|
-| HOMOLOGAÇÃO | https://ww4.banrisul.com.br/banricompras/ | https://homologacao.superpay.com.br/checkout/Banrisul/RedirecionamentoBanrisulOk.do | https://homologacao.superpay.com.br/superpay/Banrisul/RedirecionamentoBanrisulNoOk.do |
-| PRODUÇÃO    | https://ww7.banrisul.com.br/banricompras/ | https://superpay2.superpay.com.br/checkout/Banrisul/RedirecionamentoBanrisulOk.do | https://superpay2.superpay.com.br/checkout/Banrisul/RedirecionamentoBanrisulNoOk.do |
+| HOMOLOGAÇÃO | https://ww4.banrisul.com.br/banricompras/ | https://gateway.sandbox.yapay.com.br/checkout/Banrisul/RedirecionamentoBanrisulOk.do | https://gateway.yapay.com.br/yapay/Banrisul/RedirecionamentoBanrisulNoOk.do |
+| PRODUÇÃO    | https://ww7.banrisul.com.br/banricompras/ | https://gateway.yapay.com.br/checkout/Banrisul/RedirecionamentoBanrisulOk.do | https://gateway.yapay.com.br/checkout/Banrisul/RedirecionamentoBanrisulNoOk.do |
 
 
 
 Processo de Homologação
 
-Após realizar a integração com o SuperPay em ambiente de testes e configurações no painel Banrisul, enviar para tecnologia_homologacoes@banrisul.com.br o link de acesso a página de testes, bem como o código de usuário e senha para login. Assim que o processo for finalizado pela equipe Banrisul, os mesmos enviarão os dados de produção para o estabelecimento.
+Após realizar a integração com o Yapay em ambiente de testes e configurações no painel Banrisul, enviar para tecnologia_homologacoes@banrisul.com.br o link de acesso a página de testes, bem como o código de usuário e senha para login. Assim que o processo for finalizado pela equipe Banrisul, os mesmos enviarão os dados de produção para o estabelecimento.
 
 Exemplos
 
@@ -67,9 +67,9 @@ Estrutra SOAP de envio Banrisul:
 
 ~~~text
     curl
-        --request POST https://homologacao.superpay.com.br/checkout/api/v2/transacao
+        --request POST https://gateway.yapay.com.br/checkout/api/v2/transacao
         --header "Content-Type: application/json"
-        --header "usuario:{"login":"superpay","senha":"superpay"}"
+        --header "usuario:{"login":"yapay","senha":"yapay"}"
         --data-binary
         {
         codigoEstabelecimento: 1000000000000,
@@ -98,7 +98,7 @@ Estrutra SOAP de envio Banrisul:
         dadosCobranca : {
             codigoCliente : 1,
             tipoCliente : 1,
-            nome : Teste SuperPay,
+            nome : Teste Yapay,
             email : teste@teste.com,
             dataNascimento : "",
             sexo : "M",
@@ -123,7 +123,7 @@ Estrutra SOAP de envio Banrisul:
         ]
         },
         dadosEntrega : {
-            nome : Teste SuperPay,
+            nome : Teste Yapay,
             email : teste@teste.com,
             endereco : {
             logradouro : Rua teste,
@@ -165,7 +165,7 @@ Estrutra SOAP de envio Banrisul:
         "numeroComprovanteVenda": ,
         "nsu": ,
         "mensagemVenda": ,
-        "urlPagamento": "https://homologacao.superpay.com.br/checkout/Boleto/PagamentoBanrisul.do?cod=141348960683a720e602-5631-4725-8f79-268c06795a3c"
+        "urlPagamento": "https://gateway.yapay.com.br/checkout/Boleto/PagamentoBanrisul.do?cod=141348960683a720e602-5631-4725-8f79-268c06795a3c"
         }
 ~~~
 {: title="Retorno" }

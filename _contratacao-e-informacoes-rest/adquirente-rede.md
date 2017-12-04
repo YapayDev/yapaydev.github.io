@@ -27,7 +27,7 @@ Ao final do processo de contratação, deve-se estar de posse das seguintes info
 * Filiação (PV);
 * Token;
 
-O Superpay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
+O Yapay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
 Informações sobre a contratação, <a href="https://www.userede.com.br/nossos-produtos/e-rede" target="_blank" class="linkPadraoVerde">acesse aqui</a>.
 
@@ -36,12 +36,12 @@ Informações sobre a contratação, <a href="https://www.userede.com.br/nossos-
 * Para esta modalidade é necessário certificado SSL de segurança 2048 bits;
 * Integração na plataforma WebService API 3.0;
 * Caso o campo <codigoSeguranca> não for enviado ou for enviado com "000", a transação será encaminhada a Cielo como modelo "Recorrente", onde este campo não é obrigatório. Lembrando que para esta utilização é preciso habilitar junto a Adquirente. Salientamos que a conversão de seu estabelecimento pode diminuir;
-* Esta operadora de cartão permite cadastrar uma informação para aparecer na fatura dos clientes quando realizarem compras sua loja, funcionalidade chamada de SoftDescriptor. Esta deverá possuir até 13 caracteres. Caso queira utilizar, envie ao Suporte SuperPay o nome desejado para configuração em seu estabelecimento. Também é possível o envio do SoftDescriptor por pedido, para isto solicite ao Suporte a ativação e envie a informação no campoLivre4 de cada transação;
+* Esta operadora de cartão permite cadastrar uma informação para aparecer na fatura dos clientes quando realizarem compras sua loja, funcionalidade chamada de SoftDescriptor. Esta deverá possuir até 13 caracteres. Caso queira utilizar, envie ao Suporte Yapay o nome desejado para configuração em seu estabelecimento. Também é possível o envio do SoftDescriptor por pedido, para isto solicite ao Suporte a ativação e envie a informação no campoLivre4 de cada transação;
 * Para transações com cartão de débito ou autenticada, o eCommerce deverá redirecionar o consumidor para a <urlPagamento>, onde o mesmo deverá incluir sua senha ou token no ambiente do banco emissor. Apenas após esta etapa, a transação será concluída.
 
 **Processo de Homologação com Adquirente**
 
-Após a integração com o SuperPay, o estabelecimento deverá configurar as credenciais da Cielo no ambiente de produção do SuperPay e apontar sua loja para o ambiente real do Gateway. Após isto, a loja deverá enviar ao Suporte Cielo (cieloecommerce@cielo.com.br) a URL da loja com um produto de teste no valor de R$1,00. O suporte Cielo realizará os testes em ambiente real e caso esteja dentro das conformidades a loja estará apta a realizar vendas em produção.
+Após a integração com o Yapay, o estabelecimento deverá configurar as credenciais da Cielo no ambiente de produção do Yapay e apontar sua loja para o ambiente real do Gateway. Após isto, a loja deverá enviar ao Suporte Cielo (cieloecommerce@cielo.com.br) a URL da loja com um produto de teste no valor de R$1,00. O suporte Cielo realizará os testes em ambiente real e caso esteja dentro das conformidades a loja estará apta a realizar vendas em produção.
 
 
 **Exemplos Cartão de Crédito**
@@ -57,9 +57,9 @@ Estrtura de retorno adquirente Cielo. Os comentários indicam a informação ret
 
 ~~~json
     curl
-    --request POST https://homologacao.superpay.com.br/checkout/api/v2/transacao
+    --request POST https://gateway.yapay.com.br/checkout/api/v2/transacao
     --header "Content-Type: application/json"
-    --header "usuario:{"login":"superpay","senha":"superpay"}"
+    --header "usuario:{"login":"yapay","senha":"yapay"}"
     --data-binary
     {
     "codigoEstabelecimento" : 1000000000000,

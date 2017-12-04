@@ -78,7 +78,7 @@ right_code: |
  
 Neste modelo, o Yapay controla os pagamentos que foram cadastrados pelo estabelecimento, de acordo com sua periodicidade, valor e dia de cobrança.
 
-O gateway possui um processo que verifica todos os dias se existem recorrências a serem processadas. Se sim, elas são agendadas para processamento na madrugada e assim que finalizadas, o SuperPay notifica o estabelecimento através do acionamento da campainha, enviada no cadastro da recorrência.
+O gateway possui um processo que verifica todos os dias se existem recorrências a serem processadas. Se sim, elas são agendadas para processamento na madrugada e assim que finalizadas, o Yapay notifica o estabelecimento através do acionamento da campainha, enviada no cadastro da recorrência.
 
 **Particulariedades**
 

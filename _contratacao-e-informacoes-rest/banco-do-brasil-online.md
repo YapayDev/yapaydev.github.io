@@ -46,9 +46,9 @@ Estrtura de retorno BBOnline:
 
 ~~~text
 curl
---request POST https://homologacao.superpay.com.br/checkout/api/v2/transacao
+--request POST https://gateway.yapay.com.br/checkout/api/v2/transacao
 --header "Content-Type: application/json"
---header "usuario:{"login":"superpay","senha":"superpay"}"
+--header "usuario:{"login":"yapay","senha":"yapay"}"
 --data-binary
 {
    codigoEstabelecimento: 1000000000000,
@@ -76,7 +76,7 @@ curl
    dadosCobranca : {
     codigoCliente : 1,
     tipoCliente : 1,
-    nome : Teste SuperPay,
+    nome : Teste Yapay,
     email : teste@teste.com,
     dataNascimento : "",
     sexo : "M",
@@ -101,7 +101,7 @@ curl
   ]
    },
    dadosEntrega : {
-    nome : Teste SuperPay,
+    nome : Teste Yapay,
     email : teste@teste.com,
     endereco : {
     logradouro : Rua teste,
@@ -144,7 +144,7 @@ curl
    "numeroComprovanteVenda": ,
    "nsu": ,
    "mensagemVenda": ,
-   "urlPagamento": "https://homologacao.superpay.com.br/checkout/PagamentoBBOnline/PagamentoBBOnline.do?cod=147499950329455715d65-621f-4b80-896c-5d1a645fb9e0"
+   "urlPagamento": "https://gateway.yapay.com.br/checkout/PagamentoBBOnline/PagamentoBBOnline.do?cod=147499950329455715d65-621f-4b80-896c-5d1a645fb9e0"
 }
 
 ~~~

@@ -19,7 +19,7 @@ Ao final do processo de contratação, deve-se estar de posse das seguintes info
 * Usuário;
 * Senha.
 
-O Superpay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
+O Yapay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
 Informações sobre a contratação, <a href="https://www.getnet.com.br/#/solucoes/e-commerce" target="_blank" class="linkPadraoVerde">acesse aqui</a>.
 
@@ -44,9 +44,9 @@ Estrtura de retorno adquirente GetNet. Os comentários indicam a informação re
 
 ~~~json
     curl
-        --request POST https://homologacao.superpay.com.br/checkout/api/v2/transacao
+        --request POST https://gateway.yapay.com.br/checkout/api/v2/transacao
         --header "Content-Type: application/json"
-        --header "usuario:{"login":"superpay","senha":"superpay"}"
+        --header "usuario:{"login":"yapay","senha":"yapay"}"
         --data-binary
         {
         "codigoEstabelecimento" : 1000000000000,

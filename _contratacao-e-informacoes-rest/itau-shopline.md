@@ -18,7 +18,7 @@ Ao final do processo de contratação, deve-se estar de posse das seguintes info
 * Código da empresa;
 * Chave de acesso.
  
-O Superpay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
+O Yapay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
 Informações sobre a contratação, <a href="https://www.itau.com.br/empresas/recebimentos/shopline/" target="_blank" class="linkPadraoVerde">acesse aqui</a>.
 
@@ -28,7 +28,7 @@ Informações sobre a contratação, <a href="https://www.itau.com.br/empresas/r
 * Modalidades com redirecionamento;
 * O tamanho do número do pedido deverá ser de no máximo 8 dígitos;
 * Para utilização das modalidades ShopLine, todos os campos referente aos dados do cliente devem ser preenchidos;
-* Tempo padrão de consulta no banco para atualização do status no SuperPay: 120 dias;
+* Tempo padrão de consulta no banco para atualização do status no Yapay: 120 dias;
 * Se não for informado uma data de vencimento do boleto, a data de vencimento que aparecerá no boleto será os dias de vencimento configurado internamente no Gateway;
 
 **Configurações ambiente Itaú ShopLine**
@@ -37,7 +37,7 @@ Informações sobre a contratação, <a href="https://www.itau.com.br/empresas/r
 * Acesse o BankLine, aba Cobrança > Itaú Shopline > Informações Cadastrais e inclua a URL abaixo no campo "URL Retorno"
 
 
-<i class="fa fa-exclamation-circle" aria-hidden="true"></i> URL RETORNO: `https://superpay2.superpay.com.br/checkout/`
+<i class="fa fa-exclamation-circle" aria-hidden="true"></i> URL RETORNO: `https://gateway.yapay.com.br/checkout/`
 {: .informativoVermelho }
 
 
@@ -57,9 +57,9 @@ Estrtura de retorno Itaú.
 
 ~~~text
     curl
-        --request POST https://homologacao.superpay.com.br/checkout/api/v2/transacao
+        --request POST https://gateway.yapay.com.br/checkout/api/v2/transacao
         --header "Content-Type: application/json"
-        --header "usuario:{"login":"superpay","senha":"superpay"}"
+        --header "usuario:{"login":"yapay","senha":"yapay"}"
         --data-binary
         {
         codigoEstabelecimento: 1000000000000,
@@ -87,7 +87,7 @@ Estrtura de retorno Itaú.
         dadosCobranca : {
             codigoCliente : 1,
             tipoCliente : 1,
-            nome : Teste SuperPay,
+            nome : Teste Yapay,
             email : teste@teste.com,
             dataNascimento : "",
             sexo : "M",
@@ -112,7 +112,7 @@ Estrtura de retorno Itaú.
         ]
         },
         dadosEntrega : {
-            nome : Teste SuperPay,
+            nome : Teste Yapay,
             email : teste@teste.com,
             endereco : {
             logradouro : Rua teste,
@@ -155,7 +155,7 @@ Estrtura de retorno Itaú.
         "numeroComprovanteVenda": ,
         "nsu": ,
         "mensagemVenda": ,
-        "urlPagamento": "https://homologacao.superpay.com.br/checkout/PagamentoItauShopline/PagamentoItauShopline.do?cod=141348960683a720e602-5631-4725-8f79-268c06795a3c"
+        "urlPagamento": "https://gateway.yapay.com.br/checkout/PagamentoItauShopline/PagamentoItauShopline.do?cod=141348960683a720e602-5631-4725-8f79-268c06795a3c"
         }
 ~~~
 {: title="Retorno" }

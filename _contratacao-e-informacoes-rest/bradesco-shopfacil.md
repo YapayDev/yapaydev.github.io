@@ -21,7 +21,7 @@ Ao final do processo de contratação, deve-se estar de posse das seguintes info
 * Número da Carteira.
 
 
-O Superpay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
+O Yapay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
 Informações sobre a contratação, <a href="http://www.bradesco.com.br/html/corporate/produtos-servicos/parcerias-e-oportunidades/shopfacil-empresa.shtm" target="_blank" class="linkPadraoVerde">acesse aqui</a>
 
@@ -63,7 +63,7 @@ Procedimento deve ser realizado em duas etapas, ambiente de homologação e ambi
 
 _Homologação_
 
-Realizar as configurações no painel Bradesco conforme informado acima e solicitar ao Suporte SuperPay realizar a configuração do meio de pagamento em nosso ambiente de homologação, informando a ele os dados abaixo:
+Realizar as configurações no painel Bradesco conforme informado acima e solicitar ao Suporte Yapay realizar a configuração do meio de pagamento em nosso ambiente de homologação, informando a ele os dados abaixo:
 
 * Merchantid;
 * Email de acesso ao gerenciador de homologação;
@@ -75,7 +75,7 @@ A loja virtual deverá estar apontando para o ambiente de homologação e depois
 
 _Produção_
 
-Realizar as configurações no painel Bradesco conforme informado acima e solicitar ao Suporte SuperPay realizar a configuração do meio de pagamento em nosso ambiente de produção, informando a ele os dados abaixo:
+Realizar as configurações no painel Bradesco conforme informado acima e solicitar ao Suporte Yapay realizar a configuração do meio de pagamento em nosso ambiente de produção, informando a ele os dados abaixo:
 
 * Merchantid;
 * Email de acesso ao gerenciador de homologação;
@@ -103,7 +103,7 @@ Estrtura de retorno Bradesco.
 curl
 --request POST https://homologacao.yapay.com.br/checkout/api/v2/transacao
 --header "Content-Type: application/json"
---header "usuario:{"login":"superpay","senha":"superpay"}"
+--header "usuario:{"login":"yapay","senha":"yapay"}"
 --data-binary
 {
    codigoEstabelecimento: 1000000000000,
@@ -131,7 +131,7 @@ curl
    dadosCobranca : {
     codigoCliente : 1,
     tipoCliente : 1,
-    nome : Teste SuperPay,
+    nome : Teste Yapay,
     email : teste@teste.com,
     dataNascimento : "",
     sexo : "M",
@@ -156,7 +156,7 @@ curl
   ]
    },
    dadosEntrega : {
-    nome : Teste SuperPay,
+    nome : Teste Yapay,
     email : teste@teste.com,
     endereco : {
     logradouro : Rua teste,
@@ -199,7 +199,7 @@ curl
    "numeroComprovanteVenda": ,
    "nsu": ,
    "mensagemVenda": ,
-   "urlPagamento": "https://homologacao.superpay.com.br/checkout/Transferencia/PagamentoBradescoShopFacil.do?cod=141348960683a720e602-5631-4725-8f79-268c06795a3c"
+   "urlPagamento": "https://gateway.yapay.com.br/checkout/Transferencia/PagamentoBradescoShopFacil.do?cod=141348960683a720e602-5631-4725-8f79-268c06795a3c"
 }
 ~~~
 {: title="Retorno" }

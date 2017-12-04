@@ -72,9 +72,9 @@ Banco do Brasil
 * O tamanho do número do pedido, deverá possuir no máximo 8 dígitos;
 * Se não for informado uma data de vencimento do boleto na requisição, a data de vencimento que aparecerá no boleto será os dias de vencimento configurados internamente no Gateway;
 * A URL retornada no campo `<urlPagamento>` em SOAP e `<url_acesso>` em REST deverá ser repassada ao comprador para visualização/pagamento do boleto;
-* A requisição e retorno do SuperPay para boletos registrados possuem a mesma estrutura dos sem registro, porém o status a ser retornado será 5 (transação em andamento) ao invés de 8 (aguardando pagamento);
-* Para ativação do boleto registrado e Módulo de Conciliação entrar em contato com comercial@superpay.com.br;
-* O Superpay não participa das negociações entre o estabelecimento e bancos/administradoras. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
+* A requisição e retorno do Yapay para boletos registrados possuem a mesma estrutura dos sem registro, porém o status a ser retornado será 5 (transação em andamento) ao invés de 8 (aguardando pagamento);
+* Para ativação do boleto registrado e Módulo de Conciliação entrar em contato com comercial@yapay.com.br;
+* O Yapay não participa das negociações entre o estabelecimento e bancos/administradoras. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
 
 **BOLETOS SEM REGISTROS**
@@ -104,7 +104,7 @@ Ao final do processo de contratação, deve-se estar de posse das seguintes info
 * Se não for informado uma data de vencimento do boleto na requisição, a data de vencimento que aparecerá no boleto será os dias de vencimento configurados internamente no Gateway;
 * A URL retornada no campo `<urlPagamento>` em SOAP e `<url_acesso>` em REST deverá ser repassada ao comprador para visualização/pagamento do boleto;
 * Conciliação de boletos não é realizada automaticamente, para tal deve ser contratado o Módulo de Conciliação do Gateway. Para informações entrar em contato com comercial@yapay.com.br;
-* O Superpay não participa das negociações entre o estabelecimento e bancos/administradoras. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
+* O Yapay não participa das negociações entre o estabelecimento e bancos/administradoras. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
 
 
@@ -149,9 +149,9 @@ Estrtura de retorno Boleto registrado:
 
 ~~~text
 curl
---request POST https://homologacao.superpay.com.br/checkout/api/v2/transacao
+--request POST https://gateway.yapay.com.br/checkout/api/v2/transacao
 --header "Content-Type: application/json"
---header "usuario:{"login":"superpay","senha":"superpay"}"
+--header "usuario:{"login":"yapay","senha":"yapay"}"
 --data-binary
 {
    codigoEstabelecimento: 1000000000000,
@@ -179,7 +179,7 @@ curl
    dadosCobranca : {
     codigoCliente : 1,
     tipoCliente : 1,
-    nome : Teste SuperPay,
+    nome : Teste Yapay,
     email : teste@teste.com,
     dataNascimento : "",
     sexo : "M",
@@ -204,7 +204,7 @@ curl
   ]
    },
    dadosEntrega : {
-    nome : Teste SuperPay,
+    nome : Teste Yapay,
     email : teste@teste.com,
     endereco : {
     logradouro : Rua teste,
@@ -247,7 +247,7 @@ curl
    "numeroComprovanteVenda": ,
    "nsu": ,
    "mensagemVenda": ,
-   "urlPagamento": "https://homologacao.superpay.com.br/superpay/GeradorBoleto.do?cod=1413487983447baddcb56-0126-4353-9253-538f64d"
+   "urlPagamento": "https://gateway.yapay.com.br/GeradorBoleto.do?cod=1413487983447baddcb56-0126-4353-9253-538f64d"
 }
 ~~~
 {: title="Retorno" }

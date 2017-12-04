@@ -31,14 +31,14 @@ Disponibilizado em nosso plano Corporativo
 Cobrança recorrente
 {: .subtitulo }
 
-Funcionalidade perfeita para estabelecimentos que precisam cobrar regularmente seus clientes. Faça os cadastros de suas mensalidades e o SuperPay cobrará para você de acordo com o período cadastrado.
+Funcionalidade perfeita para estabelecimentos que precisam cobrar regularmente seus clientes. Faça os cadastros de suas mensalidades e o Yapay cobrará para você de acordo com o período cadastrado.
 
 Boletos Registrados
 {: .subtitulo }
 
-Com o registro dos boletos, os bancos possuem conhecimento do mesmo desde sua geração. Atualmente o SuperPay possui em produção os boletos com registro do Itaú Offline, Itaú ShopLine, Santander, Bradesco Offline, Bradesco ShopFácil, Banco do Brasil e Caixa Econômica Federal.
+Com o registro dos boletos, os bancos possuem conhecimento do mesmo desde sua geração. Atualmente o Yapay possui em produção os boletos com registro do Itaú Offline, Itaú ShopLine, Santander, Bradesco Offline, Bradesco ShopFácil, Banco do Brasil e Caixa Econômica Federal.
 
-O SuperPay continua trabalhando com carteiras sem registros, basta o banco permitir isto em seu cadastro. Para utilização do boleto registrado, entre em contato com comercial@superpay.com.br.
+O Yapay continua trabalhando com carteiras sem registros, basta o banco permitir isto em seu cadastro. Para utilização do boleto registrado, entre em contato com comercial@yapay.com.br.
 
 Renova Fácil
 {: .subtitulo }
@@ -55,7 +55,7 @@ Bancos Emissores Participantes:
 * Panamericano
 * Citi
 
-Para utilizar esta funcionalidade, solicite a Cielo a ativação em seu estabelecimento e ,após isto, ao Suporte SuperPay.
+Para utilizar esta funcionalidade, solicite a Cielo a ativação em seu estabelecimento e ,após isto, ao Suporte Yapay.
 
 Pagamentos com um único clique
 {: .subtitulo }
@@ -67,14 +67,14 @@ Disponibilizado em nosso plano Corporativo
 Análise de Risco
 {: .subtitulo }
 
-O SuperPay possui integração com as empresas especializadas em análises de riscos: ClearSale e FControl.
+O Yapay possui integração com as empresas especializadas em análises de riscos: ClearSale e FControl.
 
 Multi Lojas
 {: .subtitulo }
 
 Permite a criação de diversas “lojas” para um mesmo contrato, podendo estas, serem configuradas com as mesma filiações das instituições financeiras ou diferentes. Além disto, cada "loja" poderá acessar nosso Painel Administrativo para consultar apenas suas vendas.
 
-Para ativação solicitar ao Comercial SuperPay
+Para ativação solicitar ao Comercial Yapay
 
 Retentativa de Pagamento
 {: .subtitulo }
@@ -83,14 +83,14 @@ Esta funcionalidade já gerou mais de 10% de recuperação de vendas com cliente
 
 As vendas não autorizadas ou com falha de comunicação, serão armazenados para retentativa durante 2 dias. Não há alteração na estrutura de envio para utilizar esta funcionalidade. O Ecommerce deverá se atentar no retorno deste processo, onde o status para estes casos será 8 (aguardando pagamento) enquanto a venda não for aprovado ou até que sejam fechados (alterados para Não Pago) no terceiro dia.
 
-Além de solicitar a ativação ao Suporte SuperPay, é preciso uma alteração no campo origemTransacao enviando 5 para os pedidos que desejar a retentativa
+Além de solicitar a ativação ao Suporte Yapay, é preciso uma alteração no campo origemTransacao enviando 5 para os pedidos que desejar a retentativa
 
 Switch de Adquirência
 {: .subtitulo }
 
 Em caso de falha na aprovação da transação, o Gateway redirecionará o pagamento para outra adquirente configurada em seu estabelecimento.
 
-O estabelecimento pode criar regras, juntamente com a equipe de Suporte do SuperPay, podendo assim ordenar o envio para as operadoras por bandeiras. Lembrando que o roteamento é possível apenas em bandeiras que existem em outras operadoras. Abaixo segue lista de bandeiras que podem ser roteadas:
+O estabelecimento pode criar regras, juntamente com a equipe de Suporte do Yapay, podendo assim ordenar o envio para as operadoras por bandeiras. Lembrando que o roteamento é possível apenas em bandeiras que existem em outras operadoras. Abaixo segue lista de bandeiras que podem ser roteadas:
 
 * Visa
 * MasterCard

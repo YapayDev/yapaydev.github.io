@@ -39,8 +39,8 @@ Configurar em seu painel safetyPay a URL de notificação do Gateway + seu códi
 
 | Ambiente    | URL                                                                                                    |
 |-------------|--------------------------------------------------------------------------------------------------------|
-| HOMOLOGAÇÃO | https://homologacao.superpay.com.br/checkout/SafetyPay/Notificacao?codigoEstabelecimento={CODIGOYAPAY} |
-| PRODUÇÃO    | https://superpay2.superpay.com.br/checkout/SafetyPay/Notificacao?codigoEstabelecimento={CODIGOYAPAY}   |
+| HOMOLOGAÇÃO | https://gateway.sandbox.yapay.com.br/checkout/SafetyPay/Notificacao?codigoEstabelecimento={CODIGOYAPAY} |
+| PRODUÇÃO    | https://gateway.yapay.com.br/checkout/SafetyPay/Notificacao?codigoEstabelecimento={CODIGOYAPAY}   |
 
 
 **Exemplo URL notificação:** https://gateway.yapay.com.br/checkout/SafetyPay/Notificacao?codigoEstabelecimento=1000000000000
@@ -58,9 +58,9 @@ Estrtura de retorno SafetyPay:
 
 ~~~text
 curl
---request POST https://homologacao.superpay.com.br/checkout/api/v2/transacao
+--request POST https://gateway.yapay.com.br/checkout/api/v2/transacao
 --header "Content-Type: application/json"
---header "usuario:{"login":"superpay","senha":"superpay"}"
+--header "usuario:{"login":"yapay","senha":"yapay"}"
 --data-binary
 {
    codigoEstabelecimento: 1000000000000,
@@ -88,7 +88,7 @@ curl
    dadosCobranca : {
     codigoCliente : 1,
     tipoCliente : 1,
-    nome : Teste SuperPay,
+    nome : Teste Yapay,
     email : teste@teste.com,
     dataNascimento : "",
     sexo : "M",
@@ -113,7 +113,7 @@ curl
   ]
    },
    dadosEntrega : {
-    nome : Teste SuperPay,
+    nome : Teste Yapay,
     email : teste@teste.com,
     endereco : {
     logradouro : Rua teste,
@@ -156,7 +156,7 @@ curl
    "numeroComprovanteVenda": ,
    "nsu": ,
    "mensagemVenda": ,
-   "urlPagamento": "https://homologacao.superpay.com.br/checkout/PagamentoSafetyPay/PagamentoSafetyPay.do?cod=141348960683a720e602-5631-4725-8f79-268c06795a3c"
+   "urlPagamento": "https://gateway.yapay.com.br/checkout/PagamentoSafetyPay/PagamentoSafetyPay.do?cod=141348960683a720e602-5631-4725-8f79-268c06795a3c"
 }
 ~~~
 {: title="Retorno" }
