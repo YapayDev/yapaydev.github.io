@@ -13,7 +13,7 @@ Fique atento que sua versão de instalação OsCommerce deve ser compatível com
 
 Para instalar o módulo é necessário baixar o pacote através do link abaixo:
 
-<a href="#" class="btn  btn-default btn-wide btn-call-to-action btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>OsCommerce</a>
+<a href="http://integracao.traycheckout.com.br/documentacao/download/yapay/woocommerce/yapayintermediador_oscommerce.zip" class="btn  btn-default btn-wide btn-call-to-action btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>OsCommerce</a>
 
 
 Descompacte o arquivo baixado e copie as pastas e arquivos para o diretório raiz de sua instalação do OsCommerce, caso o sistema exiba a mensagem de mesclagem ou substituição de arquivos, clique em sim para todos.
