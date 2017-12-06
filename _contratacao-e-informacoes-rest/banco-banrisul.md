@@ -169,3 +169,7 @@ Estrutra SOAP de envio Banrisul:
         }
 ~~~
 {: title="Retorno" }
+
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>
