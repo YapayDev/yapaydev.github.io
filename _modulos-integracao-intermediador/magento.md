@@ -24,7 +24,7 @@ Existem duas formas de realizar a instalação do módulo Magento:
 Para instalar o módulo é necessário baixar o arquivo através da página a seguir:
 
 
-<a href="http://integracao.traycheckout.com.br/documentacao/download/yapay/woocommerce/Yapay_Intermediador-0.1.1.tgz" class="btn  btn-default btn-wide btn-call-to-action btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Magento</a>
+<a href="http://integracao.traycheckout.com.br/documentacao/download/yapay/magento/Yapay_Intermediador-0.1.1.tgz" class="btn  btn-default btn-wide btn-call-to-action btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Magento</a>
 
 Acesse o _Magento Connect Manager_ de sua loja Magento (menu **Sistema > Conexão Magento > Gerenciador de Conexão Magento**), e clique no botão **Selecionar arquivo** da opção _Upload Package File_, conforme imagem abaixo. Selecione o pacote do Yapay baixado anteriormente, em seguida clique em **Upload**.
 
