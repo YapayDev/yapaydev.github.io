@@ -30,3 +30,7 @@ Detalhamento dos campos retornados:
 | campoLivre3           | Campo Livre 3                                           | Alfa Numérico |
 | campoLivre4           | Campo Livre 4                                           | Alfa Numérico |
 | campoLivre5           | Campo Livre 5                                           | Alfa Numérico |
+
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

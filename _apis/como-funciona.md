@@ -11,3 +11,6 @@ Para utilizar algumas APIs do Yapay, é necessário autorizar a aplicação, ond
 O serviço utilizado para a autorização é o padrão aberto para Autorização oAuth (Open Authorization). O oAuth fornece métodos para acesso aos recursos de um servidor, como um cliente diferente ou um usuário final, fornecendo também que os usuários finais autorizem o acesso de terceiros aos seus recursos neste servidor sem compartilhar suas credenciais. 
 
 Nas APIs que não necessitam de autorização, é solicitado o token da conta do vendedor. Essa informação é passada pelo setor Comercial.
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

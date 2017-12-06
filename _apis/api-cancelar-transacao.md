@@ -208,3 +208,6 @@ As mensagens de erros retornados pela API estão listadas na tabela abaixo:
 |-----------|--------------------------------------------------|
 |  003005   |     Transação inválida ou inexistente            |
 
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

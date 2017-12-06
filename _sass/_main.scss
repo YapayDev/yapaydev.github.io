@@ -286,12 +286,13 @@ sup {
 
 
 .sidebar {		
-	margin-top: 0;
+	margin-top: 25px;
+	position: absolute;
 	text-align: left;
 	padding: 10px 0 0 15px;
 	display: block;
 	height: auto;
-	position: fixed;
+	
 	
 	white-space:nowrap;
 	// top: 20;
@@ -1232,3 +1233,62 @@ footer p {
 	color: $corPadrao3;
 }
 
+
+
+.voltar-ao-topo {
+	width: 200px;
+	height: 30px;
+	color: #FFF;
+	background-color: $corPadrao2;
+	border: 1px solid $corPadrao2;
+	font-size: 15px;
+	line-height: 21px;		
+	font-weight: bold;	
+	text-align: center;
+	padding-top: 5px;	
+	border-top-left-radius: 8px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;		
+	outline: none;
+	margin: 50px 0 50px 0;
+	
+	&:active, &:focus {
+		color: $corPadrao2;
+		background-color: $corPadrao2;
+		border: 1px solid $corPadrao2;			
+	}
+
+	&:hover {
+		background-color: #FFF;
+		border: 1px solid $corPadrao2;
+		color: $corPadrao2;
+		transition: all 0.3s ease;	
+
+		a {
+			color: $corPadrao2;
+		}
+
+		i {
+			color: $corPadrao2;
+		}
+
+	}
+
+	@media (max-width: $mobile-break) {
+		font-size: 11px;
+		width: 100%;
+	}		
+}	
+
+.voltar-ao-topo a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #FFF;	
+}
+
+.voltar-ao-topo i {		
+	font-size: 20px; 
+	padding-right: 30px;
+	color: #FFF;
+}	

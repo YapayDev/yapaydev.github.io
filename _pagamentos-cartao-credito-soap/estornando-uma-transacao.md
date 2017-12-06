@@ -73,3 +73,7 @@ Para autenticação, enviar `usuario` e `senha`:
 | numeroTransacao       | Código que identifica a transação dentro do Yapay                                | Numérico  | Até 8 dígitos  |
 | codigoEstabelecimento | Código que identifica o estabelecimento dentro do Yapay (fornecido pelo gateway) | Numérico  | 13 dígitos     |
 | valorEstorno          | Valor do estorno                                                                 | Numérico  | Ate 10 dígitos |
+
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

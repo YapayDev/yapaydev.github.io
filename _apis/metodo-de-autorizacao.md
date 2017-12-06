@@ -17,3 +17,6 @@ Além do código de acesso, o aplicativo receberá o código de atualização (*
 Abaixo a sequência de autenticação:
 
 ![Fluxo da Autenticação](/images/intermediador/conteudo/uml.png "Fluxo da Autenticação"){: width="70%" height="auto" }
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

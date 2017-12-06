@@ -170,3 +170,6 @@ O array com os dados abaixo devem ser repetidos de acordo com a qauntidade de ca
 | dataAprovacaoOperadora   | Data de aprovação na adquirente     | Alfa Numérico | Até 10 caracteres |
 | numeroComprovanteVenda   | Número do comprovante de venda      | Alfa Numérico | Até 20 caracteres |
 | mensagemVenda            | Mensagem de retorno da adquirente   | Alfa Numérico | Até 50 caracteres |
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

@@ -64,3 +64,7 @@ Para autenticação, enviar usuario e senha:
 | estabelecimento   | Código do estabelecimento, fornecido pelo Yapay        |
 | valor             | Valor                                                  |
 | status            | Status da Recorrência ( True - Ativo, False - Inativo) |
+
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

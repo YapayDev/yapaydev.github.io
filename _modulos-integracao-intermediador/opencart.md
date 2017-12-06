@@ -82,3 +82,8 @@ Por padrão, a OpenCart tem vários status para os pedidos, para trabalhar com o
 **Status Cancelado:** status que indica o cancelamento, reprovação ou não pagamento da transação no Yapay
 
 **Status Não Aprovado:** status que indica que o pedido não obteve êxito no pagamento, por exemplo, um cartão expirado ou inválido
+
+
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

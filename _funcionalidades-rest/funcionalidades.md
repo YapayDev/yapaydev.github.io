@@ -101,3 +101,6 @@ Não há alteração na estrutura de envio para utilização desta funcionalidad
 
 Disponibilizado em nosso plano Corporativo
 
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

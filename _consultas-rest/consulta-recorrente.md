@@ -77,3 +77,7 @@ Para autenticação, enviar `usuario` e `senha` no HEADER:
 | mensagemVenda            | Mensagem de venda retornado pela operadora. Retornado apenas se alguma cobrança já ocorreu                                                   |
 
 Ao lado você pode visualizar um exemplo de retorno da transação.
+
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

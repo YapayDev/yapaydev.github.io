@@ -20,3 +20,6 @@ Nos detalhes da transação clique no botão **NOTIFICAR**, que será notificado
 **Observação:** Nos <a href="/intermediador/modulos-integracao/" target="_blank" class="linkPadraoVerde">Módulos de Integração</a> que disponibilizamos a URL de Notificação já é informada.
 {:.warning}
 
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

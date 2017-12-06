@@ -98,3 +98,7 @@ Para autenticação, enviar `usuario` e `senha`:
 | dataAprovacaoOperadora   | Data de aprovação na adquirente                                          | Alfa Numérico | Até 10 dígitos      |
 | numeroComprovanteVenda   | Número do comprovante de venda                                           | Alfa Numérico | Até 20 dígitos      |
 | mensagemVenda            | Mensagem de retorno da adquirente                                        | Alfa Numérico | Até 50 dígitos      |
+
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

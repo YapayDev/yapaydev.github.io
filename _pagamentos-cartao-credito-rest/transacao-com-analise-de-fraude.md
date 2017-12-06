@@ -269,3 +269,8 @@ _`dadosEntrega`_
 | nsu                      | Número de NSU                                                           | Alfa Numérico | Até 10 dígitos     |
 | mensagemVenda            | Mensagem de retorno da adquirente                                       | Alfa Numérico | Até 50 dígitos     |
 | cartoesUtilizados        | Número de cartão truncado utilizado na transação                        | Alfa Numérico | Até 20 dígitos     |
+
+
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

@@ -71,3 +71,7 @@ Opções de configuração do módulo Yapay:
 - **FRAME:** O Yapay é aberto dentro da loja virtual, possibilitando o comprador finalizar a compra sem sair da loja
 
 - **MODAL:** Ao finalizar a compra, o Yapay será exibido sobre a loja virtual, sem o consumidor sair do ambiente da loja
+
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

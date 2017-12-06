@@ -60,3 +60,6 @@ Para autenticação, enviar usuario e senha:
 **RESPOSTA**
 
 Ao lado exemplo de retorno de consulta.
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

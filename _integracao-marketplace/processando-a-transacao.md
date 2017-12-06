@@ -17,3 +17,6 @@ Para esta integração, deverá ser feito uso da **API de Transação**, <a href
 
 Para facilitar a exibição do parcelamento no Marketplace, veja a documentação da <a href="/intermediador/apis/#api-simulacao-parcelamento" target="_blank" class="linkPadraoVerde">API de Simulação de Parcelamento</a>.
 {:.warning}
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

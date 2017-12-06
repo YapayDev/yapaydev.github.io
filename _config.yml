@@ -58,7 +58,7 @@ collections:
 
   modulos-integracao-intermediador:  
     title: Módulos de Integração
-    name: modulos-integracao
+    name: modulos-integracao-intermediador
     permalink: /intermediador/modulos-integracao-intermediador/
     position: 6    
     origem: /intermediador/modulos-integracao-intermediador/

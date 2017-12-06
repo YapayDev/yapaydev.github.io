@@ -10,7 +10,7 @@
 				<ul {% if page_current[3] == collection.name %} class="active" {% else %} class= null {% endif %}>
                     {% assign sorted_docs = collection.docs | sort: "position" %}
                     {% for doc in sorted_docs %}
-                        <li>										
+                        <li>								
 							<a href="{{ doc.url }}#{{ doc.slug }}">
 							{{ doc.title }}
 							{% if doc.type %}<span class="endpoint {{ doc.type }}"></span>{% endif %}

@@ -26,3 +26,6 @@ Este procedimento poderá ser realizado utilizando a bandeira de cartão MasterC
 
 **Reprovada:** transações com parcelamento par (2, 4, 6, 8, 10, 12).
 {:.info}
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

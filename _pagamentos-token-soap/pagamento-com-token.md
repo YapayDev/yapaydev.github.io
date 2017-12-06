@@ -163,3 +163,8 @@ _`itemPedidoTransacaoWS`_
 | numeroComprovanteVenda   | Número Comprovante de venda                                | Alfa Numérico | Até 20 dígitos     |
 | mensagemVenda            | Mensagem de venda                                          | Alfa Numérico | Até 50 dígitos     |
 
+
+
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

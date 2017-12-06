@@ -15,3 +15,7 @@ Para que o repasse ao revendedor seja automático, utilizamos a API de Transaç�
 
 Para verificar a documentação completa da **API de Transação** <a href="/intermediador/apis/#api-transacao" target="_blank" class="linkPadraoVerde">clique aqui</a>.
 {:.info}
+
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

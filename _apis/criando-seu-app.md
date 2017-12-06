@@ -23,3 +23,6 @@ Após o cadastro da aplicação, serão fornecidas as duas chaves necessárias p
 As chaves são exclusivas e intransferíveis para a utilização do aplicativo cadastrado, sendo de responsabilidade do aplicativo garantir a integridade e o sigilo das informações.
 {:.error } 
 
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

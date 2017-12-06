@@ -89,3 +89,7 @@ _`cadastraPagamentoOneClickV2`_
 **RESPOSTA**
 
 O retorno da requisição de cadastro será apenas o Token, este deverá ser armazenado no Ecommerce para as próximas compras
+
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

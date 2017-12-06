@@ -9,3 +9,4 @@ O Yapay disponibiliza a **<a href="/intermediador/apis/#api-consulta-transacao" 
 
 
 
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

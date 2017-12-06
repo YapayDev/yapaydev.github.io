@@ -12,3 +12,6 @@ Dessa forma você precisa configurar uma URL que receberá a chamada, processar�
 Para mais informações sobre **Notificação Automática de Status**, <a href="/intermediador/notificacao-automatica-status/" target="_blank" class="linkPadraoVerde">clique aqui</a>.
 {:.info}
 
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

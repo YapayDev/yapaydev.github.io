@@ -66,3 +66,8 @@ Opções de configuração Tray Checkout:
 
 **Atenção:** Após salvar as configurações, caso o módulo não fique disponível, será necessário alterar as configurações de cache.
 
+
+
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

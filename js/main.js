@@ -11,21 +11,40 @@ jQuery(function() {
       : $icon.setAttribute("class", "fa fa-caret-down");
   });
 
-  $(window).scroll(function() {
-    var topScroll = Number(jQuery(window).scrollTop());
-    if (topScroll >= 200) {
-      $(".sidebar").css("position", "fixed").css("margin-top", "-105px");
+  // $(window).scroll(function() {
+  //   var topScroll = Number(jQuery(window).scrollTop());
+  //   if (topScroll >= 2000) {
+  //     $(".sidebar").css("position", "fixed").css("margin-top", "-105px");
     
-    } else {
-      $(".sidebar").css("position", "fixed").css("margin-top", 0);
+  //   } else {
+  //     $(".sidebar").css("position", "fixed").css("margin-top", 0);
     
-    }
+  //   }
 	
-	if( topScroll >= 30000){
-		$(".sidebar").css("position", "absolute")
-	}
+	// if( topScroll >= 2000){
+	// 	$(".sidebar").css("position", "absolute")
+	// }
 
+  // });
+
+
+// Voltar Topo
+jQuery(document).ready(function() {
+  // Exibe ou oculta o botão
+  jQuery(window).scroll(function() {
+      if (jQuery(this).scrollTop() > 200) {
+          jQuery('.voltar-ao-topo').fadeIn(300);
+      } else {
+          jQuery('.voltar-ao-topo').fadeOut(300);
+      }
   });
+  
+  // Faz animação para subir
+  jQuery('.voltar-ao-topo').click(function(event) {
+      event.preventDefault();
+      jQuery('html, body').animate({scrollTop: 0}, 300);
+  })
+});
 
 
   $("section > div.highlighter-rouge:first-of-type").each(function(i) {

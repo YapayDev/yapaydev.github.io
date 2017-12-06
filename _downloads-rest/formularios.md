@@ -10,3 +10,6 @@ Temos alguns exemplos para te auxiliar no processo de integração com o Gateway
 
 <a href="https://yapay.acelerato.com/base-de-conhecimento/#/artigos/71" target="_blank" class="linkPadraoVerde">Formulário para configuração das formas de pagamento</a>
 
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

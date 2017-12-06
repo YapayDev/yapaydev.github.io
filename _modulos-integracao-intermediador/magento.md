@@ -106,3 +106,6 @@ Segue abaixo imagem com a tela de configuração:
 **Ordem de exibição:** ordem de exibição, caso exista mais de um método de pagamento
 
 **Ambiente de Teste (Sandbox):** ambiente utilizado para que a loja possa realizar testes de integração – muita atenção para não manter este ambiente habilitado quando a loja estiver efetivamente vendendo
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

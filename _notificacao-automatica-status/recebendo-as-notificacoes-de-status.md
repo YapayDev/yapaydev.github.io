@@ -24,3 +24,6 @@ A notificação será realizada através de um POST, que espera receber o retorn
 
 Após receber esta informação, deverá ser feita a consulta pelas informações completas da transação, através da <a href="/intermediador/apis/#api-consulta-transacao" target="_blank" class="linkPadraoVerde">API de Consulta de Transação</a>.
 {:.info}
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

@@ -248,3 +248,8 @@ Para geração da transferência, o eCommerce deverá redirecionar o consumidor 
 
 
 Ao lado você pode visualizar um exemplo de retorno da transação.
+
+
+
+
+<div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>
