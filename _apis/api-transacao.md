@@ -251,7 +251,7 @@ Através do CPF do cliente é feita a consulta pela existência do seu cadastro 
 Para a integração com a API de Transação, é necessário incluir um script após o processamento da transação, no início da página de finalização da compra. Segue abaixo código do script:
 
 ```html
- <script src="https://static.yapay.com.br/js/finger_print.js" type="text/javascript"></script>
+ <script src="https://static.traycheckout.com.br/js/finger_print.js" type="text/javascript"></script>
 ```
 
 Além de incluir o script, é necessário realizar a chamada do plugin, no final da mesma página, conforme código javascript abaixo:
