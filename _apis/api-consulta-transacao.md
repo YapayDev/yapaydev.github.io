@@ -84,7 +84,7 @@ right_code: |
   {: title="Shell - cURL" }  
 ---
 
-<span class="patch">PATCH</span><span class="beforePost">/api/v3/transactions/cancel</span>
+<span class="get">GET</span><span class="beforePost">/api/v3/transactions/cancel</span>
 
 O Yapay disponibiliza um recurso para a consulta da transação. Com este recurso, você poderá realizar a consulta para obter as informações detalhadas da transação, e assim comparar as informações e atualizar o status do pedido com segurança.
 
