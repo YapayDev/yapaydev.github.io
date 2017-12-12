@@ -93,7 +93,7 @@ Para esta integração, deverá ser feito uso da API a seguir:
 | Endereço para Integração                                                                            |
 |--------------------------|--------------------------------------------------------------------------|
 | Ambiente de Testes       | https://api.sandbox.traycheckout.com.br/api/v3/transactions/get_by_token |
-| Ambiente de Produção     | https://api.traycheckout.com.br/v2/transactions/get_by_token             |
+| Ambiente de Produção     | https://api.traycheckout.com.br/v3/transactions/get_by_token             |
 | Protocolo                | Rest/HTTP                                                                |
 
 

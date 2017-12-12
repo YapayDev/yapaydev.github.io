@@ -264,8 +264,8 @@ Além de incluir o script, é necessário realizar a chamada do plugin, no final
 
 | Endereço para Integração                                                                          |
 |--------------------------|------------------------------------------------------------------------|
-| Ambiente de Testes       | https://api.sandbox.yapay.com.br/v2/transactions/pay_complete   |
-| Ambiente de Produção     | https://api.yapay.com.br/v2/transactions/pay_complete           |
+| Ambiente de Testes       | https://api.sandbox.traycheckout.com.br/api/v3/transactions/payment   |
+| Ambiente de Produção     | https://api.traycheckout.com.br/api/v3/transactions/payment           |
 | Protocolo                | Rest/HTTP                                                              |
 
 
