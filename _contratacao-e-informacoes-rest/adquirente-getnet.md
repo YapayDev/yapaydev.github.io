@@ -12,7 +12,7 @@ Contratando a solução da GetNet eCommerce será possível oferecer na sua loja
 * Cartão de crédito Visa;
 * Cartão de crédito MasterCard;
 
-Ao final do processo de contratação, deve-se estar de posse das seguintes informações para ativação do e-Rede no Gateway:
+Ao final do processo de contratação, deve-se estar de posse das seguintes informações para ativação da GetNet no Gateway:
 
 * Merchant Id;
 * Terminal Id;

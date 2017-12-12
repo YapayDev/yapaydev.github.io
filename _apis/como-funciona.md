@@ -4,7 +4,7 @@ position: 1
 menu: intermediador
 ---
 
-Para utilizar algumas APIs do Yapay, é necessário autorizar a aplicação, onde o cliente estará permitindo a utilização da aplicação para sua conta TrayCheckout.
+Para utilizar algumas APIs do Yapay, é necessário autorizar a aplicação, onde o cliente estará permitindo a utilização da aplicação para sua conta Yapay.
 
 ![Fluxo da API](/images/intermediador/conteudo/Integracao_api.png "Fluxo da API"){: width="100%" height="auto" }
 
