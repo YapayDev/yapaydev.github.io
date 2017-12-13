@@ -45,7 +45,7 @@ A API de Simulação de Cálculo de Parcelamento é utilizada somente para facil
 | Endereço para Integração                                                                                |
 |--------------------------|------------------------------------------------------------------------------|
 | Ambiente de Testes       | https://api.sandbox.traycheckout.com.br/v1/transactions/simulate_splitting   |
-| Ambiente de Produção     | https://api.traycheckout.com.br/v1/transactions/simulate_splitting           |
+| Ambiente de Produção     | http://api.intermediador.yapay.com.br/v1/transactions/simulate_splitting           |
 | Protocolo                | Rest/HTTP                                                                    |
 
 Para a integração via POST, segue abaixo os dados necessários para envio:

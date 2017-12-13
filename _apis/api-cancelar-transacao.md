@@ -141,8 +141,9 @@ Através do access_token e o id da transação, é possivel realizar um PATCH na
 | Endereço para Integração                                                                          |
 |--------------------------|------------------------------------------------------------------------|
 | Ambiente de Testes       | https://api.sandbox.traycheckout.com.br/api/v3/transactions/cancel   |
-| Ambiente de Produção     | https://api.traycheckout.com.br/api/v3/transactions/cancel           |
+| Ambiente de Produção     | http://api.intermediador.yapay.com.br/api/v3/transactions/cancel           |
 | Protocolo                | Rest                                                              |
+
 
 
 Para a integração via POST, segue abaixo os dados necessários para envio:
