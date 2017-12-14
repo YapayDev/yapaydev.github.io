@@ -16,7 +16,7 @@ Possuímos também módulos prontos para integração com platafomas OpenSource,
 **[Integração API](/intermediador/api/){:.linkPadraoVerde}**: realizada através de uma requisição, tornando o processo transparente para o consumidor, sem necessidade de criação de novos cadastros e sem o redirecionamento para um ambiente externo. <a href="/intermediador/apis/" target="_blank" class="linkPadraoVerde">Veja Aqui</a>.
 {: .success }
 
-**[Módulos de Integração](/intermediador/modulos-integracao/#manuais){:.linkPadraoVerde}**: O Yapay possui módulos prontos para alguns sistemas de terceiros. <a href="/intermediador/modulos-integracao/#manuais" target="_blank" class="linkPadraoVerde">Veja Aqui</a>.
+**[Módulos de Integração](/intermediador/modulos-integracao-intermediador/){:.linkPadraoVerde}**: O Yapay possui módulos prontos para alguns sistemas de terceiros. <a href="/intermediador/modulos-integracao-intermediador/" target="_blank" class="linkPadraoVerde">Veja Aqui</a>.
 {: .warning }
 
 
