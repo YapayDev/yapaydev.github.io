@@ -248,6 +248,18 @@ _`dadosEntrega`_
 | mensagemVenda            | Retornado em branco para boletos                                         | Alfa Numérico  | Até 50 dígitos     |
 
 
+_`itensDoPedido`_
+{: .subtituloAzul }
+
+| Campo                | Descrição                                                          | Tipo          | Tamanho        | Obrigatório |
+|----------------------|--------------------------------------------------------------------|---------------|----------------|-------------|
+| codigoProduto        | Código único que identifica cada produto                           | Alfa Numérico | 20 caracteres  | Sim         |
+| codigoCategoria      | Código que identifica categoria do produto                         | Alfa Numérico | 20 caracteres  | Sim         |
+| nomeProduto          | Nome do Produto                                                    | Alfa Numérico | 100 caracteres | Sim         |
+| quantidadeProduto    | Quantidade comprada do produto                                     | Numérico      | Até 8 dígitos  | Sim         |
+| valorUnitarioProduto | Valor unitário do produto. Deve ser enviado sem pontos ou vírgulas | Numérico      | Até 10 dígitos | Sim         |
+| nomeCategoria        | Nome da categoria do produto                                       | Alfa Numérico | 100 caracteres | Sim         |
+
 
 Ao lado você pode visualizar um exemplo de retorno da transação.
 
