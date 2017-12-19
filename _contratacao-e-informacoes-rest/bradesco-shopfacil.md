@@ -52,8 +52,8 @@ Após logar, acesse Configuração > Meios de Pagamento > Boleto Bancário, incl
 
 | Ambiente    | URL                                                            |
 |-------------|----------------------------------------------------------------|
-| HOMOLOGAÇÃO | https://homologacao.yapay.com.br/checkout/bradesco/confirmaBoletoRegistro |
-| PRODUÇÃO    | https://yapay.com.br/checkout/bradesco/confirmaBoletoRegistro   |
+| HOMOLOGAÇÃO | https://sandbox.gateway.yapay.com.br/checkout/bradesco/confirmaBoletoRegistro |
+| PRODUÇÃO    | https://gateway.yapay.com.br/checkout/bradesco/confirmaBoletoRegistro  |
 
 
 Processo de Homologação
