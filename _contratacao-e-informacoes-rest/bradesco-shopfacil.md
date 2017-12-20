@@ -101,7 +101,7 @@ Estrtura de retorno Bradesco.
 
 ~~~text
 curl
---request POST https://homologacao.yapay.com.br/checkout/api/v2/transacao
+--request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao
 --header "Content-Type: application/json"
 --header "usuario:{"login":"yapay","senha":"yapay"}"
 --data-binary
