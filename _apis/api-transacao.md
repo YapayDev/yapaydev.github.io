@@ -46,7 +46,7 @@ right_code: |
         $data["payment"]["payment_method_id"] = "6";    
 
 
-        $url = "https://api.sandbox.traycheckout.com.br/api/v3/transactions/payment";
+        $url = "https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/payment";
 
         ob_start();
 
@@ -76,7 +76,7 @@ right_code: |
 
   ~~~ java
     ...
-    String url = "https://api.sandbox.traycheckout.com.br/api/v3/transactions/payment";
+    String url = "https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/payment";
      
     HttpClient client = new HttpClient();
     PostMethod method = new PostMethod(url);
@@ -157,7 +157,7 @@ right_code: |
   ~~~ c#
     ...
     
-    string URLAuth = "https://api.sandbox.traycheckout.com.br/api/v3/transactions/payment";
+    string URLAuth = "https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/payment";
     
     NameValueCollection queryParameters = new NameValueCollection();
     
@@ -264,8 +264,8 @@ Além de incluir o script, é necessário realizar a chamada do plugin, no final
 
 | Endereço para Integração                                                                          |
 |--------------------------|------------------------------------------------------------------------|
-| Ambiente de Testes       | https://api.sandbox.traycheckout.com.br/api/v3/transactions/payment   |
-| Ambiente de Produção     | https://api.traycheckout.com.br/api/v3/transactions/payment           |
+| Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/payment   |
+| Ambiente de Produção     | https://api.intermediador.yapay.com.br/api/v3/transactions/payment           |
 | Protocolo                | Rest/HTTP                                                              |
 
 

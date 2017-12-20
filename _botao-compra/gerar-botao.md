@@ -10,7 +10,7 @@ Você vende um único produto? Quer fazer alguma venda em seu site ou blog? Util
 
 {% include form_gerarbotao.html %}
 
-*<a href="https://www.traycheckout.com.br/criar-conta/" target="_blank" class="linkPadraoVerde">Clique aqui</a> caso não tenha uma conta ou <a href="/intermediador/como-comecar/#obter-token" target="_blank" class="linkPadraoVerde">Veja aqui</a> como obter o seu token da conta.
+*<a href="https://www.yapay.com.br/intermediador-de-pagamentos-online/criar-conta/" target="_blank" class="linkPadraoVerde">Clique aqui</a> caso não tenha uma conta ou <a href="/intermediador/como-comecar/#obter-token" target="_blank" class="linkPadraoVerde">Veja aqui</a> como obter o seu token da conta.
 {:.info}
 
 

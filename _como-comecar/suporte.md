@@ -12,4 +12,4 @@ Caso encontre dificuldades no processo de integração, poderá ser feito contat
 
 
 
-<div class="btnSuporte"> <a href="https://www.traycheckout.com.br/dev/suporte-integracao" target="_blank">Fale Conosco</a></div> <div class="btnEmail"> <a href="mailto:integracao@traycheckout.com.br" target="_blank">integracao@traycheckout.com.br</a></div>
+<div class="btnSuporte"> <a href="https://www.yapay.com.br/central-de-atendimento/intermediador/" target="_blank">Fale Conosco</a></div> <div class="btnEmail"> <a href="mailto:integracao@yapay.com.br" target="_blank">integracao@yapay.com.br</a></div>

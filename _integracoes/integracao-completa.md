@@ -44,35 +44,35 @@ Abaixo você consegue visualizar os Adquirentes, Análise de Risco e Intermediad
 
 | Bancos                                                                                | Integração |
 |:-------------------------------------------------------------------------------------:|:-----------------------------------------------------------:|
-| ![Banrisul](/images/gateway/servicos/Banrisul.png){: .imgLogoTable }                  | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
-| ![Banco do Brasil](/images/gateway/servicos/BancoDoBrasil.png){: .imgLogoTable }      | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
-| ![Bradesco](/images/gateway/servicos/Bradesco.png){: .imgLogoTable }                  | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
-| ![Itaú](/images/gateway/servicos/Itau.png){: .imgLogoTable }                          | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
+| ![Banrisul](/images/gateway/servicos/Banrisul.png){: .imgLogoTable }                  | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
+| ![Banco do Brasil](/images/gateway/servicos/BancoDoBrasil.png){: .imgLogoTable }      | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
+| ![Bradesco](/images/gateway/servicos/Bradesco.png){: .imgLogoTable }                  | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
+| ![Itaú](/images/gateway/servicos/Itau.png){: .imgLogoTable }                          | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
 
 
 | Adquirentes                                                                           | Integração |
 |:-------------------------------------------------------------------------------------:|:-----------------------------------------------------------:|
-| ![Cielo](/images/gateway/servicos/Cielo.png){: .imgLogoTable }                        | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
-| ![Rede](/images/gateway/servicos/Rede.png){: .imgLogoTable }                          | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
-| ![GetNet](/images/gateway/servicos/GetNet.jpg){: .imgLogoTable }                      | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
+| ![Cielo](/images/gateway/servicos/Cielo.png){: .imgLogoTable }                        | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
+| ![Rede](/images/gateway/servicos/Rede.png){: .imgLogoTable }                          | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
+| ![GetNet](/images/gateway/servicos/GetNet.jpg){: .imgLogoTable }                      | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
 
 
 
 | Análise de Risco                                                                      | Integração |
 |:-------------------------------------------------------------------------------------:|:-----------------------------------------------------------:|
-| ![ClearSale](/images/gateway/servicos/ClearSale.png){: .imgLogoTable }                | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
-| ![FControl](/images/gateway/servicos/FControl.png){: .imgLogoTable }                  | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
+| ![ClearSale](/images/gateway/servicos/ClearSale.png){: .imgLogoTable }                | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
+| ![FControl](/images/gateway/servicos/FControl.png){: .imgLogoTable }                  | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
 
 
 | Intermediadores                                                                      | Integração |
 |:-------------------------------------------------------------------------------------:|:----------------------------------------------------------:|
-| ![PayU](/images/gateway/servicos/PayU.png){: .imgLogoTable }                         | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
-| ![Mercado Pago](/images/gateway/servicos/MercadoPago.png){: .imgLogoTable }          | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
-| ![MoIP](/images/gateway/servicos/MoIP.png){: .imgLogoTable }                         | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
-| ![PagSeguro](/images/gateway/servicos/PagSeguro.png){: .imgLogoTable }               | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
-| ![Elavon](/images/gateway/servicos/Elavon.jpg){: .imgLogoTable }                     | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
-| ![PayPal](/images/gateway/servicos/PayPal.png){: .imgLogoTable }                     | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
-| ![Peela](/images/gateway/servicos/Peela.jpg){: .imgLogoTable }                       | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
+| ![PayU](/images/gateway/servicos/PayU.png){: .imgLogoTable }                         | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
+| ![Mercado Pago](/images/gateway/servicos/MercadoPago.png){: .imgLogoTable }          | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
+| ![MoIP](/images/gateway/servicos/MoIP.png){: .imgLogoTable }                         | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
+| ![PagSeguro](/images/gateway/servicos/PagSeguro.png){: .imgLogoTable }               | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
+| ![Elavon](/images/gateway/servicos/Elavon.jpg){: .imgLogoTable }                     | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
+| ![PayPal](/images/gateway/servicos/PayPal.png){: .imgLogoTable }                     | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
+| ![Peela](/images/gateway/servicos/Peela.jpg){: .imgLogoTable }                       | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
 
 
 3- Sobre Autorização e Captura

@@ -223,9 +223,9 @@ Abaixo você consegue visualizar os Adquirentes que são suportadas:
 
 | Adquirentes                                                                           | Integração |
 |:-------------------------------------------------------------------------------------:|:-----------------------------------------------------------:|
-| ![Cielo](/images/gateway/servicos/Cielo.png){: .imgLogoTable }                        | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
-| ![Rede](/images/gateway/servicos/Rede.png){: .imgLogoTable }                          | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
-| ![GetNet](/images/gateway/servicos/GetNet.jpg){: .imgLogoTable }                      | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
+| ![Cielo](/images/gateway/servicos/Cielo.png){: .imgLogoTable }                        | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
+| ![Rede](/images/gateway/servicos/Rede.png){: .imgLogoTable }                          | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
+| ![GetNet](/images/gateway/servicos/GetNet.jpg){: .imgLogoTable }                      | ![Yapay Gateway](/images/checked-verde.svg){: .imgBtnTable } |
 
 ---
 

@@ -14,7 +14,7 @@ Mesmo que você já possua uma conta no ambiente de produção, será necessári
 
 Caso você tenha uma conta no Yapay, basta você clicar em **Perfil da Conta > Sandbox** e criar a conta em Sandbox.
 
-![Sandbox Yapay](/images/intermediador/conteudo/Sandbox-TrayCheckout.png "Sandbox Yapay"){: width="100%"}
+![Sandbox Yapay](/images/intermediador/conteudo/Sandbox-Yapay.png "Sandbox Yapay"){: width="100%"}
 
 
 Durante os testes em <a href="http://checkout.sandbox.tray.com.br/signin" target="_blank" class="linkPadraoVerde">Sandbox</a>, as compras que forem processadas com cartões de crédito poderão ser aprovadas ou reprovadas em tempo real. 

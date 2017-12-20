@@ -4,7 +4,7 @@ position: 3
 menu: intermediador
 ---
 
-Para realizar os disparos manuais em Sandbox acesse o ambiente pelo link <a href="https://checkout.sandbox.traycheckout.com.br/" target="_blank" class="linkPadraoVerde">https://checkout.sandbox.traycheckout.com.br</a> informando o seu e-mail de cadastro:
+Para realizar os disparos manuais em Sandbox acesse o ambiente pelo link <a href="https://tc.intermediador.sandbox.yapay.com.br/" target="_blank" class="linkPadraoVerde">https://tc.intermediador.sandbox.yapay.com.br/</a> informando o seu e-mail de cadastro:
 
 
 ![Sandbox Ambiente Teste Yapay](/images/intermediador/conteudo/Sandbox_Ambiente.png "Sandbox Ambiente Teste Yapay"){: width="40%" height="auto"}

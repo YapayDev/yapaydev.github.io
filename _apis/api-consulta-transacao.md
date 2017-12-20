@@ -11,7 +11,7 @@ right_code: |
         /* Token da Transação */
         $data['token_transaction'] = '### Token da Transação ###';
 
-        $url = "https://api.sandbox.traycheckout.com.br/api/v3/transactions/get_by_token";
+        $url = "https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/get_by_token";
 
         ob_start();
 
@@ -78,7 +78,7 @@ right_code: |
 
   ~~~ shell
     curl --request GET \
-        --url 'https://api.sandbox.traycheckout.com.br/api/v3/transactions/get_by_token?token_account=SEU_TOKEN&token_transaction=cb22c716c80ddbaa16f8b8dbc49302a2' \
+        --url 'https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/get_by_token?token_account=SEU_TOKEN&token_transaction=cb22c716c80ddbaa16f8b8dbc49302a2' \
         --data '{}'
   ~~~
   {: title="Shell - cURL" }  
@@ -92,7 +92,7 @@ Para esta integração, deverá ser feito uso da API a seguir:
 
 | Endereço para Integração                                                                            |
 |--------------------------|--------------------------------------------------------------------------|
-| Ambiente de Testes       | https://api.sandbox.traycheckout.com.br/api/v3/transactions/get_by_token |
+| Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/get_by_token |
 | Ambiente de Produção     | http://api.intermediador.yapay.com.br/v3/transactions/get_by_token             |
 | Protocolo                | Rest/HTTP                                                                |
 

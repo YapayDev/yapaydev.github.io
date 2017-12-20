@@ -10,7 +10,7 @@ right_code: |
         $data["transaction_id"] = 79717;
         $data["reason_cancellation_id"] = 6;       
 
-        $url = "https://api.sandbox.traycheckout.com.br/api/v3/transactions/cancel";
+        $url = "https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/cancel";
 
         ob_start();
 
@@ -40,7 +40,7 @@ right_code: |
 
   ~~~ java
     ...
-    String url = "https://api.sandbox.traycheckout.com.br/api/v3/transactions/cancel";
+    String url = "https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/cancel";
      
     HttpClient client = new HttpClient();
     PostMethod method = new PostMethod(url);
@@ -87,7 +87,7 @@ right_code: |
   ~~~ c#
     ...
     
-    string URLAuth = "https://api.sandbox.traycheckout.com.br/api/v3/transactions/cancel";
+    string URLAuth = "https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/cancel";
     
     NameValueCollection queryParameters = new NameValueCollection();
     
@@ -140,7 +140,7 @@ Através do access_token e o id da transação, é possivel realizar um PATCH na
 
 | Endereço para Integração                                                                          |
 |--------------------------|------------------------------------------------------------------------|
-| Ambiente de Testes       | https://api.sandbox.traycheckout.com.br/api/v3/transactions/cancel   |
+| Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/cancel   |
 | Ambiente de Produção     | http://api.intermediador.yapay.com.br/api/v3/transactions/cancel           |
 | Protocolo                | Rest                                                              |
 

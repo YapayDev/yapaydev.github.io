@@ -1,18 +1,14 @@
-# TrayCheckout
+# Yapay
 
-Documentação da API TrayCheckout.
+Documentação da API Yapay.
 
 
 Aqui vamos explicar a nossa documentação separada:
 
 ## Intermediador
 
-![TrayCheckout](images/_screenshot.png)
+![Yapay](images/Logo_Yapay_Azul.png)
 
 ## Gateway
 
-![TrayCheckout](images/_screenshot.png)
-
-## Recorrência
-
-![TrayCheckout](images/_screenshot.png)
+![Yapay](images/Logo_Yapay_Azul.png)

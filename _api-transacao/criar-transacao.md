@@ -213,8 +213,8 @@ Para criar uma transação com **Análise de Risco**, você precisa ter configur
 
 | Análise de Risco                                                                      | Integração |
 |:-------------------------------------------------------------------------------------:|:-----------------------------------------------------------:|
-| ![ClearSale](/images/gateway/servicos/ClearSale.png){: .imgLogoTable }                | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
-| ![FControl](/images/gateway/servicos/FControl.png){: .imgLogoTable }                  | ![TrayCheckout](/images/checked-verde.svg){: .imgBtnTable } |
+| ![ClearSale](/images/gateway/servicos/ClearSale.png){: .imgLogoTable }                | ![Yapay Intermediadork](/images/checked-verde.svg){: .imgBtnTable } |
+| ![FControl](/images/gateway/servicos/FControl.png){: .imgLogoTable }                  | ![Yapay Intermediadork](/images/checked-verde.svg){: .imgBtnTable } |
 
 
 JSON Response
