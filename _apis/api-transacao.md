@@ -262,6 +262,10 @@ Além de incluir o script, é necessário realizar a chamada do plugin, no final
                                   production: 'true'});
 ```
 
+O Fingerprint funciona SOMENTE em ambiente `PRODUÇÃO`.
+{:.warning}
+
+
 | Endereço para Integração                                                                          |
 |--------------------------|------------------------------------------------------------------------|
 | Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/payment   |
