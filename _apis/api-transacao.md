@@ -5,7 +5,7 @@ menu: intermediador
 right_code: |
   ~~~ php
     <?php
-        $data['token_account'] = '### Token do Cliente ###';
+        $data['token_account'] = 'SEU_TOKEN_AQUI';
 
         $data["customer"]["contacts"][1]["type_contact"] = "H";
         $data["customer"]["contacts"][1]["number_contact"] = "1133221122";
@@ -88,7 +88,7 @@ right_code: |
     try {
         NameValuePair[] data = {
             /* Token da Conta do Lojista */
-            new NameValuePair("token_account", "### Token do Cliente ###"),
+            new NameValuePair("token_account", "SEU_TOKEN_AQUI"),
             
             new NameValuePair("customer[name]", "Diana Prince"),
             new NameValuePair("customer[cpf]", "50235335142"),
@@ -161,7 +161,7 @@ right_code: |
     
     NameValueCollection queryParameters = new NameValueCollection();
     
-    queryParameters.Add("token_account", "### Token do Cliente ###");
+    queryParameters.Add("token_account", "SEU_TOKEN_AQUI");
     
     queryParameters.Add("customer[name]", "Nome do Cliente");
     queryParameters.Add("customer[cpf]", "98489882380");

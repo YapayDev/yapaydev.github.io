@@ -6,7 +6,7 @@ right_code: |
   ~~~ php
     <?php
         /* Token da Conta do Lojista */
-        $data['token_account'] = '### Token do Cliente ###';
+        $data['token_account'] = 'SEU_TOKEN_AQUI';
 
         /* Token da Transação */
         $data['token_transaction'] = '### Token da Transação ###';
