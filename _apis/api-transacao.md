@@ -248,7 +248,7 @@ O Yapay disponibiliza uma versão transparente para a integração de transaçõ
 
 Através do CPF do cliente é feita a consulta pela existência do seu cadastro e então as transações são atreladas ao mesmo. Caso não exista uma conta, o sistema irá criar uma nova conta com os dados que forem submetidos na integração. Para esta integração, deverá ser feito uso da API a seguir:
 
-Para a integração com a API de Transação, é necessário incluir um script após o processamento da transação, no início da página de finalização da compra. Segue abaixo código do script:
+Para a integração com a API de Transação, é necessário incluir um script no processamento da transação (na página de checkout), no início da página de finalização da compra. Segue abaixo código do script:
 
 ```html
  <script src="https://static.traycheckout.com.br/js/finger_print.js" type="text/javascript"></script>
