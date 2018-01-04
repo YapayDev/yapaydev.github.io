@@ -286,7 +286,7 @@ Para a integração via POST, segue abaixo os dados necessários para envio:
 | customer[cnpj]                           |   Não    |  Texto /18           |  CNPJ do Comprador                                       |
 | customer[inscricao_municipal]            |   Não    |  Texto /20           |  Inscrição Municipal do Comprador                        |
 | customer[contacts][][type_contact]       |   Sim    |  Texto /1            |  Tipo do Contato <sup>1</sup> (Tabela 1)                 |
-| customer[contacts][][number_contact]     |   Sim    |  Texto /10           |  Número do telefone do Comprador                         |
+| customer[contacts][][number_contact]     |   Sim    |  Texto /11           |  Número do telefone do Comprador                         |
 | customer[addresses][][type_address]      |   Sim    |  Texto /1            |  Tipo do Endereço <sup>1</sup> (Tabela 2)                |
 | customer[addresses][][postal_code]       |   Sim    |  Texto /8            |  CEP do endereço do Comprador                            |
 | customer[addresses][][street]            |   Sim    |  Texto /120          |  Nome da rua do Comprador                                |
