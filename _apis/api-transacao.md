@@ -263,7 +263,7 @@ Além de incluir o script, é necessário realizar a chamada do plugin, no final
 ```
 
 O Fingerprint funciona SOMENTE em ambiente `PRODUÇÃO`.
-{:.warning}
+{:.error}
 
 
 | Endereço para Integração                                                                          |
@@ -303,7 +303,7 @@ Para a integração via POST, segue abaixo os dados necessários para envio:
 | transaction[shipping_price]              |   Não    |  Decimal / 11        |  Preço de Envio. Formato: 0.00                           |
 | transaction[price_discount]              |   Não    |  Decimal / 11        |  Valor do desconto. Formato: 0.00                        |
 | transaction[price_additional]            |   Não    |  Decimal / 11        |  Valor adicional. Formato: 0.00                          | 
-| transaction[url_notification]            |   Não    |  Texto /255          |  URL de Notificação Automática de Status                 |
+| transaction[url_notification]            |   Não    |  Texto /255          |  URL de Notificação Automática de Status<sup>5</sup>     |
 | transaction[free]                        |   Não    |  Texto /200          |  Campo Livre                                             |
 | transaction[sub_store]                   |   Não    |  Texto /20           |  Sub-Loja                                                |
 | transaction_product[][description]       |   Sim    |  Texto /100          |  Nome do produto <sup>1</sup>                            |
@@ -338,6 +338,8 @@ Para a integração via POST, segue abaixo os dados necessários para envio:
 <sup>4</sup> O parâmetro `affiliates[][]` é informado quando é necessário que seja feito Repasse Automático ao Revendedor. Essa opção é utilizada na <a href="/intermediador/integracao-marketplace/#repasse-automatico-ao-revendedor" target="_blank" class="linkPadraoVerde">Integração com Marketplace</a>.
 {:.info}
 
+<sup>5</sup> O parâmetro `transaction[url_notification]` é informado para comunicar a sua aplicação a cada alteração de status de uma transação. Saiba mais em <a href="/intermediador/notificacao-automatica-status/" target="_blank" class="linkPadraoVerde">Notificação Automática de Status</a>.
+{:.info}
 
 
 Veja ao lado uma chamada de API de exemplo.
