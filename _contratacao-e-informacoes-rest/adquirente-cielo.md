@@ -6,7 +6,7 @@ menu: gateway
 
 Contratação e informações meios de pagamento
 
-Na aba lateral direita está disponível exemplos para cada meio de pagamento em XML (para integração SOAP) e cURL (para integração REST).
+Na aba lateral direita está disponível exemplos para cada meio de pagamento em XML (para integração REST) e cURL (para integração REST).
 
 Adquirente Cielo
 {: .subtitulo }
@@ -187,7 +187,23 @@ Etapas para configuração:
 * 3- Primeiramente habilite em "Modo de Teste"
 * 4- Inclua as URLs abaixo:
 
-EM TESTES Subtituir o valor 10000000000 pelo código de estabelecimento Yapay
+**EM TESTES Subtituir o valor 10000000000 pelo código de estabelecimento Yapay**
+
+| Nome do campo            | URL                                                                                                                 |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------|
+| URL Retorno              | https://sandbox.gateway.yapay.com.br/checkout/PagamentoCielo/RetornoCheckout?codE=10000000000&acao=retorno           |
+| URL Notificação          | https://sandbox.gateway.yapay.com.br/checkout/PagamentoCielo/NotificacaoCheckout?codE=10000000000&acao=notificacao   |
+| URL de Mudança de Status | https://sandbox.gateway.yapay.com.br/checkout/PagamentoCielo/NotificacaoCheckout?codE=10000000000&acao=mudancaStatus |
+
+
+**EM PRODUÇÃO Subtituir o valor 10000000000 pelo código de estabelecimento SuperPay**
+
+| Nome do Campo            | URL                                                                                                                 |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------|
+| URL Retorno              | https://gateway.yapay.com.br/checkout/PagamentoCielo/RetornoCheckout?codE=10000000000&acao=retorno             |
+| URL Notificação          | https://gateway.yapay.com.br/checkout/PagamentoCielo/NotificacaoCheckout?codE=10000000000&acao=notificacao     |
+| URL de Mudança de Status | https://gateway.yapay.com.br/checkout/PagamentoCielo/NotificacaoCheckout?codE=10000000000&acao=mudancaStatus   |
+
 
 
 **Processo de Homologação com Adquirente**
@@ -208,8 +224,8 @@ Estrutra simplificada REST de envio Cielo.
 Estrtura de retorno adquirente Cielo. Os comentários indicam a informação retornada da adquirente em cada campo.
 
 ~~~json
-    curl
-        --request POST https://gateway.yapay.com.br/checkout/api/v2/transacao
+  curl
+        --request POST https://sanbbox.gateway.yapay.com.br/checkout/api/v3/transacao
         --header "Content-Type: application/json"
         --header "usuario:{"login":"yapay","senha":"yapay"}"
         --data-binary
@@ -260,7 +276,7 @@ Estrtura de retorno adquirente Cielo. Os comentários indicam a informação ret
     <!--Mensagem adquirente-->
     "mensagemVenda": "Operation Success",
     <!--URL para redirecionar o consumidor-->
-    "urlPagamento": "https://gateway.yapay.com.br/checkout/PagamentoCielo/PagamentoVisaElectron.do?cod=14956291484887110cf2a-9aeb-4b34-a869-1a61f0611b66",
+    "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/PagamentoCielo/PagamentoVisaElectron.do?cod=14956291484887110cf2a-9aeb-4b34-a869-1a61f0611b66",
     "cartoesUtilizados": ["000000*******0001"]
     }
 ~~~
