@@ -7,7 +7,7 @@ right_code: |
   curl
     --request GET https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao/10000000000000/1234
     --header "Content-Type: application/json"
-    --curl -u usuario:senha .........
+    --header "usuario:{"login":"yapay","senha":"yapay"}"
     --data-binary
 
   ~~~

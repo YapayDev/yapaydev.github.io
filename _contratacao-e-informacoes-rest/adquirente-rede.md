@@ -57,7 +57,7 @@ Estrtura de retorno adquirente Cielo. Os comentários indicam a informação ret
 
 ~~~json
     curl
-    --request POST https://gateway.yapay.com.br/checkout/api/v2/transacao
+    --request POST https://sanbbox.gateway.yapay.com.br/checkout/api/v3/transacao
     --header "Content-Type: application/json"
     --header "usuario:{"login":"yapay","senha":"yapay"}"
     --data-binary

@@ -5,9 +5,9 @@ menu: gateway
 right_code: |
   ~~~ xml
     curl
-        --request PUT https://sandbox.gateway.yapay.com.br/checkout/api/v2/transacao/10000000000000/1234/cancelar
+        --request PUT https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao/10000000000000/1234/cancelar
         --header "Content-Type: application/json"
-        --curl -u usuario:senha .........
+        --header "usuario:{"login":"yapay","senha":"yapay"}"
         --data-binary
   ~~~
   {: title="Exemplo cancelamento de transação" }

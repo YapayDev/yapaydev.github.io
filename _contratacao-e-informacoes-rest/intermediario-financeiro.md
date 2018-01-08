@@ -47,7 +47,7 @@ Configurar em seu painel PagSeguro a URL de notificação do Gateway:
 
 | Ambiente    | URL                                                                                 |
 |-------------|-------------------------------------------------------------------------------------|
-| HOMOLOGAÇÃO | https://gateway.sandbox.yapay.com.br/checkout/PagamentoPagSeguro/RetornoPagSeguro.do |
+| HOMOLOGAÇÃO | https://sandbox.gateway.yapay.com.br/checkout/PagamentoPagSeguro/RetornoPagSeguro.do |
 | PRODUÇÃO    | https://gateway.yapay.com.br/checkout/PagamentoPagSeguro/RetornoPagSeguro.do   |
 
 
@@ -64,7 +64,7 @@ Estrtura de retorno PayPal:
 
 ~~~text
 curl
---request POST https://homologacao.yapay.com.br/checkout/api/v2/transacao
+--request POST https://sanbbox.gateway.yapay.com.br/checkout/api/v3/transacao
 --header "Content-Type: application/json"
 --header "usuario:{"login":"yapay","senha":"yapay"}"
 --data-binary
@@ -162,7 +162,7 @@ curl
    "numeroComprovanteVenda": ,
    "nsu": ,
    "mensagemVenda": ,
-   "urlPagamento": "https://gateway.yapay.com.br/checkout/PagamentoPagSeguro/PagamentoPagSeguro.do?cod=1413489786995834a2f60-aa50-4615-92bd-45c46a7397a5"
+   "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/PagamentoPagSeguro/PagamentoPagSeguro.do?cod=1413489786995834a2f60-aa50-4615-92bd-45c46a7397a5"
 }
 ~~~
 {: title="Retorno" }

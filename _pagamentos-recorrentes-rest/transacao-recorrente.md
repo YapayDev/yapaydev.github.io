@@ -7,7 +7,7 @@ right_code: |
     curl
         --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao
         --header "Content-Type: application/json"
-        --curl -u usuario:senha .........
+        --header "usuario:{"login":"yapay","senha":"yapay"}"
         --data-binary
         {
             "estabelecimento": "1000000000000",
