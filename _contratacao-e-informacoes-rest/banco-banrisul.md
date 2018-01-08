@@ -62,14 +62,14 @@ REQUISIÇÃO
 
 Estrutura de envio para banco Banrisul.
 
-Estrutra SOAP de envio Banrisul:
+Estrutra REST de envio Banrisul:
 
 
 ~~~text
     curl
         --request POST https://sanbbox.gateway.yapay.com.br/checkout/api/v3/transacao
         --header "Content-Type: application/json"
-        --header "usuario:{"login":"yapay","senha":"yapay"}"
+        --curl -u usuario:senha .........
         --data-binary
         {
         codigoEstabelecimento: 1000000000000,

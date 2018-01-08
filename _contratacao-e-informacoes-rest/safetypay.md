@@ -60,7 +60,7 @@ Estrtura de retorno SafetyPay:
 curl
 --request POST https://sanbbox.gateway.yapay.com.br/checkout/api/v3/transacao
 --header "Content-Type: application/json"
---header "usuario:{"login":"yapay","senha":"yapay"}"
+--header "--curl -u usuario:senha .........
 --data-binary
 {
    codigoEstabelecimento: 1000000000000,
