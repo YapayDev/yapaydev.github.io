@@ -17,7 +17,7 @@ Ao final do processo de contratação, deve-se estar de posse das seguintes info
 * Sale affiliation key;
 * Stone Code;
 
-As credenciais deverão ser solicitadas para ecommerce@stone.com.br ou (11) 31573124.
+As credenciais deverão ser solicitadas para ecommerce@stone.com.br ou (11) 3185-5162.
 
 O Yapay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
