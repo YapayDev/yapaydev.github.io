@@ -102,7 +102,7 @@ Ao final do processo de contratação, deve-se estar de posse das seguintes info
 * Campo `<estadoComprador>` deve ser preenchido pela sigla;
 * O tamanho do número do pedido, deverá possuir no máximo 8 dígitos;
 * Se não for informado uma data de vencimento do boleto na requisição, a data de vencimento que aparecerá no boleto será os dias de vencimento configurados internamente no Gateway;
-* A URL retornada no campo `<urlPagamento>` em SOAP e `<url_acesso>` em REST deverá ser repassada ao comprador para visualização/pagamento do boleto;
+* A URL retornada no campo `<urlPagamento>`;
 * Conciliação de boletos não é realizada automaticamente, para tal deve ser contratado o Módulo de Conciliação do Gateway. Para informações entrar em contato com comercial@yapay.com.br;
 * O Yapay não participa das negociações entre o estabelecimento e bancos/administradoras. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
