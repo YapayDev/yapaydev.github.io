@@ -38,7 +38,7 @@ O Yapay não participa das negociações entre o estabelecimento e bancos/admini
 **Particulariedades**
 
 * Modalidade com redirecionamento;
-* A URL retornada no campo `<urlPagamento>` em SOAP e `<url_acesso>` em REST deverá ser repassada ao comprador para abertura do intermediador;
+* A URL retornada no campo `<urlPagamento>`;
 * Enviar todos campos referente aos dados do comprador.
 
 Configuração ambiente PagSeguro

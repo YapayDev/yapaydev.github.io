@@ -28,7 +28,7 @@ Para contratar, <a href="http://www.safetypay.com/pt/produtos-e-solucoes/pagamen
 **Particulariedades**
 
 * Modalidade com redirecionamento;
-* A URL retornada no campo `<urlPagamento>` em SOAP e `<url_acesso>` em REST deverá ser repassada ao comprador para visualização/pagamento do boleto;
+* A URL retornada no campo `<urlPagamento>`;
 * Enviar todos campos referente aos dados do comprador.
 
 
