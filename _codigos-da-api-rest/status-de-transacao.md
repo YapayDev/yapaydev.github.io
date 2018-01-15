@@ -22,5 +22,6 @@ menu: gateway
 | 23      | Estorno Parcial            | A venda estonada na adquirente parcialmente                                         |
 | 24      | Estorno Não Autorizado     | O Estorno não foi autorizado pela adquirente                                        |
 | 25      | Falha no estorno           | Falha ao enviar estorno para a operadora                                            |
+| 27      | Cancelamento parcial       | Pedido parcialmente cancelado na adquirente                                         |
 | 31      | Transação já Paga          | Transação já existente e finalizada na adquirente                                   |
 | 40      | Aguardando Cancelamento    | Processo de cancelamento em andamento                                               |

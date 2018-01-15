@@ -1,6 +1,6 @@
 ---
 title: Consulta recorrente
-position: 4
+position: 2
 menu: gateway
 right_code: |
   ~~~ xml

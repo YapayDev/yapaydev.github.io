@@ -49,7 +49,7 @@ Boletos e Transferências
 |---------|------------------|-----------------|--------------------|
 | 16      | Itaú             | Transferência   | Itaú Shopline      | 
 | 17      | Itaú             | Boleto Online   | Itaú Shopline      | 
-| 18      | Bradesco         | Transferência   | Bradesco Shopfacil |
+| 104     | Bradesco         | Transferência   | Bradesco Shopfacil |
 | 20      | Banco do Brasil  | Boleto          | BBOnline           |
 | 21      | Banco do Brasil  | Transferência   | BBOnline           |
 | 23      | Banrisul         | Transferência   | Banricompras       |

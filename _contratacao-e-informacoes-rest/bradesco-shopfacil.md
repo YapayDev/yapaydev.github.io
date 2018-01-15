@@ -12,6 +12,7 @@ Contratação
 Contratando a solução Bradesco ShopFácil será possível oferecer na sua loja:
 
 * Boleto sem ou com registro, dependendo de seu contrato com o banco;
+* Transferência eletrônica.
 
 Ao final do processo de contratação, deve-se estar de posse das seguintes informações para ativação do e-Rede no Gateway:
 

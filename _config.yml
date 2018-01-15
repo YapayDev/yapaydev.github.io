@@ -212,10 +212,19 @@ collections:
     menu: gateway   
     navbar: rest       
 
+  pagamentos-com-unico-clique-rest:
+    name: pagamentos-com-unico-clique-rest
+    title: Pagamentos com Único Clique
+    position: 4        
+    permalink: /gateway/rest/pagamentos-com-unico-clique-rest/
+    origem: /gateway/rest/pagamentos-com-unico-clique-rest/
+    menu: gateway   
+    navbar: rest      
+
   pagamentos-cartao-debito-rest:
     name: pagamentos-cartao-debito-rest
     title: Pagamentos com Cartão de Débito
-    position: 4        
+    position: 5        
     permalink: /gateway/rest/pagamentos-cartao-debito-rest/
     origem: /gateway/rest/pagamentos-cartao-debito-rest/
     menu: gateway   
@@ -224,7 +233,7 @@ collections:
   pagamentos-boleto-rest:
     name: pagamentos-boleto-rest
     title: Pagamentos com Boleto
-    position: 5        
+    position: 6        
     permalink: /gateway/rest/pagamentos-boleto-rest/
     origem: /gateway/rest/pagamentos-boleto-rest/
     menu: gateway   
@@ -233,7 +242,7 @@ collections:
   pagamentos-tef-rest:
     name: pagamentos-tef-rest
     title: Pagamentos com TEF
-    position: 6        
+    position: 7        
     permalink: /gateway/rest/pagamentos-tef-rest/
     origem: /gateway/rest/pagamentos-tef-rest/
     menu: gateway   
@@ -242,7 +251,7 @@ collections:
   pagamentos-recorrentes-rest:
     name: pagamentos-recorrentes-rest
     title: Pagamentos Recorrentes
-    position: 7        
+    position: 8        
     permalink: /gateway/rest/pagamentos-recorrentes-rest/
     origem: /gateway/rest/pagamentos-recorrentes-rest/
     menu: gateway   
@@ -251,7 +260,7 @@ collections:
   checkout-yapay-rest:
     name: checkout-yapay-rest
     title: Checkout Yapay
-    position: 8        
+    position: 9        
     permalink: /gateway/rest/checkout-yapay-rest/
     origem: /gateway/rest/checkout-yapay-rest/
     menu: gateway   
@@ -260,7 +269,7 @@ collections:
   consultas-rest:
     name: consultas-rest
     title: Consultas
-    position: 9       
+    position: 10       
     permalink: /gateway/rest/consultas-rest/
     origem: /gateway/rest/consultas-rest/
     menu: gateway   
@@ -269,7 +278,7 @@ collections:
   post-notificacao-rest:
     name: post-notificacao-rest
     title: Post de Notificação
-    position: 10       
+    position: 11       
     permalink: /gateway/rest/post-notificacao-rest/
     origem: /gateway/rest/post-notificacao-rest/
     menu: gateway   
@@ -278,7 +287,7 @@ collections:
   codigos-da-api-rest:
     name: codigos-da-api-rest
     title: Códigos da API
-    position: 11        
+    position: 12        
     permalink: /gateway/rest/codigos-da-api-rest/
     origem: /gateway/rest/codigos-da-api-rest/
     menu: gateway   
@@ -287,7 +296,7 @@ collections:
   downloads-rest:
     name: downloads-rest
     title: Downloads
-    position: 12        
+    position: 13        
     permalink: /gateway/rest/downloads-rest/
     origem: /gateway/rest/downloads-rest/
     menu: gateway   
@@ -296,7 +305,7 @@ collections:
   funcionalidades-rest:
     name: funcionalidades-rest
     title: Funcionalidades
-    position: 12        
+    position: 14        
     permalink: /gateway/rest/funcionalidades-rest/
     origem: /gateway/rest/funcionalidades-rest/
     menu: gateway   
@@ -305,7 +314,7 @@ collections:
   contratacao-e-informacoes-rest:
     name: contratacao-e-informacoes-rest
     title: Contratação e informações
-    position: 13        
+    position: 15        
     permalink: /gateway/rest/contratacao-e-informacoes-rest/
     origem: /gateway/rest/contratacao-e-informacoes-rest/
     menu: gateway   
