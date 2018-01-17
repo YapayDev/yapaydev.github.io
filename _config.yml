@@ -212,12 +212,12 @@ collections:
     menu: gateway   
     navbar: rest       
 
-  pagamentos-com-unico-clique-rest:
-    name: pagamentos-com-unico-clique-rest
+  pagamentos-unico-clique-rest:
+    name: pagamentos-unico-clique-rest
     title: Pagamentos com Único Clique
     position: 4        
-    permalink: /gateway/rest/pagamentos-com-unico-clique-rest/
-    origem: /gateway/rest/pagamentos-com-unico-clique-rest/
+    permalink: /gateway/rest/pagamentos-unico-clique-rest/
+    origem: /gateway/rest/pagamentos-unico-clique-rest/
     menu: gateway   
     navbar: rest      
 
@@ -319,6 +319,8 @@ collections:
     origem: /gateway/rest/contratacao-e-informacoes-rest/
     menu: gateway   
     navbar: rest 
+
+  
 
 gems:
   - jekyll-sitemap

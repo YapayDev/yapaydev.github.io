@@ -36,7 +36,6 @@ right_code: |
 
   ~~~
   {: title="Exemplo retorno" }
-
 ---
 
 Funcionalidade permite a alteração dos dados já cadastrados na base do Gateway.
