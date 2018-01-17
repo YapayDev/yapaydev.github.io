@@ -49,13 +49,13 @@ Boletos e Transferências
 |---------|------------------|-----------------|--------------------|
 | 16      | Itaú             | Transferência   | Itaú Shopline      | 
 | 17      | Itaú             | Boleto Online   | Itaú Shopline      | 
-| 104     | Bradesco         | Transferência   | Bradesco Shopfacil |
 | 20      | Banco do Brasil  | Boleto          | BBOnline           |
 | 21      | Banco do Brasil  | Transferência   | BBOnline           |
 | 23      | Banrisul         | Transferência   | Banricompras       |
 | 24      | Banrisul         | Parcelamento    | Banricompras.com   |
 | 25      | Banrisul         | Pré Datado      | Banricompras.com   |
 | 26      | Banrisul         | Boleto          | Banricompras.com   |
+| 104     | Bradesco         | Transferência   | Bradesco Shopfacil |
 | 105     | Bradesco         | Boleto Online   | Bradesco ShopFácil |
 
 
