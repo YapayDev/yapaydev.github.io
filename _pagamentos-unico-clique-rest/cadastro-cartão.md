@@ -39,6 +39,15 @@ right_code: |
 
 ---
 
+
+Através desta funcionalidade é possível armazenar os dados de cartão do cliente de forma segura (sempre será solicitado seu código de segurança) nos serviços do Gateway e eles não precisarão digitar todos os dados de cartão sempre que efetuarem uma compra.
+
+**Particulariedades**
+
+* Disponível apenas no plano Corporativo;
+* Disponível para cartões de crédito e débito.
+
+
 Funcionalidade que permite o cadastramento de cartão para utilização nas futuras compras, assim o consumidor precisará incluir apenas o código de segurança para finalizar a compra.
 
  <i class="fa fa-exclamation-circle" aria-hidden="true"></i> SANDBOX: `https://sandbox.gateway.yapay.com.br/checkout/api/v3/oneclick/`
