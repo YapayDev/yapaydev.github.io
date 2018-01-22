@@ -4,6 +4,9 @@ position: 2
 menu: intermediador
 ---
 
+Caso seja necessário a utilização das APIs que precisam de autorização
+{: .subtitulo }
+
 Para iniciar a integração é necessário registrar a aplicação no Yapay. Para registrar essa aplicação é necessário o envio do email para <a href="mailto:integracao@yapay.com.br" target="_blank" class="linkPadraoVerde">integracao@yapay.com.br</a> com os seguintes dados abaixo:
 
 - Nome completo
