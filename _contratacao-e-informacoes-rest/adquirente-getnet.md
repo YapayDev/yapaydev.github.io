@@ -1,6 +1,6 @@
 ---
 title: Adquirente GetNet
-position: 4
+position: 5
 menu: gateway
 ---
 
