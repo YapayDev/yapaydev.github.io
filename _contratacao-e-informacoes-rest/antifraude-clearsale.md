@@ -1,6 +1,6 @@
 ---
 title: Antifraude ClearSale
-position: 2
+position: 1
 menu: gateway
 ---
 
