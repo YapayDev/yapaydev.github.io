@@ -131,7 +131,7 @@ Para autenticação, enviar `login` e `senha` no HEADER:
 | Campo                 | Descrição                                                     | Tipo     | Obrigatório |
 |-----------------------|---------------------------------------------------------------|----------|-------------|
 | codigoEstabelecimento | Código único que identifica o estabelecimento dentro do Yapay | Numérico | Sim         |
-| codigoFormaPagamento  | Código da forma de pagamento - Enviar 997                     | Numérico | Sim         |
+| codigoFormaPagamento  | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a> - Enviar 997                     | Numérico | Sim         |
 
 _`transacao`_
 {: .subtituloAzul }

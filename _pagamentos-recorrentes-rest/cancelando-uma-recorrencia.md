@@ -67,7 +67,7 @@ right_code: |
 | numeroRecorrencia        | Número da Recorrência                              |
 | estabelecimento          | Código do estabelecimento, fornecido pelo Yapay |
 | valor                    | Valor                                              |
-| codigoFormaPagamento     | <a href="/gateway/codigos-da-api/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a> |
+| codigoFormaPagamento     | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a> |
 | numeroCobrancaTotal      | Quantidade máxima de cobranças                     |
 | numeroCobrancaRestantes  | Quantidade de cobranças restantes                  |
 | status                   | Status atual da recorrência                        |

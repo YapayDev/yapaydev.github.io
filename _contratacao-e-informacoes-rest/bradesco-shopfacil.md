@@ -31,6 +31,8 @@ Informações sobre a contratação, <a href="http://www.bradesco.com.br/html/co
 * Modalidades com redirecionamento;
 * Para utilização das modalidades ShopFácil, todos os campos referente aos dados do cliente devem ser preenchidos;
 * Se não for informado uma data de vencimento do boleto, a data de vencimento que aparecerá no boleto será os dias de vencimento configurado internamente no Gateway;
+* Sugerimos o envio dos campos de dados do comprador sem acentuação, pois os mesmos poderão ficar mal formatados na impressão do boleto.
+
 
 Configurações ambiente ShopFácil
 
@@ -79,8 +81,8 @@ _Produção_
 Realizar as configurações no painel Bradesco conforme informado acima e solicitar ao Suporte Yapay realizar a configuração do meio de pagamento em nosso ambiente de produção, informando a ele os dados abaixo:
 
 * Merchantid;
-* Email de acesso ao gerenciador de homologação;
-* Chave de acesso de homologação;
+* Email de acesso ao gerenciador de produção;
+* Chave de acesso de produção;
 * Número da carteira;
 
 A loja virtual deverá estar apontando para o ambiente de produção e depois disto basta enviar email kit@scopus.com.br com a URL da loja com um produto de R$1,00 disponível para testes e o CNPJ do estabelecimento. Depois que a equipe do Bradesco validar este ambiente, o estabelecimento estará apto a realizar vendas em produção.

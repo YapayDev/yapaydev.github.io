@@ -142,7 +142,7 @@ Para autenticação, enviar `login` e `senha` no HEADER:
 | Campo                   | Descrição                                                                                 | Tipo          | Tamanho           | Obrigatório |
 |-------------------------|-------------------------------------------------------------------------------------------|---------------|-------------------|-------------|
 | codigoEstabelecimento   | Código que identifica o estabelecimento dentro do Yapay (fornecido pelo gateway)       | Numérico      | 13 dígitos        | Sim         |
-| codigoFormaPagamento    | <a href="/gateway/codigos-da-api/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                             
+| codigoFormaPagamento    | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                             
                                  | Numérico      | Até 3 dígitos     | Sim         |
 | transacao               | Nó reservado para informações da transação                                                | - | - | - |
 | dadosCartao             | Nó reservado para dados de cartão                                                         | - | - | - |
@@ -157,7 +157,7 @@ _`transacao`_
 |-----------------------|----------------------------------------------------------------------------------------------------------------|---------------|----------------|-----|
 | numeroTransacao       | Código que identifica a transação dentro do Yapay                                                              | Numérico      | Até 19 dígitos | Sim |
 | codigoEstabelecimento | Código que identifica o estabelecimento dentro do Yapay (fornecido pelo gateway)                            | Numérico       | 13 dígitos     | Sim |
-| codigoFormaPagamento  | Código da forma de pagamento                                                                                   | Numérico       | Até 3 dígitos  | Sim |
+| codigoFormaPagamento  | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                                                                                   | Numérico       | Até 3 dígitos  | Sim |
 | valor                 | Valor da transação. Deve ser enviado sem pontos ou vírgulas                                                    | Numérico       | Até 10 dígitos | Sim |
 | valorDesconto         | Valor do desconto da transação. Campo apenas informativo                                                       | Numérico       | Até 10 dígitos | Sim |
 | urlCampainha          | URL será sempre acionada quando o status do pedido mudar. Deve estar preparada para receber dados de campainha | Alfa Numérico  | Até 250 caracteres | Não |

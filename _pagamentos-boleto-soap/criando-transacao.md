@@ -138,7 +138,7 @@ _`transacaoCompletaWS`_
 |-------------------------|-------------------------------------------------------------------------------------------|---------------|-------------------|-------------|
 | numeroTransacao         | Código que identifica a transação dentro do Yapay                                      | Numérico      | Até 19 dígitos    | Sim         |
 | codigoEstabelecimento   | Código que identifica o estabelecimento dentro do Yapay (fornecido pelo gateway)       | Numérico      | 13 dígitos        | Sim         |
-| codigoFormaPagamento    | <a href="/gateway/codigos-da-api/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                                                              | Numérico      | Até 3 dígitos     | Sim         |
+| codigoFormaPagamento    | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                                                              | Numérico      | Até 3 dígitos     | Sim         |
 | valor                   | Valor da transação. Deve ser enviado sem pontos ou vírgulas                               | Numérico      | Até 10 dígitos    | Sim         |
 | parcelas                | Quantidade de parcelas da transação. Verificar se forma de pagamento suporta parcelamento | Numérico      | Até 2 dígitos     | Sim         |
 | nomeTitularCartaoCredito  | Nome do titular do cartão de crédito (Exatamente como escrito no cartão)                  | Alfa Numérico | Até 16 dígitos    | Sim         |
@@ -220,7 +220,7 @@ Para geração do boleto o eCommerce deverá redirecionar o consumidor para a UR
 |--------------------------|--------------------------------------------------------------------------|----------------|--------------------|
 | numeroTransacao          | Código que identifica a transação dentro do Yapay                     | Numérico       | Até 19 dígitos     |
 | codigoEstabelecimento    | Código que identifica o estabelecimento dentro do Yapay               | Numérico       | 13 dígitos         |
-| codigoFormaPagamento     | Código da forma de pagamento                                             | Numérico       | Até 3 dígitos      |
+| codigoFormaPagamento     | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                                             | Numérico       | Até 3 dígitos      |
 | valor                    | Valor da transação.                                                      | Numérico       | Até 10 dígitos     |
 | valorDesconto            | Valor desconto                                                           | Numérico       | Até 10 dígitos     |
 | taxaEmbarque             | Valor taxa embarque                                                      | Numérico       | Até 10 dígitos     |

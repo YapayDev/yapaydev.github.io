@@ -137,7 +137,7 @@ O array com os dados abaixo devem ser repetidos de acordo com a qauntidade de ca
 
 | Campo                    | Descrição                                                                                 | Tipo          | Tamanho           | Obrigatório |
 |--------------------------|-------------------------------------------------------------------------------------------|---------------|-------------------|-------------|
-| codigoFormaPagamento     | <a href="/gateway/codigos-da-api/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a> | Numérico | 2 dígitos | Sim |
+| codigoFormaPagamento     | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a> | Numérico | 2 dígitos | Sim |
 | valor                    | Valor da transação. Deve ser enviado sem pontos ou vírgulas                               | Numérico      | Até 10 dígitos    | Sim |
 | parcelas                 | Quantidade de parcelas da transação. Verificar se forma de pagamento suporta parcelamento | Numérico      | Até 2 dígitos     | Sim |
 | nomeTitularCartaoCredito | Nome do titular do cartão de crédito (Exatamente como escrito no cartão)                  | Alfa Numérico | Até 16 caracteres | Sim |

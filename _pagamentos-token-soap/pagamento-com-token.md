@@ -150,7 +150,7 @@ _`itemPedidoTransacaoWS`_
 |--------------------------|------------------------------------------------------------|---------------|--------------------|
 | numeroTransacao          | Código que identifica a transação dentro do SuperPay       | Numérico      | Até 19 dígitos     |
 | codigoEstabelecimento    | Código que identifica o estabelecimento dentro do SuperPay | Numérico      | 13 dígitos         |
-| codigoFormaPagamento     | <a href="/gateway/codigos-da-api/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                              | Numérico      | Até 3 dígitos      |
+| codigoFormaPagamento     | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                              | Numérico      | Até 3 dígitos      |
 | valor                    | Valor da transação.                                        | Numérico      | Até 10 dígitos     |
 | valorDesconto            | Valor desconto                                             | Numérico      | Até 10 dígitos     |
 | taxaEmbarque             | Valor taxa embarque                                        | Numérico      | Até 10 dígitos     |

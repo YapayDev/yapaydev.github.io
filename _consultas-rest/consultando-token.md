@@ -53,7 +53,7 @@ REQUISIÇÃO
 | Campo                 | Descrição                                                                           | Tipo          | Tamanho           |
 |-----------------------|-------------------------------------------------------------------------------------|---------------|-------------------|
 | codigoEstabelecimento | Código que identifica o estabelecimento dentro do SuperPay (fornecido pelo gateway) | Numérico      | 13 dígitos        |
-| codigoFormaPagamento  | Código da forma de pagamento                                                        | Numérico      | Até 3 dígitos     |
+| codigoFormaPagamento  | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                                                        | Numérico      | Até 3 dígitos     |
 | oneClick              | Retornará 1 para cadastro criado                                                    | Numérico      | 1 dígito          |
 | token                 | Token                                                                               | Alfa Numérico | Até 60 caracteres |
 | nomeTitularCartao     | Nome titular do cartão de crédito/débito                                            | Alfa Numérico | Até 16 caracteres |

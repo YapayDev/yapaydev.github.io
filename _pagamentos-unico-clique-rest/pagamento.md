@@ -96,7 +96,7 @@ REQUISIÇÃO
 | Campo                 | Descrição                                                                           | Tipo     | Tamanho       | Obrigatório |
 |-----------------------|-------------------------------------------------------------------------------------|----------|---------------|-------------|
 | codigoEstabelecimento | Código que identifica o estabelecimento dentro do SuperPay (fornecido pelo gateway) | Numérico | 13 dígitos    | Sim         |
-| codigoFormaPagamento  | Código da forma de pagamento                                                        | Numérico | Até 3 dígitos | Sim         |
+| codigoFormaPagamento  | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                                                        | Numérico | Até 3 dígitos | Sim         |
 | transacao             | Nó reservado para informações da transação                                          | -        | -             | -           |
 | dadosCartao           | Nó reservado para dados de cartão                                                   | -        | -             | -           |
 | itensDoPedido         | Nó reservado para informações dos produtos                                          | -        | -             | -           |
@@ -111,7 +111,7 @@ _`transacao`_
 |-----------------------|-------------------------------------------------------------------------------------|----------|----------------------|-------------|
 | numeroTransacao       | Código que identifica a transação dentro do SuperPay                                | Numérico | Até 19 dígitos       | Sim         |
 | codigoEstabelecimento | Código que identifica o estabelecimento dentro do SuperPay (fornecido pelo gateway) | Numérico | 13 dígitos           | Sim         |
-| codigoFormaPagamento  | Código da forma de pagamento                                                        | Numérico | Até 3 dígitos        | Sim         |
+| codigoFormaPagamento  | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                                                        | Numérico | Até 3 dígitos        | Sim         |
 | valor                 | Valor da transação. Deve ser enviado sem pontos ou vírgulas                         | Numérico | Até 10 dígitos       | Sim         |
 | moeda                 | Tipo da moeda. OBS: Disponível 'USD" apenas para PayPal Internacional               | Alfa Numérico	Até 10 caracteres | Não         |
 | tipoParcelamento      | Use "E" para estabelecimento, use "A" para administradora. Caso não for enviado será utilizado as configurações do seu estabelecimento | Alfa Numérico | 1 caracter | Não |
@@ -210,7 +210,7 @@ _`dadosEntrega`_
 |--------------------------|------------------------------------------------------------|---------------|-------------------|
 | numeroTransacao          | Código que identifica a transação dentro do SuperPay       | Numérico      | Até 19 dígitos    |
 | codigoEstabelecimento    | Código que identifica o estabelecimento dentro do SuperPay | Numérico      | 13 dígitos        |
-| codigoFormaPagamento     | Código da forma de pagamento                               | Numérico      | Até 3 dígitos     |
+| codigoFormaPagamento     | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                               | Numérico      | Até 3 dígitos     |
 | valor                    | Valor da transação.                                        | Numérico      | Até 10 dígitos    |
 | valorDesconto            | Valor desconto                                             | Numérico      | Até 10 dígitos    |
 | parcelas                 | Quantidade de parcelas da transação                        | Numérico      | Até 2 dígitos     |
