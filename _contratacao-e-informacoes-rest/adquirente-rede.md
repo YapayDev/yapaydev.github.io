@@ -39,10 +39,6 @@ Informações sobre a contratação, <a href="https://www.userede.com.br/nossos-
 * Para transações com cartão de débito ou autenticada, o eCommerce deverá enviar o "userAgente" (Identificador do browser utilizado pelo comprador no momento da compra) no campo `<campoLivre1>` e redirecionar o consumidor para o campo `<urlPagamento>` recebida no retorno, onde o mesmo deverá incluir sua senha ou token no ambiente do banco emissor. Apenas após esta etapa, a transação será concluída.
 
 
-**Processo de Homologação com Adquirente**
-
-Após a integração com o Yapay, o estabelecimento deverá configurar as credenciais da Cielo no ambiente de produção do Yapay e apontar sua loja para o ambiente real do Gateway. Após isto, a loja deverá enviar ao Suporte Cielo (cieloecommerce@cielo.com.br) a URL da loja com um produto de teste no valor de R$1,00. O suporte Cielo realizará os testes em ambiente real e caso esteja dentro das conformidades a loja estará apta a realizar vendas em produção.
-
 
 **Exemplos Cartão de Crédito**
 
