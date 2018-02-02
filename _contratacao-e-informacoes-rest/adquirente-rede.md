@@ -48,11 +48,11 @@ Após a integração com o Yapay, o estabelecimento deverá configurar as creden
 
 REQUISIÇÃO
 
-Estrutura simplificada de envio para adquirente Cielo. Caso seu estabelecimento utilize antifraude, seguir a estrutura completa.
+Estrutura simplificada de envio para adquirente Rede. Caso seu estabelecimento utilize antifraude, seguir a estrutura completa.
 
 RESPOSTA
 
-Estrtura de retorno adquirente Cielo. Os comentários indicam a informação retornada da adquirente em cada campo.
+Estrtura de retorno adquirente Rede. Os comentários indicam a informação retornada da adquirente em cada campo.
 
 
 Exemplos Cartão de Crédito
@@ -123,9 +123,6 @@ Exemplos Cartão de Crédito
 {: title="Retorno" }
 
 
-Exemplos Cartão de Débito
-{: .subtitulo }
-
 ~~~json
     curl
     --request POST https://sandbox.gatway.yapay.com.br/checkout/api/v3/transacao
@@ -164,8 +161,6 @@ Exemplos Cartão de Débito
 ~~~
 {: title="Estrutura simplificada de envio Rede" }
 
-
-Estrtura de retorno adquirente Rede. Os comentários indicam a informação retornada da adquirente em cada campo.
 
 ~~~json
     --header "Content-Type: application/json"
