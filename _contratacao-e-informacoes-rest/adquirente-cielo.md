@@ -254,11 +254,11 @@ Estrtura de retorno adquirente Cielo. Os comentários indicam a informação ret
 
 
 ~~~json
-    --header "Content-Type: application/json"
+  --header "Content-Type: application/json"
     {
     "numeroTransacao": 123,
     "codigoEstabelecimento": "1000000000000",
-    "codigoFormaPagamento": 179,
+    "codigoFormaPagamento": 52,
     "valor": 2000,
     "valorDesconto": 0,
     "parcelas": 1,
@@ -268,20 +268,38 @@ Estrtura de retorno adquirente Cielo. Os comentários indicam a informação ret
     "autorizacao": "0",
     <!--Código erro em caso de negação-->
     "codigoTransacaoOperadora": "0",
-    <!--Data retorno adquirente-->
-    "dataAprovacaoOperadora": "24/05/2017",
-    <!--TID-->
-    "numeroComprovanteVenda": "10069930690009F2122A",
-    "nsu": "0",
-    <!--Mensagem adquirente-->
-    "mensagemVenda": "Operation Success",
     <!--URL para redirecionar o consumidor-->
-    "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/PagamentoCielo/PagamentoVisaElectron.do?cod=14956291484887110cf2a-9aeb-4b34-a869-1a61f0611b66",
-    "cartoesUtilizados": ["000000*******0001"]
+    "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/PagamentoCielo/checkout?cod=14956291484887110cf2a-9aeb-4b34-a869-1a61f0611b66"
     }
 ~~~
 {: title="Retorno" }
 
+
+Estrutura de retorno após a finalização do pagamento. (Consulta do Ecommerce após acionamento de campainha):
+
+~~~json
+    --header "Content-Type: application/json"
+    {
+    "numeroTransacao":123,"
+    codigoEstabelecimento":"1000000000000",
+    "codigoFormaPagamento":52,
+    "valor":2000,"
+    valorDesconto":0,"
+    parcelas":2, 
+    <!--Status da Transacao-->
+    "statusTransacao":1,"
+    <!--Data de retorno da operadora-->
+    dataAprovacaoOperadora":"04/01/2018 10:39:42",
+    <!--Comprovante de venda-->
+    "numeroComprovanteVenda":"040120181039401403",
+    <!--NSU-->
+    "nsu":"d8aa2b2933ca4a63b425a2cf1012c0f0",
+    <!-Bandeira escolhida no ambiente Cielo-->
+    "bandeira":"Cartão de Crédito - Elo",
+    "urlPagamento":"15150694525329e353c97-2477-4df5-943c-6e3600ef3f38"
+    }
+~~~
+{: title="Retorno" }
 
 
 <div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>
