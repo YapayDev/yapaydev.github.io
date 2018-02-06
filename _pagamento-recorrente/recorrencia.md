@@ -19,7 +19,7 @@ Você pode realizar os pagamentos recorrentes:
 * Integração Transparente
 * Cadastrando em nosso painel
 
-Motivos de utilizar 
+Motivos para utilizar 
 {: .subtitulo }
 
 * Assinatura de produtos
