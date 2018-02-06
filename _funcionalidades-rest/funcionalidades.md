@@ -14,12 +14,31 @@ Cancelamento
 
 Cancelamento de transações rapidamente acionando o método de cancelamento.
 
-Estorno
+| Operadora | Limite Cancelamento               |
+|-----------|-----------------------------------|
+| Cielo     | 300 dias após a geração do pedido |
+| Rede      | 24 horas após geração do pedido   |
+| Elavon    | 24 horas após geração do pedido   |
+| GETNET    | 24 horas após geração do pedido   |
+| Stone     | 180 dias após a geração do pedido |
+| Bin       | 90 dias após captura do pedido    |
+
+
+
+Cancelamento Parcial
 {: .subtitulo }
 
 Com esta funcionalidade é possível realizar cancelamentos parciais e totais, dependendo da adquirente utilizada.
 
 Disponibilizado em nosso plano Corporativo
+
+
+| Operadora  | Limite Cancelamento                                            | Observação                                              |
+|------------|----------------------------------------------------------------|---------------------------------------------------------|
+| Cielo      | 300 dias após a geração do pedido                              | Para a bandeira Amex, disponível apenas o estorno Total |
+| Bin        | 24 horas após geração do pedido                                | -                                                       |
+| Rede       | Pode variar conforme o ramo de atuação de cada estabelecimento | -                                                       |
+
 
 Míltiplos Cartões
 {: .subtitulo }

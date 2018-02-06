@@ -45,20 +45,26 @@ Configuração ambiente PagSeguro
 
 Configurar em seu painel PagSeguro a URL de notificação do Gateway:
 
-| Ambiente    | URL                                                                                 |
-|-------------|-------------------------------------------------------------------------------------|
-| HOMOLOGAÇÃO | https://sandbox.gateway.yapay.com.br/checkout/PagamentoPagSeguro/RetornoPagSeguro.do |
-| PRODUÇÃO    | https://gateway.yapay.com.br/checkout/PagamentoPagSeguro/RetornoPagSeguro.do   |
+
+HOMOLOGAÇÃO
+{: .subtitulo }
+
+**URL**: `https://gateway.yapay.com.br/checkout/PagamentoPagSeguro/RetornoPagSeguro.do`
 
 
+PRODUÇÃO
+{: .subtitulo }
 
-Exemplos
+**URL**: `https://ww7.banrisul.com.br/banricompras/`
 
-REQUISIÇÃO
+
+**Exemplos**
+
+**REQUISIÇÃO**
 
 Estrutura de envio PayPal.
 
-RESPOSTA
+**RESPOSTA**
 
 Estrtura de retorno PayPal:
 

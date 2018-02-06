@@ -12,7 +12,7 @@ Contratando a solução da Stone eCommerce será possível oferecer na sua loja:
 * Cartão de crédito Visa;
 * Cartão de crédito MasterCard;
 
-Ao final do processo de contratação, deve-se estar de posse das seguintes informações para ativação do e-Rede no Gateway:
+Ao final do processo de contratação, deve-se estar de posse das seguintes informações para ativação do Stone no Gateway:
 
 * Sale affiliation key;
 * Stone Code;
@@ -33,15 +33,15 @@ Informações sobre a contratação, <a href="https://stone-pagamentos.typeform.
 
 REQUISIÇÃO
 
-Estrutura simplificada de envio para adquirente GetNet. Caso seu estabelecimento utilize antifraude, seguir a estrutura completa.
+Estrutura simplificada de envio para adquirente Stone. Caso seu estabelecimento utilize antifraude, seguir a estrutura completa.
 
 
-Estrutra simplificada REST de envio GetNet:
+Estrutra simplificada REST de envio Stone:
 
 
 RESPOSTA
 
-Estrtura de retorno adquirente GetNet. Os comentários indicam a informação retornada da adquirente em cada campo.
+Estrtura de retorno adquirente Stone. Os comentários indicam a informação retornada da adquirente em cada campo.
 
 ~~~json
     curl

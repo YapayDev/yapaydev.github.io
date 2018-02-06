@@ -11,7 +11,7 @@ Contratando a solução BBOnline será possível oferecer na sua loja:
 * Boleto sem ou com registro, dependendo de seu contrato com o banco;
 * Transferência Eletrônica.
 
-Ao final do processo de contratação, deve-se estar de posse das seguintes informações para ativação do e-Rede no Gateway:
+Ao final do processo de contratação, deve-se estar de posse das seguintes informações para ativação do Banco do Brasil Online no Gateway:
 
 * Códido do convênio;
 * Código cobrança.
