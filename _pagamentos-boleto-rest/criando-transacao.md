@@ -160,7 +160,7 @@ _`transacao`_
 | codigoFormaPagamento  | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                                                                                   | Numérico       | Até 3 dígitos  | Sim |
 | valor                 | Valor da transação. Deve ser enviado sem pontos ou vírgulas                                                    | Numérico       | Até 10 dígitos | Sim |
 | valorDesconto         | Valor do desconto da transação. Campo apenas informativo                                                       | Numérico       | Até 10 dígitos | Sim |
-| urlCampainha          | URL será sempre acionada quando o status do pedido mudar. Deve estar preparada para receber dados de campainha | Alfa Numérico  | Até 250 caracteres | Não |
+| urlCampainha          | URL será sempre acionada quando o status do pedido mudar. Deve estar preparada para receber dados de campainha | Alfa Numérico  | Até 250 caracteres | Sim |
 | dataVencimentoBoleto  | Data de vencimento do boleto, se não enviado será utilizado os dias da configuração                            | Alfa Numérico  | Até 10 caracteres  | Não |
 | urlResultado          | Para o modelo de pagamento redirect, O Yapay redirecionará para essa URL                                    | Alfa Numérico  | Até 250 caracteres | Para pagamentos redirecionáveis é obrigatório |
 | ip                    | Número do IP do usuário final/cliente. Formato xxx.xxx.xxx.xxx                                                 | Alfa Numérico | Até 15 caracteres  | Não |

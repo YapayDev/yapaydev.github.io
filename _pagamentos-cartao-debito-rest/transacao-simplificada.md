@@ -107,7 +107,7 @@ _`transacao`_
 | numeroTransacao | Código que identifica a transação dentro do Yapay                                                              | Numérico      | Até 19 dígitos | Sim |
 | valor           | Valor da transação. Deve ser enviado sem pontos ou vírgulas                                                    | Numérico      | Até 10 dígitos | Sim |
 | parcelas        | Quantidade de parcelas da transação. Verificar se forma de pagamento suporta parcelamento                      | Numérico      | Até 2 dígitos  | Sim |
-| urlCampainha    | URL será sempre acionada quando o status do pedido mudar. Deve estar preparada para receber dados de campainha | Alfa Numérico | Até 250 caracteres | Não
+| urlCampainha    | URL será sempre acionada quando o status do pedido mudar. Deve estar preparada para receber dados de campainha | Alfa Numérico | Até 250 caracteres | Sim
 | urlResultado    | Para o modelo de pagamento redirect, O Yapay redirecionará para essa URL                                    | Alfa Numérico | Até 250 caracteres | Para pagamentos redirecionáveis é obrigatório |
 
 
