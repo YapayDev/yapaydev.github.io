@@ -7,7 +7,7 @@ navbar: intermediador
 
 Para as integrações será necessário possuir o token da conta que será integrada.
 
-**1º** Acessar o site Yapay <a href="http://www.yapay.com.br" target="_blank" class="linkPadraoVerde">http://www.yapay.com.br</a> clique em ENTRAR e em seguida clique na opção INTERMEDIADOR DE PAGAMENTOS > ACESSAR MINHA CONTA
+**1º** Acessar o site Yapay <a href="http://www.yapay.com.br" target="_blank" class="linkPadraoVerde">http://www.yapay.com.br</a> clique em **ENTRAR** e em seguida clique na opção **INTERMEDIADOR DE PAGAMENTOS > ACESSAR MINHA CONTA**
 
 ![Obtendo o Token de Integração Yapay](/images/intermediador/conteudo/ObterToken0.png "Obtendo o Token de Integração Yapay"){:width="100%"}
 
@@ -17,7 +17,7 @@ Para as integrações será necessário possuir o token da conta que será integ
 ![Obtendo o Token de Integração Yapay](/images/intermediador/conteudo/ObterToken00.png "Obtendo o Token de Integração Yapay"){:width="50%"}
 
 
-**3º** Após acessar a conta, clicar no seu usuário e depois clicar em MINHA CONTA
+**3º** Após acessar a conta, clicar no seu usuário e depois clicar em **MINHA CONTA**
 
 ![Obtendo o Token de Integração Yapay](/images/intermediador/conteudo/ObterToken.png "Obtendo o Token de Integração Yapay"){:width="100%"}
 
