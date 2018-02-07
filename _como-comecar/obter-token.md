@@ -5,7 +5,8 @@ menu: intermediador
 navbar: intermediador
 ---
 
-Para as integrações será necessário possuir o token da conta que será integrada.
+Para as integrações será necessário possuir o token da conta que será integrada seja em ambiente `PRODUÇÃO` e `SANDBOX`.
+{: .info }
 
 **1º** Acessar o site Yapay <a href="http://www.yapay.com.br" target="_blank" class="linkPadraoVerde">http://www.yapay.com.br</a> clique em **ENTRAR** e em seguida clique na opção **INTERMEDIADOR DE PAGAMENTOS > ACESSAR MINHA CONTA**
 
