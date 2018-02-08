@@ -38,6 +38,41 @@ right_code: |
   ~~~
   {: title="PHP" }
 
+  ~~~ javascript
+    var http = require("https");
+
+    var options = {
+    "method": "PATCH",
+    "hostname": "api.intermediador.sandbox.yapay.com.br",
+    "path": "/api/v3/transactions/cancel",
+    "headers": {
+        "content-type": "application/json"
+    }
+    };
+
+    var req = http.request(options, function (res) {
+    var chunks = [];
+
+    res.on("data", function (chunk) {
+        chunks.push(chunk);
+    });
+
+    res.on("end", function () {
+        var body = Buffer.concat(chunks);
+        console.log(body.toString());
+    });
+    });
+
+    req.write(JSON.stringify({ 
+        access_token: 'SEU_ACCESS_TOKEN', 
+        transaction_id: '83584', 
+        reason_cancellation_id: '6' 
+    }));
+
+    req.end();
+  ~~~
+  {: title="NodeJS" }    
+
   ~~~ java
     ...
     String url = "https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/cancel";

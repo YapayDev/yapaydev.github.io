@@ -39,6 +39,38 @@ right_code: |
   ~~~
   {: title="PHP" }
 
+  ~~~ javascript
+    var http = require("https");
+
+    var options = {
+    "method": "GET",
+    "hostname": "api.intermediador.sandbox.yapay.com.br",
+    "port": null,
+    "path": "/api/v3/transactions/get_by_token?token_account=SEU_TOKEN&token_transaction=67601a9a50b90e05187d602ecb1f12",
+    "headers": {
+        "content-type": "application/json"
+    }
+    };
+
+    var req = http.request(options, function (res) {
+    var chunks = [];
+
+    res.on("data", function (chunk) {
+        chunks.push(chunk);
+    });
+
+    res.on("end", function () {
+        var body = Buffer.concat(chunks);
+        console.log(body.toString());
+    });
+    });
+
+    req.write(JSON.stringify({}));
+    req.end();
+
+  ~~~
+  {: title="NodeJS" }    
+
   ~~~ ruby
     require 'uri'
     require 'net/http'
