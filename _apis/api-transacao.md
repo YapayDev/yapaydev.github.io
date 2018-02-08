@@ -74,7 +74,7 @@ right_code: |
   ~~~
   {: title="PHP" }
 
-  ~~~ nodejs
+  ~~~ javascript
     var http = require("https");
 
     var options = {
@@ -148,7 +148,7 @@ right_code: |
     } ) );
 
     req.end();
-     
+
   ~~~
   {: title="NodeJS" }    
 
