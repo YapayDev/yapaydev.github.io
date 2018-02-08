@@ -74,6 +74,84 @@ right_code: |
   ~~~
   {: title="PHP" }
 
+  ~~~ nodejs
+    var http = require("https");
+
+    var options = {
+    "method": "POST",
+    "hostname": "api.intermediador.sandbox.yapay.com.br",
+    "port": null,
+    "path": "/api/v3/transactions/payment",
+    "headers": {
+        "content-type": "application/json"
+    }
+    };
+
+    var req = http.request(options, function (res) {
+    var chunks = [];
+
+    res.on("data", function (chunk) {
+        chunks.push(chunk);
+    });
+
+    res.on("end", function () {
+        var body = Buffer.concat(chunks);
+        console.log(body.toString());
+    });
+    });
+
+    req.write(JSON.stringify({ 
+    token_account: 'SEU_TOKEN',
+    customer:
+    {
+        name: 'Diana Price',
+        brith_date: '21/05/1941',
+        cpf: '31162471298',
+        email: 'daniaprice@amazonas.org',
+        contacts:
+        [ { type_contact: 'H',
+        number_contact: '1133221122' 
+        } ],
+        addresses:
+        [ { type_address: 'B',
+        postal_code: '17516000',
+        street: 'Rua Esmeralda',
+        number: '25',
+        completion: 'A',
+        neighborhood: 'Jd. Esmeralda',
+        city: 'Marilia',
+        state: 'SP' 
+        } ]
+        },
+    transaction_product: 
+    [ {
+        description: 'Descrição do Produto',
+        quantity: '1',
+        price_unit: '300',
+        code: '159',
+        sku_code: '001',
+        extra: 'Campo de Informação Extra'
+        } ],
+    transaction:
+    {
+        available_payment_methods: '2,3,4,5,6,7,14,15,16,18,19,21,22,23',
+        customer_ip: '127.0.0.1',
+        shipping_type: 'Sedex',
+        shipping_price: '10',
+        price_discount: '0',
+        url_notification: '',
+        free: 'Campo de Informação livre' },
+    payment: {
+        payment_method_id: '6'
+    }
+
+    } ) );
+
+    req.end();
+     
+  ~~~
+  {: title="NodeJS" }    
+
   ~~~ java
     ...
     String url = "https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/payment";
