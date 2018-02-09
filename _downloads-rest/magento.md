@@ -33,7 +33,7 @@ O módulo Yapay Gateway é compatível com as versões 1.5.X, 1.6.X, 1.7.X, 1.8.
 
 3. O módulo está instalado! Para configurar os dados de sua conta do Yapay acesse na área administrativa do Magento o item System/Configuration/Payments Methods, para mais informações 
 
-**Observação**: Para utilização do Módulo é necessário a habilitação do SoapClient no php.ini.
+**Observação: Para utilização do Módulo é necessário a habilitação do SoapClient no php.ini**.
 {: .warning }
 
 
