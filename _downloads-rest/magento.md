@@ -29,14 +29,12 @@ O módulo Yapay Gateway é compatível com as versões 1.5.X, 1.6.X, 1.7.X, 1.8.
 
 2. Atualize o cache do Magento, através do item System/Cache Management do administrador do sistema.
 
-![Módulo Magento Yapay Gateway](/images/gateway/servicos/Cache_Magento.png "Módulo Magento Yapay Gateway"){: width="90%" height="auto" }
+![Módulo Magento Yapay Gateway](/images/gateway/servicos/Cache_Magento.png "Módulo Magento Yapay Gateway"){: width="100%" height="auto" }
 
 3. O módulo está instalado! Para configurar os dados de sua conta do Yapay acesse na área administrativa do Magento o item System/Configuration/Payments Methods, para mais informações 
 
 **Observação**: Para utilização do Módulo é necessário a habilitação do SoapClient no php.ini.
 {: .warning }
-
-![Módulo Magento Yapay Gateway](/images/gateway/servicos/Cache_Magento.png "Módulo Magento Yapay Gateway"){: width="90%" height="auto" }
 
 
 Configuração
@@ -44,7 +42,7 @@ Configuração
 
 Após a instalação do Módulo Magento Superpay, clicar em Métodos de pagamento na opção de configuração do Painel do Magento
 
-![Módulo Magento Yapay Gateway](/images/gateway/servicos/MenuMagento.png "Módulo Magento Yapay Gateway"){: width="90%" height="auto" }
+![Módulo Magento Yapay Gateway](/images/gateway/servicos/MenuMagento.png "Módulo Magento Yapay Gateway"){: width="50%" height="auto" }
 
 
 Aparecerá as opção de Formas de pagamento do Yapay.
@@ -54,7 +52,7 @@ Aparecerá as opção de Formas de pagamento do Yapay.
 Temos alguns exemplos para te auxiliar no processo de integração com o Gateway, basta <a href="https://superpay.acelerato.com/base-de-conhecimento/#/artigos/2" target="_blank" class="linkPadraoVerde">acessar aqui</a> e realizar o download do exemplo da linguagem de programação de sua loja virtual.
 
 
-![Módulo Magento Yapay Gateway](/images/gateway/servicos/ModuloMagento2.png "Módulo Magento Yapay Gateway"){: width="90%" height="auto" }
+![Módulo Magento Yapay Gateway](/images/gateway/servicos/ModuloMagento2.png "Módulo Magento Yapay Gateway"){: width="100%" height="auto" }
 
 
 <div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>
