@@ -131,6 +131,9 @@ _`dadosCobranca`_
 | documento | Documento principal do comprado | Alfa Numérico | 30 caracteres      | Não         |
 
 
+Observação: O envio do nó `dadosCobranca` é obrigatório.
+{: .warning }
+
 
 **RESPOSTA**
 
