@@ -1,6 +1,6 @@
 ---
 title: Intermediário Financeiro
-position: 12
+position: 17
 menu: gateway
 ---
 

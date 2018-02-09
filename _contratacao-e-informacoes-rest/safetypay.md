@@ -1,6 +1,6 @@
 ---
 title: SafetyPay
-position: 11
+position: 16
 menu: gateway
 ---
 

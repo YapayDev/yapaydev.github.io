@@ -1,6 +1,6 @@
 ---
 title: Bradesco ShopFácil
-position: 8
+position: 14
 menu: gateway
 ---
 

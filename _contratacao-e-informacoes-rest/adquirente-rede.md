@@ -1,6 +1,6 @@
 ---
 title: Adquirente Rede
-position: 6
+position: 9
 menu: gateway
 ---
 

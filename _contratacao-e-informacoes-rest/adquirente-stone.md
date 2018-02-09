@@ -1,6 +1,6 @@
 ---
 title: Adquirente Stone
-position: 5
+position: 8
 menu: gateway
 ---
 
