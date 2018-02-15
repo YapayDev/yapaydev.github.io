@@ -1,6 +1,6 @@
 ---
 title: Criando seu próprio botão
-position: 2
+position: 1
 right_code: |
   ~~~ html
     <form method="post" action="https://portal.yapay.com.br/payment/transaction"> 
