@@ -3,7 +3,7 @@ title: Criando seu próprio botão
 position: 1
 right_code: |
   ~~~ html
-    <form method="post" action="https://portal.yapay.com.br/payment/transaction"> 
+    <form method="post" action="https://tc.intermediador.yapay.com.br/payment/transaction"> 
           <!-- Campos obrigatórios --> 
          <input type="hidden" name="token_account" value="SEU_TOKEN_AQUI"> 
  
@@ -27,7 +27,7 @@ right_code: |
   {: title="Com 2 produtos" }
 
   ~~~ html
-    <form method="post" action="https://portal.yapay.com.br/payment/transaction"> 
+    <form method="post" action="https://tc.intermediador.yapay.com.br/payment/transaction"> 
  
          <!-- Campos obrigatórios --> 
          <input type="hidden" name="token_account" value="SEU_TOKEN_AQUI"> 
@@ -86,11 +86,11 @@ Após receber o post de dados, o Yapay irá automaticamente redirecionar o usuá
 
 Para a integração basta ser realizado um POST:
 
-| Endereço para Integração  |                                                             |
-|---------------------------|-------------------------------------------------------------|
-| Ambiente de Testes        | https://checkout.sandbox.yapay.com.br/payment/transaction   |
-| Ambiente de Produção      | https://portal.yapay.com.br/payment/transaction             |
-| Protocolo                 | Rest                                                        |
+| Endereço para Integração  |                                                                   |
+|---------------------------|-------------------------------------------------------------------|
+| Ambiente de Testes        | https://tc.intermediador.sandbox.yapay.com.br/payment/transaction |
+| Ambiente de Produção      | https://tc.intermediador.yapay.com.br/payment/transaction         |
+| Protocolo                 | POST                                                              |
 
 
 Para a integração via POST, segue abaixo os dados necessários para envio:
