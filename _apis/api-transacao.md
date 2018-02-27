@@ -235,84 +235,14 @@ right_code: |
   ~~~ c#
     ...
     
-    string URLAuth = "https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/payment";
-    
-    NameValueCollection queryParameters = new NameValueCollection();
-    
-    queryParameters.Add("token_account", "SEU_TOKEN_AQUI");
-    
-    queryParameters.Add("customer[name]", "Nome do Cliente");
-    queryParameters.Add("customer[cpf]", "98489882380");
-    queryParameters.Add("customer[email]", "emaildo@cliente.com.br");
-    queryParameters.Add("customer[birth_date]", "21/12/1985");
-    queryParameters.Add("customer[contacts][][type_contact]", "H");
-    queryParameters.Add("customer[contacts][][number_contact]", "1133120001");
-    queryParameters.Add("customer[contacts][][type_contact]", "M");
-    queryParameters.Add("customer[contacts][][number_contact]", "11999120002");
-    queryParameters.Add("customer[addresses][][type_address]", "B");
-    queryParameters.Add("customer[addresses][][postal_code]", "04001001");
-    queryParameters.Add("customer[addresses][][street]", "Av Paulista");
-    queryParameters.Add("customer[addresses][][number]", "112");
-    queryParameters.Add("customer[addresses][][completion]", "A");
-    queryParameters.Add("customer[addresses][][neighborhood]", "Centro");
-    queryParameters.Add("customer[addresses][][city]", "São Paulo");
-    queryParameters.Add("customer[addresses][][state]", "SP");
+    var client = new RestClient("https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/payment");
+    var request = new RestRequest(Method.POST);
 
-    queryParameters.Add("transaction[available_payment_methods]", "2,3,4,5,6,7,14,15,16,18,19,21,22,23");
-    queryParameters.Add("transaction[order_number]", "0001");
-    queryParameters.Add("transaction[customer_ip]", "200.200.200.200");
-    queryParameters.Add("transaction[shipping_type]", "Sedex");
-    queryParameters.Add("transaction[shipping_price]", "19.80");
-    queryParameters.Add("transaction[price_discount]", "7.80");
-    queryParameters.Add("transaction[price_additional]", "6.00");
-    queryParameters.Add("transaction[url_notification]", "http://www.loja.com.br/notificacao/");
-    queryParameters.Add("transaction[free]", "Campo de livre digitação");
-    queryParameters.Add("transaction[sub_store]", "LOJA_1");
+    request.AddHeader("content-type", "application/json");
+    request.AddParameter("application/json", "{\"token_account\":\"SEU_TOKEN\",\"customer\":{\"contacts\":[{\"type_contact\":\"H\",\"number_contact\":\"1133221122\"}],\"addresses\":[{\"type_address\":\"B\",\"postal_code\":\"17516000\",\"street\":\"Av Themyscira\",\"number\":\"1001\",\"completion\":\"Casa A\",\"neighborhood\":\"Jd das Rochas\",\"city\":\"Themyscira\",\"state\":\"SP\"}],\"name\":\"Diana Prince\",\"birth_date\":\"21/05/1941\",\"cpf\":\"50235335142\",\"email\":\"email@docliente.com\"},\"transaction_product\":[{\"description\":\"Camiseta Wonder Woman\",\"quantity\":\"1\",\"price_unit\":\"130\",\"code\":\"1\",\"sku_code\":\"1250\",\"extra\":\"Informação extra\"}],\"transaction\":{\"available_payment_methods\":\"2,3,4,5,6,7,14,15,16,18,19,21,22,23\",\"order_number\":\"1\",\"shipping_type\":\"Sedex\",\"shipping_price\":\"10\",\"price_discount\":\"0\",\"url_notification\":\"http://www.loja.com.br/notificacao\",\"free\":\"Campo Livre\",\"sub_store\":\"LOJA_1\"},\"payment\":{\"payment_method_id\":\"6\"}}", ParameterType.RequestBody);
 
-    queryParameters.Add("transaction_product[][description]", "Notebook Preto");
-    queryParameters.Add("transaction_product[][quantity]", "1");
-    queryParameters.Add("transaction_product[][price_unit]", "321.99");
-    queryParameters.Add("transaction_product[][code]", "1");
-    queryParameters.Add("transaction_product[][sku_code]", "0001");
-    queryParameters.Add("transaction_product[][extra]", "Dados extra do Notebook Preto");
+    IRestResponse response = client.Execute(request);
 
-    queryParameters.Add("payment[payment_method_id]", "3");
-    queryParameters.Add("payment[split]", "12");
-    queryParameters.Add("payment[card_name]", "Nome Impresso no Cartão");
-    queryParameters.Add("payment[card_number]", "1234123412341234");
-    queryParameters.Add("payment[card_expdate_month]", "01");
-    queryParameters.Add("payment[card_expdate_year]", "2016");
-    queryParameters.Add("payment[card_cvv]", "123");
-    
-    List<string> items = new List<string>();
-    
-    foreach (String name in queryParameters)
-        items.Add(String.Concat(name, "=", System.Web.HttpUtility.UrlEncode(queryParameters[name])));
-    
-    string postString = String.Join("&", items.ToArray());
-    
-    const string contentType = "application/x-www-form-urlencoded";
-    System.Net.ServicePointManager.Expect100Continue = false;
-    
-    CookieContainer cookies = new CookieContainer();
-    HttpWebRequest webRequest = WebRequest.Create(URLAuth) as HttpWebRequest;
-    webRequest.Method = "POST";
-    webRequest.ContentType = contentType;   
-    webRequest.CookieContainer = cookies;
-    webRequest.ContentLength = postString.Length; 
-    webRequest.Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";
-    
-    StreamWriter requestWriter = new StreamWriter(webRequest.GetRequestStream());
-    requestWriter.Write(postString);
-    requestWriter.Close();
-    
-    StreamReader responseReader = new StreamReader(webRequest.GetResponse().GetResponseStream());
-    string responseData = responseReader.ReadToEnd();
-    
-    responseReader.Close();
-    webRequest.GetResponse().Close();
-    
-    ... 
   ~~~
   {: title="C#" }    
 

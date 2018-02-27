@@ -122,42 +122,12 @@ right_code: |
   ~~~ c#
     ...
     
-    string URLAuth = "https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/cancel";
+    var client = new RestClient("https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/cancel");
+    var request = new RestRequest(Method.PATCH);
     
-    NameValueCollection queryParameters = new NameValueCollection();
-    
-    queryParameters.Add("token_account", "### Access Token do Vendeor ###");
-        
-    queryParameters.Add("transaction_id", "79717");
-    queryParameters.Add("reason_cancellation_id", "6");
-    
-    List<string> items = new List<string>();
-    
-    foreach (String name in queryParameters)
-        items.Add(String.Concat(name, "=", System.Web.HttpUtility.UrlEncode(queryParameters[name])));
-    
-    string postString = String.Join("&", items.ToArray());
-    
-    const string contentType = "application/json";
-    System.Net.ServicePointManager.Expect100Continue = false;
-    
-    CookieContainer cookies = new CookieContainer();
-    HttpWebRequest webRequest = WebRequest.Create(URLAuth) as HttpWebRequest;
-    webRequest.Method = "PATCH";
-    webRequest.ContentType = contentType;   
-    webRequest.CookieContainer = cookies;
-    webRequest.ContentLength = postString.Length; 
-    webRequest.Accept = "text/html,application/json;q=0.9,*/*;q=0.8";
-    
-    StreamWriter requestWriter = new StreamWriter(webRequest.GetRequestStream());
-    requestWriter.Write(postString);
-    requestWriter.Close();
-    
-    StreamReader responseReader = new StreamReader(webRequest.GetResponse().GetResponseStream());
-    string responseData = responseReader.ReadToEnd();
-    
-    responseReader.Close();
-    webRequest.GetResponse().Close();
+    request.AddHeader("content-type", "application/json");
+    request.AddParameter("application/json", "{\"access_token\":\"ACCESS_TOKEN_VENDEDOR\",\"transaction_id\":\"79717\",\"reason_cancellation_id\":\"6\"}", ParameterType.RequestBody);
+    IRestResponse response = client.Execute(request);
     
     ... 
   ~~~
