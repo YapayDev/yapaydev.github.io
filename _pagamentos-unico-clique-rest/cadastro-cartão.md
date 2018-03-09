@@ -25,7 +25,7 @@ right_code: |
   --header "Content-Type: application/json
     { 
     "codigoEstabelecimento": 1000000000000,
-    "codigoFormaPagamento": 170,
+    "formaPagamento": 170,
     "oneClick": 1,
     "token": "1514483826864c3149224-67db-4557-8950-6a80f708c1c5",
     "nomeTitularCartaoCredito": "Teste OneClick",
@@ -75,8 +75,8 @@ REQUISIÇÃO
 | Campo                 | Descrição                                                                           | Tipo          | Tamanho           | Obrigatório |
 |-----------------------|-------------------------------------------------------------------------------------|---------------|-------------------|-------------|
 | codigoEstabelecimento | Código que identifica o estabelecimento dentro do SuperPay (fornecido pelo gateway) | Numérico      | 13 dígitos        | Sim         |
-| codigoFormaPagamento  | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                                                        | Numérico      | Até 3 dígitos     | Sim         |
-| nomeTitularCartao     | Nome titular do cartão de crédito/débito                                            | Alfa Numérico | Até 16 caracteres | Sim         |
+| formaPagamento  | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                                                        | Numérico      | Até 3 dígitos     | Sim         |
+| nomeTitularCartaoCredito     | Nome titular do cartão de crédito/débito                                            | Alfa Numérico | Até 16 caracteres | Sim         |
 | numeroCartaoCredito   | Numero do cartão de crédito/débito, sem espaços ou traços                           | Numérico      | Até 22 dígitos    | Sim         |
 | dataValidadeCartao    | Data de validade do cartão. Formato mm/yyyy                                         | Alfa Numérico | 7 caracteres      | Sim         |
 | emailComprador        | Email do comprador                                                                  | Alfa Numérico | 20 caracteres     | Não         |
@@ -88,10 +88,10 @@ REQUISIÇÃO
 | Campo                 | Descrição                                                                           | Tipo          | Tamanho           |
 |-----------------------|-------------------------------------------------------------------------------------|---------------|-------------------|
 | codigoEstabelecimento | Código que identifica o estabelecimento dentro do SuperPay (fornecido pelo gateway) | Numérico      | 13 dígitos        |
-| codigoFormaPagamento  | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                                                        | Numérico      | Até 3 dígitos     |
+| formaPagamento  | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                                                        | Numérico      | Até 3 dígitos     |
 | oneClick              | Retornará 1 para cadastro criado                                                    | Numérico      | 1 dígito          |
 | token                 | Token criado                                                                        | Alfa Numérico | Até 60 caracteres |
-| nomeTitularCartao     | Nome titular do cartão de crédito/débito                                            | Alfa Numérico | Até 16 caracteres |
+| nomeTitularCartaoCredito     | Nome titular do cartão de crédito/débito                                            | Alfa Numérico | Até 16 caracteres |
 | numeroCartaoCredito   | Numero do cartão de crédito/débito, sem espaços ou traços                           | Numérico      | Até 22 dígitos    |
 | dataValidadeCartao    | Data de validade do cartão. Formato mm/yyyy                                         | Alfa Numérico | 7 caracteres      |
 | emailComprador        | Email do comprador                                                                  | Alfa Numérico | 20 caracteres     |
