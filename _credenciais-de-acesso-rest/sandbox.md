@@ -47,8 +47,8 @@ Utilize os cartões e valores abaixo para simular uma aprovação ou reprovaçã
 
 | Bandeira   | Número do cartão | Código de segurança | Data de validade | Valor do Pedido |
 |------------|------------------|---------------------|------------------|-----------------|
-| Visa       | 4002479199570736 | 132                 | 02/2019          | 511201          |
-| MasterCard | 5448280000000007 | 132                 | 01/2019          | 501001          |
+| Visa       | 4002479199570736 | 132                 | 02/2019          | 511100          |
+| MasterCard | 5448280000000007 | 132                 | 01/2019          | 500900          |
 
 
 **Negação**
