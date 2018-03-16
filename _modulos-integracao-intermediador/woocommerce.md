@@ -65,10 +65,6 @@ Opções de configuração Yapay:
 
 **Token da Conta:** Token utilizado para a integração com o Yapay.
 
-**Consumer Key:** Chave do Aplicativo no Yapay.
-
-**Consumer Secret:** Chave de Segurança do Aplicativo no Yapay.
-
 **Meios de Pagamento Disponíveis:** Seleção dos meios de pagamento que estarão disponíveis no checkout do WooCommerce (Opção somente na configuração de Cartão de Crédito e Transferência Online).
 
 **Prefixo do Pedido:** Prefixo enviado para o Yapay.
