@@ -4,14 +4,22 @@ position: 3
 menu: intermediador
 ---
 
-Para disponibilizar o Yapay como facilitador de pagamento na plataforma WooCommerce, basta baixar o pacote disponível, extrair a pasta com o módulo, copiar para o diretório padrão e configurar o módulo.
+Para disponibilizar o Yapay como facilitador de pagamento na plataforma WooCommerce, basta baixar o pacote disponível, extrair a pasta com o plugin, copiar para o diretório padrão e configurar o plugin.
 
-Fique atento que sua versão de instalação, a plataforma WooCommerce deve ser compatível com o módulo Yapay.
+Fique atento que sua versão de instalação, a plataforma WooCommerce deve ser compatível com o plugin Yapay.
 
-Instalação do Módulo WooCommerce
+Instalação do Plúgin WooCommerce via Wordpress
 {: .subtitulo }
 
-Para instalar módulo é necessário baixar o pacote do WooCommerce:
+Para instalar o plugin acesse o menu lateral `PLUGIN` e pesquise por `YAPAY` instale e ative o plugin:
+
+![WooCommerce, instalação WordPress](/images/intermediador/conteudo/install_woocommerce_6.png "WooCommerce, instalação"){:width="100%" height="auto""}
+
+
+Instalação do Plúgin WooCommerce via arquivo
+{: .subtitulo }
+
+Para instalar plugin é necessário baixar o pacote do WooCommerce:
 
 <a href="http://integracao.traycheckout.com.br/documentacao/download/yapay/woocommerce/woo-yapay_v0.2.0.zip" class="btn  btn-default btn-wide btn-call-to-action btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>WooCommerce</a>
 
@@ -23,7 +31,7 @@ Após acessar a página para adicionar um novo plugin, clique no botão **“Faz
 
 ![WooCommerce, instalação](/images/intermediador/conteudo/install_woocommerce_2.png "WooCommerce, instalação"){:width="100%" height="auto""}
 
-Irá aparecer a opção para selecionar o plugin do módulo. Selecione o plugin e clique em **Instalar Agora**.
+Irá aparecer a opção para selecionar o plugin do plugin. Selecione o plugin e clique em **Instalar Agora**.
 
 ![WooCommerce, instalação](/images/intermediador/conteudo/install_woocommerce_3.png "WooCommerce, instalação"){:width="100%" height="auto"}
 
@@ -32,10 +40,10 @@ Após a instalação, basta ativar o plugin e irá visualizar as 3 opções de c
 ![WooCommerce, instalação](/images/intermediador/conteudo/install_woocommerce_4.png "WooCommerce, instalação"){:width="100%" height="auto"}
 
 
-Configuração do Módulo WooCommerce
+Configuração do Plugin WooCommerce
 {: .subtitulo }
 
-Para acessar as configurações do módulo, clique no menu **WooCommerce > Configurações**, e clique na aba **Checkout**.
+Para acessar as configurações do plugin, clique no menu **WooCommerce > Configurações**, e clique na aba **Checkout**.
 
 Clique em uma das opções de configuração do Yapay que será carregada a página do plugin com as opções de configuração abaixo:
 
