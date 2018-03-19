@@ -16,7 +16,7 @@ Para instalar o plugin acesse o menu lateral `PLUGIN` e pesquise por `YAPAY` ins
 ![WooCommerce, instalação WordPress](/images/intermediador/conteudo/install_woocommerce_6.png "WooCommerce, instalação"){:width="100%" height="auto""}
 
 
-Instalação do Plúgin WooCommerce via arquivo
+Instalação do Plúgin Yapay Intermediador via arquivo
 {: .subtitulo }
 
 Para instalar plugin é necessário baixar o pacote do WooCommerce:
