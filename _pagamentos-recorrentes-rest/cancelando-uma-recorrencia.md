@@ -1,6 +1,6 @@
 ---
-title: Cancelando uma transação
-position: 5
+title: Cancelando uma recorrência
+position: 2
 menu: gateway
 right_code: |
   ~~~ xml
@@ -41,7 +41,7 @@ right_code: |
 
 **REQUISIÇÃO**
 
-<i class="fa fa-info-circle" aria-hidden="true"></i> Para enviar a transação, utilize o método <span class="post">POST</span>.
+<i class="fa fa-info-circle" aria-hidden="true"></i> Para cancelar uma recorrência, utilize o método <span class="put">PUT</span>.
 {: .informativo }
 
  Para autenticação, enviar `login` e `senha` no HEADER:

@@ -5,45 +5,46 @@ menu: gateway
 right_code: |
   ~~~ json
     curl
-        --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao
-        --header "Content-Type: application/json"
-        --curl -u usuario:senha .........
-        --data-binary
-        {
-            "estabelecimento": "1000000000000",
-            "recorrencia": {
-                "formaPagamento": 170,
-                "numeroRecorrencia": 2,
-                "valor": 13000,
-                "modalidade": "1",
-                "periodicidade": "3",
-                "urlNotificacao": "http://teste.com.br/campainha",
-                "processarImediatamente": "true",
-                "quantidadeCobrancas": "0",
-                "dataPrimeiraCobranca": "30/06/2017",
+    --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao
+    --header "Content-Type: application/json"
+    --curl -u usuario:senha .........
+    --data-binary
+    {
+        "estabelecimento": "1000000000000",
+        "recorrencia": {
+            "formaPagamento": 170,
+            "numeroRecorrencia": 2,
+            "valor": 13000,
+            "modalidade": "1",
+            "periodicidade": "3",
+            "urlNotificacao": "http://teste.com.br/campainha",
+            "processarImediatamente": "true",
+            "quantidadeCobrancas": "0",
+            "dataPrimeiraCobranca": "30/06/2017",
 
-                "dadosCobranca": {
-                    "nomeComprador": "Teste Recorrencia",
-                    "documento": "12312312312",
-                    "telefone": {
-                        "tipoTelefone": "1"
-                    }
-                },
-                "dadosCartao": {
-                    "nomePortador": "Teste",
-                    "numeroCartao": "0000000000000001",
-                    "codigoSeguranca": "287",
-                    "dataValidade": "01/2018"
+            "dadosCobranca": {
+                "nomeComprador": "Teste Recorrencia",
+                "documento": "12312312312",
+                "telefone": {
+                    "tipoTelefone": "1"
                 }
+            },
+            "dadosCartao": {
+                "nomePortador": "Teste",
+                "numeroCartao": "0000000000000001",
+                "codigoSeguranca": "287",
+                "dataValidade": "01/2018"
             }
         }
+    }
+
 
   ~~~
   {: title="Exemplo criação transação" }
 
   ~~~ json
     --header "Content-Type: application/json"
-        "recorrencia": {
+    "recorrencia": {
         "estabelecimento": "1000000000000",
         "numeroRecorrencia": 2,
         "codigoFormaPagamento": 170,
@@ -59,7 +60,7 @@ right_code: |
         "dataAprovacaoOperadora": "30/05/2017",
         "numeroComprovanteVenda": "1006993069000891071A",
         "mensagemVenda": "Operation Success"
-        }
+    }
 
 
   ~~~
