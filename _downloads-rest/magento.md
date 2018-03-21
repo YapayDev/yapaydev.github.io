@@ -49,8 +49,7 @@ Aparecerá as opção de Formas de pagamento do Yapay.
 
 ![Módulo Magento Yapay Gateway](/images/gateway/servicos/ModuloMagento.png "Módulo Magento Yapay Gateway"){: width="90%" height="auto" }
 
-Temos alguns exemplos para te auxiliar no processo de integração com o Gateway, basta <a href="https://superpay.acelerato.com/base-de-conhecimento/#/artigos/2" target="_blank" class="linkPadraoVerde">acessar aqui</a> e realizar o download do exemplo da linguagem de programação de sua loja virtual.
-
+<!-- Para o download do módulo magento do Gateway <a href="https://superpay.acelerato.com/base-de-conhecimento/#/artigos/2" target="_blank" class="linkPadraoVerde">acessar aqui</a>. -->
 
 ![Módulo Magento Yapay Gateway](/images/gateway/servicos/ModuloMagento2.png "Módulo Magento Yapay Gateway"){: width="100%" height="auto" }
 
