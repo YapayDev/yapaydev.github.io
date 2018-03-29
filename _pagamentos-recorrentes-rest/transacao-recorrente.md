@@ -119,7 +119,7 @@ Para autenticação, enviar `login` e `senha` no HEADER:
 
 | periodicidade          | 1 – Semanal, 2 – Quinzenal, 3 – Mensal, 4 – Bimestral, 5 – Trimestral, 6 – Semestral e 7 – Anual                | Numérico      | 1 dígito           | Sim |
 | urlNotificacao         | URL para notificação de cada cobrança da recorrência                                                            | Alfa Numérico | Até 200 caracteres | Sim |
-| processarImediatamente | 1 – A recorrência será processada imediatamente ao cadastro                                                     | Booleano      | 4 caracteres       | Sim |
+| processarImediatamente | true – A recorrência será processada imediatamente ao cadastro                                                  | Booleano      | 4 caracteres       | Sim |
 
 
 _`dadosCartao`_
