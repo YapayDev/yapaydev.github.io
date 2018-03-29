@@ -158,7 +158,7 @@ _`checkout`_
 | processar     | Enviar 0 - pagamento comum                                                                                   | Numérico | Sim         |
 | tipoPagamento | 0 - Todas formas de pagamento; 1 - Cartões de Crédito; 2 - Cartões de Débito; 3 - Boleto; 4 - Transferência; | Numérico | Sim         |
 
-_`itensPedido`_
+_`itensDoPedido`_
 {: .subtituloAzul }
 
 | Campo                | Descrição                                                          | Tipo          | Obrigatório                  |

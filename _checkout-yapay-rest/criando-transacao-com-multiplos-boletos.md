@@ -173,7 +173,7 @@ _`boletos`_
 | vencimento | Vencimento do boleto. Formato dd/mm/aaaa | Alfa Numérico | Sim         |
 
 
-_`itensPedido`_
+_`itensDoPedido`_
 {: .subtituloAzul }
 
 | Campo                | Descrição                                                          | Tipo          | Obrigatório                  |
