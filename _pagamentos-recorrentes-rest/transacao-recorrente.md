@@ -5,7 +5,7 @@ menu: gateway
 right_code: |
   ~~~ json
     curl
-    --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao
+    --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/recorrencia
     --header "Content-Type: application/json"
     --curl -u usuario:senha .........
     --data-binary
@@ -25,6 +25,8 @@ right_code: |
             "dadosCobranca": {
                 "nomeComprador": "Teste Recorrencia",
                 "documento": "12312312312",
+                "emailComprador": "teste@teste.com.br",
+                "tipoCliente": "1",
                 "telefone": {
                     "tipoTelefone": "1"
                 }
@@ -106,19 +108,18 @@ Para autenticação, enviar `login` e `senha` no HEADER:
 | Campo                  | Descrição                                                                                 | Tipo          | Tamanho           | Obrigatório |
 |------------------------|-------------------------------------------------------------------------------------------|---------------|-------------------|-------------|
 | numeroRecorrencia      | Número da Recorrência deve ser único                                                                            | Numérico      | Até 15 dígitos     | Sim |
-| estabelecimento        | Código que identifica o estabelecimento dentro do Yapay (fornecido pelo gateway)                             | Numérico      | 13 dígitos         | Sim |
+| estabelecimento        | Código que identifica o estabelecimento dentro do Yapay (fornecido pelo gateway)                                | Numérico      | 13 dígitos         | Sim |
 | valor                  | Valor da recorrência. Não devem ser utilizados virgulas nem pontos                                              | Numérico      | Até 10 dígitos     | Sim |
 | formaPagamento         | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                                                                                    | Numérico      | Até 3 dígitos      | Sim |
 | dadosCartao            | Array descrito abaixo                                                                                           | -             | -                  | -   |
 | dadosCobranca          | Array descrito abaixo                                                                                           | -             | -                  | -   |
 | dadosEntrega           | Array descrito abaixo                                                                                           | -             | -                  | -   |
 | quantidadeCobrancas    | Quantidade de cobranças, caso 0 a recorrência será feita até que ocorra um cancelamento                         | Numérico      | Até 10 dígitos     | Sim |
-| diaCobranca            | Dia para cobrança                                                                                               | Numérico      | Até 2 dígitos      | Sim |
-| mesCobranca            | Mês para cobrança                                                                                               | Numérico      | Até 2 dígitos      | Sim |
+| dataPrimeiraCobranca   | Data para a primeira cobrança. Formato dd/mm/aaaa                                                               | Alfa Numérico | 10 caracteres      | Sim |
+
 | periodicidade          | 1 – Semanal, 2 – Quinzenal, 3 – Mensal, 4 – Bimestral, 5 – Trimestral, 6 – Semestral e 7 – Anual                | Numérico      | 1 dígito           | Sim |
 | urlNotificacao         | URL para notificação de cada cobrança da recorrência                                                            | Alfa Numérico | Até 200 caracteres | Sim |
-| primeiraCobranca       | 1– Cobrança será efetuada no mês corrente ao cadastro da recorrência / 2–Cobrança será efetuada no mês seguinte | Numérico      | 1 dígito           | Sim |
-| processarImediatamente | 1 – A recorrência será processada imediatamente ao cadastro                                                     | Numérico      | 1 dígito           | Sim |
+| processarImediatamente | 1 – A recorrência será processada imediatamente ao cadastro                                                     | Booleano      | 4 caracteres       | Sim |
 
 
 _`dadosCartao`_
@@ -135,18 +136,19 @@ _`dadosCartao`_
 _`dadosCobranca`_
 {: .subtituloAzul }
 
-| Campo                | Descrição                                      | Tipo          | Tamanho            | Obrigatório                  |
-|----------------------|------------------------------------------------|---------------|--------------------|------------------------------|
-| nomeComprador        | Nome do comprador                              | Alfa Numérico | Até 100 caracteres | Caso utilize antifraude, sim |
-| emailComprador       | E-mail do comprador                            | Alfa Numérico | Até 100 caracteres | Caso utilize antifraude, sim |
-| enderecoComprador    | Logrodouro do comprador                        | Alfa Numérico | Até 100 caracteres | Caso utilize antifraude, sim |
-| bairroComprador      | Bairro do comprador                            | Alfa Numérico | Até 50 caracteres  | Caso utilize antifraude, sim |
-| complementoComprador | Complemento do endereço comprador              | Alfa Numérico | Até 50 caracteres  | Não                          |
-| cidadeComprador      | Cidade do comprador                            | Alfa Numérico | Até 50 caracteres  | Caso utilize antifraude, sim |
-| estadoComprador      | Estado do comprador                            | Alfa Numérico | Até 2 caracteres   | Caso utilize antifraude, sim |
-| cepComprador         | CEP do comprador. Enviar sem traços ou espaços | Alfa Numérico | Até 10 caracteres  | Caso utilize antifraude, sim |
-| paisComprador        | Pais do comprador                              | Alfa Numérico | Até 50 caracteres  | Não                          |
-| telefone[]           | Lista de Telefones                             | List          | -                  |  -                           |
+| Campo                | Descrição                                               | Tipo          | Tamanho            | Obrigatório                  |
+|----------------------|---------------------------------------------------------|---------------|--------------------|------------------------------|
+| nomeComprador        | Nome do comprador                                       | Alfa Numérico | Até 100 caracteres | Caso utilize antifraude, sim |
+| emailComprador       | E-mail do comprador                                     | Alfa Numérico | Até 100 caracteres | Caso utilize antifraude, sim |
+| enderecoComprador    | Logrodouro do comprador                                 | Alfa Numérico | Até 100 caracteres | Sim                          |
+| bairroComprador      | Bairro do comprador                                     | Alfa Numérico | Até 50 caracteres  | Caso utilize antifraude, sim |
+| complementoComprador | Complemento do endereço comprador                       | Alfa Numérico | Até 50 caracteres  | Não                          |
+| cidadeComprador      | Cidade do comprador                                     | Alfa Numérico | Até 50 caracteres  | Caso utilize antifraude, sim |
+| estadoComprador      | Estado do comprador                                     | Alfa Numérico | Até 2 caracteres   | Caso utilize antifraude, sim |
+| cepComprador         | CEP do comprador. Enviar sem traços ou espaços          | Alfa Numérico | Até 10 caracteres  | Caso utilize antifraude, sim |
+| paisComprador        | Pais do comprador                                       | Alfa Numérico | Até 50 caracteres  | Não                          |
+| telefone[]           | Lista de Telefones                                      | List          | -                  |  -                           |
+| tipoCliente          | Tipo do Cliente - 1 - Pessoa Física 2 - Pessoa Jurídica | Alfa Numérico | 1                  | Sim |
 
 _`dadosEntrega`_
 {: .subtituloAzul }
