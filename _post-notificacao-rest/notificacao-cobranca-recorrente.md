@@ -21,7 +21,7 @@ Detalhamento dos campos retornados:
 
 | Campo                 | Descrição                                                  | Tipo          |
 |-----------------------|------------------------------------------------------------|---------------|
-| numeroTransacao       | Código que identifica a transação dentro do Yapay          | Numérico      |
+| numeroRecorrencia     | Código que identifica a recorrência dentro do Yapay        | Numérico      |
 | codigoEstabelecimento | Código que identifica o estabelecimento dentro do Yapay    | Numérico      |
 | campoLivre1           | Campo Livre 1                                              | Alfa Numérico |
 | campoLivre2           | Campo Livre 2                                              | Alfa Numérico |
