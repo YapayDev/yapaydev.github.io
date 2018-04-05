@@ -29,7 +29,7 @@ right_code: |
         ob_end_clean();
         curl_close($ch);
 
-        if($code == "201"){
+        if($code == "200"){
             //Tratamento dos dados de resposta da consulta.
         }else{
             //Tratamento das mensagens de erro
