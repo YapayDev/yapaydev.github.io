@@ -260,7 +260,6 @@ Abaixo segue tabelas com essas informações pré-definidas:
 | Transferências Online           |    |
 | Itaú Shopline                   | 7  |
 | Peela                           | 14 |
-| Transf. Online HSBC             | 21 |
 | Transf. Online Bradesco         | 22 |
 | Transf. Online Banco do Brasil  | 23 |
 | Boleto Bancário                 |    |
