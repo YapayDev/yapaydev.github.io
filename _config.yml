@@ -29,10 +29,19 @@ collections:
     menu: intermediador  
     navbar: intermediador
 
+  pagamento-oneclick:
+    name: pagamento-oneclick
+    title: Pagamento Oneclick
+    position: 3    
+    permalink: /intermediador/pagamento-oneclick/
+    origem: /intermediador/pagamento-oneclick/
+    menu: intermediador  
+    navbar: intermediador
+
   pagamento-recorrente:
     name: pagamento-recorrente
     title: Pagamento Recorrente
-    position: 3    
+    position: 4    
     permalink: /intermediador/pagamento-recorrente/
     origem: /intermediador/pagamento-recorrente/
     menu: intermediador  
@@ -42,7 +51,7 @@ collections:
     title: Integração de Loja Virtual
     name: integracao-loja-virtual
     permalink: /intermediador/integracao-loja-virtual/
-    position: 4    
+    position: 5    
     origem: /intermediador/integracao-loja-virtual/
     menu: intermediador
     navbar: intermediador
@@ -51,7 +60,7 @@ collections:
     title: Integração de Marketplace
     name: integracao-marketplace
     permalink: /intermediador/integracao-marketplace/
-    position: 5    
+    position: 6    
     origem: /intermediador/integracao-marketplace/
     menu: intermediador
     navbar: intermediador
@@ -60,7 +69,7 @@ collections:
     title: Notificação Automática de Status
     name: notificacao-automatica-status
     permalink: /intermediador/notificacao-automatica-status/
-    position: 6    
+    position: 7    
     origem: /intermediador/notificacao-automatica-status/
     menu: intermediador
     navbar: intermediador
@@ -69,7 +78,7 @@ collections:
     title: Módulos de Integração
     name: modulos-integracao-intermediador
     permalink: /intermediador/modulos-integracao-intermediador/
-    position: 7    
+    position: 8    
     origem: /intermediador/modulos-integracao-intermediador/
     menu: intermediador
     navbar: intermediador
@@ -77,7 +86,7 @@ collections:
   apis:
     title: APIs
     name: apis
-    position: 8    
+    position: 9    
     permalink: /intermediador/apis/
     origem: /intermediador/apis/
     menu: intermediador     
