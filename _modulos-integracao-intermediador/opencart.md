@@ -14,7 +14,7 @@ Fique atento que sua versão de instalação OpenCart deve ser compatível com o
 
 Para instalar o módulo é necessário baixar o pacote através do link:
 
-<a href="http://integracao.traycheckout.com.br/documentacao/download/yapay/woocommerce/yapay_opencart_v2.1.zip" class="btn  btn-default btn-wide btn-call-to-action btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>OpenCart</a>
+<a href="http://integracao.traycheckout.com.br/documentacao/download/yapay/opencart/yapay_opencart_v2.1.zip" class="btn  btn-default btn-wide btn-call-to-action btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>OpenCart</a>
 
 Descompacte o arquivo baixado e copie a pasta para o diretório raiz de sua instalação OpenCart, caso o sistema exiba a mensagem de mesclagem ou substituição de arquivos, clique em sim para todos.
 
