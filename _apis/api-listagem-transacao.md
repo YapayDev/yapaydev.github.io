@@ -1,5 +1,5 @@
 ---
-title: API de Consulta de Transação
+title: API de Listagem de Transações
 position: 8
 menu: intermediador
 right_code: |
