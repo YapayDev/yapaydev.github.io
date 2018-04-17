@@ -1,6 +1,6 @@
 ---
 title: API de Cadastro de Cliente
-position: 8
+position: 9
 menu: intermediador
 right_code: |
   ~~~ php
