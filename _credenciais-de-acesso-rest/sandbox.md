@@ -84,12 +84,12 @@ Para aprovação das vendas, seguir tabelas abaixo:
 | MasterCard | 5453010000083303 | 321                 | 10/2017          |
 
 
-| Categoria  | Número de parcelas | Valor    |
-|------------|--------------------|----------| 
-| A vista    |  1                 | nnn,nn   |
-| Parcelado  |  2                 | nn6nn,02 |
-| Parcelado  |  3                 | nn6nn,03 |
-| Parcelado  |  4                 | nn6nn,04 |
+| Categoria  | Número de parcelas | Valor    | Exemplo  |
+|------------|--------------------|----------|----------|
+| A vista    |  1                 | nnnnn    | 10000    |
+| Parcelado  |  2                 | nn6nn02  | 10060002 |
+| Parcelado  |  3                 | nn6nn03  | 10060003 |
+| Parcelado  |  4                 | nn6nn04  | 10060004 |
 
 
 BOLETOS OFFLINE
