@@ -39,14 +39,14 @@ right_code: |
 
 Através desta funcionalidade é possível cancelar uma venda pré autorizada ou capturada. Consulte abaixo o prazo de cancelamento para cada adquirente:
 
-| Adquirente | Limite de cancelamento            |
-|------------|-----------------------------------|
-| Cielo      | 300 dias após a geração do pedido |
-| Rede       | 24 horas após geração do pedido   |
-| Elavon     | 24 horas após geração do pedido   |
-| GETNET     | 24 horas após geração do pedido   |
-| Stone      | 180 dias após a geração do pedido |
-| Bin        | 90 dias após captura do pedido    |
+| Adquirente | Limite de cancelamento                                           |
+|------------|------------------------------------------------------------------|
+| Cielo      | 300 dias após a geração do pedido                                |
+| Rede       | Pode variar conforme o ramo de atuação de cada estabelecimento   |
+| Elavon     | 24 horas após geração do pedido                                  |
+| GETNET     | 24 horas após geração do pedido                                  |
+| Stone      | 180 dias após a geração do pedido                                |
+| Bin        | 90 dias após captura do pedido                                   |
 
 **REQUISIÇÃO**
 
