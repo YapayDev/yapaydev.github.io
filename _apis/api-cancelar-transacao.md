@@ -1,5 +1,5 @@
 ---
-title: API Cancelar Transação
+title: API de Cancelar Transação
 position: 6
 menu: intermediador
 right_code: |
