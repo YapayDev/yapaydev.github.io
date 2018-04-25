@@ -49,11 +49,11 @@ right_code: |
 
 O Yapay disponibiliza uma versão transparente para a integração do código de postagem do produto da transação.
 
-| Endereço para Integração                                                                          |
-|--------------------------|------------------------------------------------------------------------|
-| Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/v1/transactions/trace   |
-| Ambiente de Produção     | https://api.intermediador.yapay.com.br/api/v3/transactions/payment           |
-| Protocolo                | Rest/HTTP                                                              |
+| Endereço para Integração                                                                             |
+|--------------------------|---------------------------------------------------------------------------|
+| Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/api/v1/transactions/trace  |
+| Ambiente de Produção     | https://api.intermediador.yapay.com.br/api/v1/transactions/trace          |
+| Protocolo                | Rest/HTTP                                                                 |
 
 
 Para a integração via POST, segue abaixo os dados necessários para envio:
