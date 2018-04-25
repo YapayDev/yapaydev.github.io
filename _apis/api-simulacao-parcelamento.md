@@ -1,12 +1,12 @@
 ---
 title: API de Simulação de Parcelamento
-position: 10
+position: 11
 menu: intermediador
 right_code: |
   ~~~ php
     <?php
         /* Token da conta da Loja */
-        $params['token_account'] = '4f14b0a42dd2fe0';        
+        $params['token_account'] = 'SEU_TOKEN';        
 
         /* Valor da Transação */
         $params['price'] = '1134.30';

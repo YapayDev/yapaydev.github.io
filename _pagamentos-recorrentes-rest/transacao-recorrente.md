@@ -179,24 +179,24 @@ _`telefone`_
 
 **RESPOSTA**
 
-| Campo                    | Descrição                                          |
-|--------------------------|----------------------------------------------------|
-| numeroRecorrencia        | Número da Recorrência                              |
-| estabelecimento          | Código do estabelecimento, fornecido pelo Yapay |
-| valor                    | Valor                                              |
-| codigoFormaPagamento     | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a> |
-| numeroCobrancaTotal      | Quantidade máxima de cobranças                     |
-| numeroCobrancaRestantes  | Quantidade de cobranças restantes                  |
-| status                   | Status atual da recorrência                        |
-| mensagem                 | Mensagem da recorrência                            |
-| numeroPedido             | Número da Cobrança Recorrente                      |
-| statusTransacao          | Status atual da transação recorrente               |
-| autorizacao              | Código de autorização da Adquirente                |
-| codigoTransacaoOperadora | <a href="/gateway/rest/codigos-da-api-rest/#status-de-transacao" target="_blank" class="linkPadraoVerde">Status atual da transação</a> |
-| dataAprovacaoOperadora   | Data aprovação Adquirente                          |
-| numeroComprovanteVenda   | Número Comprovante Adquirente                      |
-| mensagemVenda            | Mensagem Venda Adquirente                          |
-
+| Campo                    | Descrição                                                                      | Tipo          | Tamanho           |
+|--------------------------|--------------------------------------------------------------------------------|---------------|-------------------|
+| numeroRecorrencia        | Número da Recorrência                                                          | Numérico      | Até 15 dígitos    |
+| estabelecimento          | Código do estabelecimento, fornecido pelo Yapay                                | Numérico      | 13 dígitos        |
+| valor                    | Valor                                                                          | Numérico      | Até 10 dígitos    |
+| codigoFormaPagamento     | <a href="/gateway/rest/codigos-da-api-rest/#forma-de-pagamento" target="_blank" class="linkPadraoVerde">Código da forma de pagamento</a>                                        | Numérico      | Até 3 dígitos     |
+| numeroCobrancaTotal      | Quantidade máxima de cobranças                                                 | Numérico      | Até 10 dígitos    |
+| numeroCobrancaRestantes  | Quantidade de cobranças restantes                                              | Numérico      | Até 10 dígitos    |
+| status                   | Status atual da recorrência, sendo 0 para recorrência cancelada e 1 para ativa | Numérico      | 1 dígito          |
+| mensagem                 | Mensagem da recorrência                                                        | Alfa Numérico | Até 50 caracteres |
+| numeroPedido             | Número da Cobrança Recorrente                                                  | Numérico      | Até 19 dígitos    |
+| statusTransacao          | Status atual da transação recorrente                                           | Numérico      | Até 2 dígitos     |
+| autorizacao              | Código de autorização da Adquirente                                            | Alfa Numérico | Até 20 caracteres |
+| codigoTransacaoOperadora | <a href="/gateway/rest/codigos-da-api-rest/#status-de-transacao" target="_blank" class="linkPadraoVerde">Status atual da transação</a>                                                | Alfa Numérico | Até 20 caracteres |
+| dataAprovacaoOperadora   | Data aprovação Adquirente                                                      | Alfa Numérico | Até 10 caracteres |
+| numeroComprovanteVenda   | Número Comprovante Adquirente                                                  | Alfa Numérico | Até 20 caracteres |
+| mensagemVenda            | Mensagem Venda Adquirente                                                      | Alfa Numérico | Até 50 caracteres |
+ |
 
 Ao lado você pode visualizar um exemplo de retorno da transação.
 
