@@ -261,9 +261,9 @@ _`dadosEntrega`_
 | taxaEmbarque             | Valor taxa embarque                                                     | Numérico      | Até 10 dígitos     |
 | parcelas                 | Quantidade de parcelas da transação                                     | Numérico      | Até 2 dígitos      |
 | urlPagamento             | Para o modelo redirect. Essa será a URL de redirecionamento da operação | Alfa Numérico | Até 500 caracteres |
-| statusTransacao          | Status atual da transação                                               | Numérico      | Até 2 dígitos      |
+| statusTransacao          | <a href="/gateway/rest/codigos-da-api-rest/#status-de-transacao" target="_blank" class="linkPadraoVerde">Status atual da transação</a>                                               | Numérico      | Até 2 dígitos      |
 | autorizacao              | Código de autorização da adquirente                                     | Numérico      | Até 20 dígitos     |
-| codigoTransacaoOperadora | <a href="/gateway/rest/codigos-da-api-rest/#status-de-transacao" target="_blank" class="linkPadraoVerde">Status atual da transação</a>                                       | Numérico      | Até 20 dígitos     |
+| codigoTransacaoOperadora | Código de retorno da adquirente                                       | Numérico      | Até 20 dígitos     |
 | dataAprovacaoOperadora   | Data de aprovação na adquirente                                         | Alfa Numérico | Até 10 dígitos     |
 | numeroComprovanteVenda   | Número do comprovante de venda                                          | Alfa Numérico | Até 20 dígitos     |
 | nsu                      | Número de NSU                                                           | Alfa Numérico | Até 10 dígitos     |
