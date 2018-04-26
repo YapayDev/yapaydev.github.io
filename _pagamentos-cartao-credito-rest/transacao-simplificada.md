@@ -101,6 +101,7 @@ _`transacao`_
 | parcelas        | Quantidade de parcelas da transação. Verificar se forma de pagamento suporta parcelamento                      | Numérico      | Até 2 dígitos  | Sim |
 | urlCampainha    | URL será sempre acionada quando o status do pedido mudar. Deve estar preparada para receber dados de campainha | Alfa Numérico | Até 250 caracteres | Não
 | urlResultado    | Para o modelo de pagamento redirect, O Yapay redirecionará para essa URL                                    | Alfa Numérico | Até 250 caracteres | Para pagamentos redirecionáveis é obrigatório |
+| idioma          | 1 - Português 2 - Inglês 3 - Espanhol                                                                          | Numérico      | -               | Sim |
 
 
 _`dadosCartao`_
