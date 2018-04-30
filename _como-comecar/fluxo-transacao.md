@@ -1,6 +1,6 @@
 ---
 title: Fluxo de Transação
-position: 3
+position: 4
 navbar: intermediador
 ---
 

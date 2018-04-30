@@ -1,6 +1,6 @@
 ---
 title: Tipos de Integração
-position: 2
+position: 3
 menu: intermediador
 navbar: intermediador
 ---

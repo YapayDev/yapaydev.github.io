@@ -1,6 +1,6 @@
 ---
 title: Obter Token de Integração
-position: 5
+position: 6
 menu: intermediador
 navbar: intermediador
 ---
