@@ -482,6 +482,8 @@ Abaixo segue tabelas com essas informações pré-definidas:
 | Transf. Online Banco do Brasil  | 23 |
 | Boleto Bancário                 |    |
 | Boleto Bancário                 | 6  |
+| Saldo em conta                  |    |
+| Pagamento com Saldo             | 8  |
 
 
 | Tabela 4 – Status da Transação       |
