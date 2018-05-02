@@ -69,7 +69,7 @@ Estrtura de retorno adquirente Bin. Os comentários indicam a informação retor
             "nomePortador" : "Teste Teste",
             "numeroCartao" : "5547220000000102",
             "codigoSeguranca" : "123",
-            "dataValidade" : "12/2017"
+            "dataValidade" : "12/2030"
         },
         "itensDoPedido" : [
         {
@@ -101,7 +101,7 @@ Estrtura de retorno adquirente Bin. Os comentários indicam a informação retor
     <!--Código retorno Bin-->
     "codigoTransacaoOperadora": "0",
     <!--Data retorno adquirente-->
-    "dataAprovacaoOperadora": "20/10/2017 16:36:43",
+    "dataAprovacaoOperadora": "20/10/2030 16:36:43",
     <!--TID-->
     "numeroComprovanteVenda": "Y:657409:4514266711:PPX :632615",
     "nsu": "",

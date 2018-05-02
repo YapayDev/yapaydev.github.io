@@ -106,7 +106,7 @@ Exemplos Cartão de Crédito
     <!--Código retorno Cielo-->
     "codigoTransacaoOperadora": "0",
     <!--Data retorno adquirente-->
-    "dataAprovacaoOperadora": "24/05/2017",
+    "dataAprovacaoOperadora": "24/05/2030",
     <!--TID-->
     "numeroComprovanteVenda": "10117092708342800232",
     "nsu": "428706",
@@ -175,7 +175,7 @@ Exemplos Cartão de Crédito
     <!--Código de erro-->
     "codigoTransacaoOperadora": "0",
     <!--Data retorno adquirente-->
-    "dataAprovacaoOperadora": "24/05/2017",
+    "dataAprovacaoOperadora": "24/05/2030",
     <!--TID-->
     "numeroComprovanteVenda": "10069930690009F2122A",
     "nsu": "0",

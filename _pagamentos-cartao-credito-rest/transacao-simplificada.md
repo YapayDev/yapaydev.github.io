@@ -22,7 +22,7 @@ right_code: |
           "nomePortador" : "Teste Teste",
           "numeroCartao" : "0000000000000001",
           "codigoSeguranca" : "123",
-          "dataValidade" : "12/2017"
+          "dataValidade" : "12/2030"
       },
       "itensDoPedido" : [
       {
@@ -50,7 +50,7 @@ right_code: |
       "statusTransacao": 1,
       "autorizacao": "123456",
       "codigoTransacaoOperadora": "0",
-      "dataAprovacaoOperadora": "24/05/2017",
+      "dataAprovacaoOperadora": "24/05/2030",
       "numeroComprovanteVenda": "10069930690009F2122A",
       "nsu": "428706",
       "mensagemVenda": "Operation Success",

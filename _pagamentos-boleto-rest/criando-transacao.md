@@ -21,7 +21,7 @@ right_code: |
           "urlResultado" : "http://seusite.com.br/retorno",
           "ip" : "192.168.12.110",
           "idioma" : 1,
-          "dataVencimentoBoleto":"13/12/2017"
+          "dataVencimentoBoleto":"13/12/2030"
       },
       "itensDoPedido" : [
       {

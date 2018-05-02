@@ -97,7 +97,7 @@ Estrtura de retorno adquirente Cielo. Os comentários indicam a informação ret
             "nomePortador" : "Teste Teste",
             "numeroCartao" : "0000000000000001",
             "codigoSeguranca" : "123",
-            "dataValidade" : "12/2017"
+            "dataValidade" : "12/2030"
         },
         "itensDoPedido" : [
         {
@@ -129,7 +129,7 @@ Estrtura de retorno adquirente Cielo. Os comentários indicam a informação ret
         <!--Código erro em caso de negação-->
         "codigoTransacaoOperadora": "0",
         <!--Data retorno adquirente-->
-        "dataAprovacaoOperadora": "24/05/2017",
+        "dataAprovacaoOperadora": "24/05/2030",
         <!--TID-->
         "numeroComprovanteVenda": "10069930690009F2122A",
         "nsu": "428706",

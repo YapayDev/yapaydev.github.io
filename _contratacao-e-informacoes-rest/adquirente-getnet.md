@@ -61,7 +61,7 @@ Estrtura de retorno adquirente GetNet. Os comentários indicam a informação re
             "nomePortador" : "Teste Teste",
             "numeroCartao" : "5453010000083303",
             "codigoSeguranca" : "123",
-            "dataValidade" : "12/2017"
+            "dataValidade" : "12/2030"
         },
         "itensDoPedido" : [
         {

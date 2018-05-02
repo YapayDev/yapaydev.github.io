@@ -106,7 +106,7 @@ right_code: |
         "statusTransacao": 1,
         "autorizacao": "12260",
         "codigoTransacaoOperadora": "0",
-        "dataAprovacaoOperadora": "24/05/2017", 
+        "dataAprovacaoOperadora": "24/05/2030", 
         "numeroComprovanteVenda": "10117092009151900057", 
         "nsu": "428706",
         "mensagemVenda": "00 - Success",

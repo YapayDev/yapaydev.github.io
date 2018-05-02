@@ -62,7 +62,7 @@ Estrtura de retorno adquirente Stone. Os comentários indicam a informação ret
             "nomePortador" : "Teste Teste",
             "numeroCartao" : "5431111111111111",
             "codigoSeguranca" : "123",
-            "dataValidade" : "12/2017"
+            "dataValidade" : "12/2030"
         },
         "itensDoPedido" : [
         {
@@ -95,7 +95,7 @@ Estrtura de retorno adquirente Stone. Os comentários indicam a informação ret
         <!--Código retorno Stone-->
         "codigoTransacaoOperadora": "0",
         <!--Data retorno adquirente-->
-        "dataAprovacaoOperadora": "20/10/2017 16:36:43",
+        "dataAprovacaoOperadora": "20/10/2030 16:36:43",
         <!--TID-->
         "numeroComprovanteVenda": "1662429594",
         "nsu": "",
