@@ -37,6 +37,7 @@ Informações sobre a contratação, <a href="https://www.userede.com.br/nossos-
 * Esta operadora de cartão permite cadastrar uma informação para aparecer na fatura dos clientes quando realizarem compras sua loja, funcionalidade chamada de SoftDescriptor. Esta deverá possuir até 13 caracteres. Caso queira utilizar, envie ao Suporte SuperPay o nome desejado para configuração em seu estabelecimento.
 * Também é possível o envio do SoftDescriptor por pedido, para isto solicite ao Suporte a ativação e envie a informação no campoLivre4 de cada transação;
 * Para transações com cartão de débito ou autenticada, o eCommerce deverá enviar o "userAgente" (Identificador do browser utilizado pelo comprador no momento da compra) no campo `<campoLivre1>` e redirecionar o consumidor para o campo `<urlPagamento>` recebida no retorno, onde o mesmo deverá incluir sua senha ou token no ambiente do banco emissor. Apenas após esta etapa, a transação será concluída.
+* Para bandeiras de débito (Visa Electron e Maestro) e/ou cartões autenticados (Visa e MasterCard), é preciso a liberação do serviço de 3DS. Portanto, para utilização destas bandeiras solitem a liberação diretamente com a Adquirente Rede.
 
 
 
