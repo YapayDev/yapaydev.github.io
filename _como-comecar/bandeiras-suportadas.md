@@ -17,7 +17,7 @@ Abaixo você consegue visualizar a tabela com as bandeiras e produtos suportados
 | Elo                            | 16                    | 12                  | Sim     | Não    |
 | Aura                           | 18                    | 12                  | Sim     | Não    |
 | Hipercard                      | 20                    | 12                  | Sim     | Não    |
-| Hiper                          | 20                    | 12                  | Sim     | Não    |
+| Hiper                          | 25                    | 12                  | Sim     | Não    |
 | JCB                            | 19                    | 1                   | Sim     | Não    |
 | Discover                       | 15                    | 1                   | Sim     | Não    |
 | Boleto Bancário                | 6                     | 1                   | Sim     | Não    |
