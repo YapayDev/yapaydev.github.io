@@ -43,10 +43,12 @@ right_code: |
 
 ---
 
- <i class="fa fa-exclamation-circle" aria-hidden="true"></i> Esta funcionalidade está disponível em um EndPoint diferenciado: SANDBOX: https://sandbox.gateway.yapay.com.br/checkout/api/v3/recorrencia/agg/<<`codigoEstabelecimento>>`/<<`numeroRecorrencia`>>/atualizar 
+Esta funcionalidade está disponível em um EndPoint diferenciado:
+
+ <i class="fa fa-exclamation-circle" aria-hidden="true"></i>  SANDBOX: https://sandbox.gateway.yapay.com.br/checkout/api/v3/recorrencia/agg/`codigoEstabelecimento>>`/`numeroRecorrencia`/atualizar 
 {: .informativoVermelho }
 
-<i class="fa fa-exclamation-circle" aria-hidden="true"></i> PRODUÇÃO: https://gateway.yapay.com.br/checkout/api/v3/recorrencia/agg/<<`codigoEstabelecimento>>`/<<`numeroRecorrencia`>>/atualizar
+<i class="fa fa-exclamation-circle" aria-hidden="true"></i> PRODUÇÃO: https://gateway.yapay.com.br/checkout/api/v3/recorrencia/agg/`codigoEstabelecimento>>`/`numeroRecorrencia`/atualizar
 {: .informativoVermelho }
 
  
