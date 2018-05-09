@@ -1,6 +1,6 @@
 ---
 title: Cancelando uma recorrência
-position: 2
+position: 3
 menu: gateway
 right_code: |
   ~~~ xml

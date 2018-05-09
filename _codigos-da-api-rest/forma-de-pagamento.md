@@ -21,6 +21,7 @@ Cartões
 | 177     | JCB              | Cielo API 3.0    | Cielo         | WebService |
 | 178     | Maestro          | Cielo API 3.0    | Cielo         | WebService |
 | 179     | Visa Electron    | Cielo API 3.0    | Cielo         | WebService |
+| 189     | American Express | E-Rede           | Rede          | WebService |
 | 190     | Visa             | E-Rede           | Rede          | WebService |
 | 191     | MasterCard       | E-Rede           | Rede          | WebService |
 | 192     | Diners           | E-Rede           | Rede          | WebService |
@@ -30,6 +31,7 @@ Cartões
 | 196     | Credz            | E-Rede           | Rede          | WebService |
 | 197     | Maestro          | E-Rede           | Rede          | WebService |
 | 198     | Visa Electron    | E-Rede           | Rede          | WebService |
+| 199     | Elo              | E-Rede           | Rede          | WebService |
 | 270     | Visa             | GetNetWS         | GetNet        | WebService |
 | 271     | MasterCard       | GetNetWS         | GetNet        | WebService |
 | 350     | Visa             | StoneWs          | Stone         | WebService |
