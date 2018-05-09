@@ -37,28 +37,28 @@ right_code: |
         "periodicidadeCodigo": 3
         }
   ~~~
-  {: title="Exemplo retorno transação" }
-  
-
-
+  {: title="Exemplo retorno" }
 ---
 
-Esta funcionalidade está disponível em um EndPoint diferenciado:
-
- <i class="fa fa-exclamation-circle" aria-hidden="true"></i>  SANDBOX: https://sandbox.gateway.yapay.com.br/checkout/api/v3/recorrencia/agg/`codigoEstabelecimento>>`/`numeroRecorrencia`/atualizar 
+<i class="fa fa-info-circle" aria-hidden="true"></i> Esta funcionalidade está disponível em um EndPoint diferenciado:
 {: .informativoVermelho }
 
-<i class="fa fa-exclamation-circle" aria-hidden="true"></i> PRODUÇÃO: https://gateway.yapay.com.br/checkout/api/v3/recorrencia/agg/`codigoEstabelecimento>>`/`numeroRecorrencia`/atualizar
-{: .informativoVermelho }
 
- 
+
+| Endereço para Integração                                                                          |
+|--------------------------|------------------------------------------------------------------------|
+| Ambiente de Testes       | https://sandbox.gateway.yapay.com.br/checkout/api/v3/recorrencia/agg/<<`codigoEstabelecimento`>>/<<`numeroRecorrencia`>>/atualizar  |
+| Ambiente de Produção     | https://gateway.yapay.com.br/checkout/api/v3/recorrencia/agg/<<`codigoEstabelecimento`/<<`numeroRecorrencia`>>/atualizar          |
+| Protocolo                | Rest/HTTP                                                              |
+
+
 
 Com este método é possível a alteração do dia de cobrança e valor de uma recorrência já cadastrada no Gateway.
 
 Alterando dia de cobrança
 {: .subtitulo }
 
-<i class="fa fa-info-circle" aria-hidden="true"></i> Para enviar a transação, utilize o método <span class="put">PUT</span>.
+Para enviar a transação, utilize o método <span class="put">PUT</span>.
 
 
 **REQUISIÇÃO**
