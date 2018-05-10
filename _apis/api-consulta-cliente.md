@@ -5,9 +5,6 @@ menu: intermediador
 right_code: |
   ~~~ php
     <?php
-        /* Tipo de Conta */ 
-        $params['access_token'] = 'SEU ACCESS_TOKEN';
-
         
         $params['cpf'] = '';         
 
@@ -49,11 +46,9 @@ right_code: |
 
         try {
             NameValuePair[] data = {
-                /* Tipo de Conta */
-                new NameValuePair("access_token", "SEU ACCESS_TOKEN"),
             
                 /* Dados do Cliente */
-                new NameValuePair("cpf", "CPF"),
+                new NameValuePair("cpf", "CPF")
 
             };
 
@@ -87,10 +82,6 @@ right_code: |
         
         NameValueCollection queryParameters = new NameValueCollection();
         
-        /* Tipo de Conta */
-        queryParameters.Add("access_token", "SEU ACCESS_TOKEN");
-        
-        /* Dados do Cliente */
         queryParameters.Add("cpf", "CPF");
         
         List<string> items = new List<string>();
@@ -144,14 +135,13 @@ Para a integração via POST, segue abaixo os dados necessários para envio:
 
 | Dados de Entrada           |  Obrig.         | Formato / Tam. Max   | Descrição                      |
 |----------------------------|-----------------|----------------------|--------------------------------|
-| access_token               | Sim             | Número               | Token de Acesso                |
 | cpf                        | Sim             | Texto                | CPF<sup>1</sup>                |
 | email                      | Sim             | Texto                | E-mail<sup>1</sup>             |
 
 
 
 
-<sup>1</sup> Enviando o `cpf` ou o `email` a consulta é simples. Enviando ambos os parâmetros a consulta é completa.
+<sup>1</sup> Um dos parâmetros é obrigatório, `cpf` ou o `email`.
 {:.info}
 
 
@@ -169,82 +159,11 @@ Exemplo de resposta com sucesso baseando no envio do exemplo acima:
     <?xml version="1.0" encoding="UTF-8"?>
     <people>
         <data_response>
-            <name>Diana Prince</name>
-            <cpf>161.XXX.X36-XX</cpf>
-            <email>dianeprince@amazonas.com</email>
+            <name>Diane Prince</name>
+            <cpf>231.XXX.X65-XX</cpf>
+            <email>anava@tray.net.br</email>
             <has_card type="boolean">true</has_card>
             <company nil="true"/>
-            <account>
-                <token_account>6k63b0a42dd2fe0</token_account>
-                <balance type="decimal">10.0</balance>
-                <balance_transacted type="decimal">40.0</balance_transacted>
-                <account_type_id type="integer">1</account_type_id>
-                <status_id type="integer">2</status_id>
-                <status_name>Ativo</status_name>
-                <verified type="boolean">false</verified>
-                <account_verification>
-                    <status_id type="integer">94</status_id>
-                    <status_name>Novo</status_name>
-                </account_verification>
-            </account>
-            <addresses type="array">
-                <address>
-                    <person_address_id type="integer">136424</person_address_id>
-                    <street>Avenida Esmeralda</street>
-                    <number>570</number>
-                    <type_address>B</type_address>
-                    <neighborhood>Jardim Esmeralda</neighborhood>
-                    <postal_code>17516000</postal_code>
-                    <completion></completion>
-                    <city>Marília</city>
-                    <state>SP</state>
-                    <primary type="boolean">true</primary>
-                </address>
-                <address>
-                    <person_address_id type="integer">137723</person_address_id>
-                    <street>Avenida Esmeralda</street>
-                    <number>570</number>
-                    <type_address>B</type_address>
-                    <neighborhood>Jardim Esmeralda</neighborhood>
-                    <postal_code>17516000</postal_code>
-                    <completion></completion>
-                    <city>Marília</city>
-                    <state>SP</state>
-                    <primary type="boolean">false</primary>
-                </address>
-                <address>
-                    <person_address_id type="integer">137780</person_address_id>
-                    <street>B</street>
-                    <number>123</number>
-                    <type_address>B</type_address>
-                    <neighborhood>Sé</neighborhood>
-                    <postal_code>17525181</postal_code>
-                    <completion></completion>
-                    <city>Marilia</city>
-                    <state>SP</state>
-                    <primary type="boolean">false</primary>
-                </address>
-            </addresses>
-            <contacts type="array">
-                <contact>
-                    <person_contact_id type="integer">244567</person_contact_id>
-                    <value>1499999999</value>
-                    <type_contact>M</type_contact>
-                    <primary type="boolean">true</primary>
-                </contact>
-                <contact>
-                    <person_contact_id type="integer">244568</person_contact_id>
-                    <value>dianeprince@amazonas.com</value>
-                    <type_contact>E</type_contact>
-                    <primary type="boolean">false</primary>
-                </contact>
-                <contact>
-                    <person_contact_id type="integer">246836</person_contact_id>
-                    <value>1433114455</value>
-                    <type_contact>H</type_contact>
-                    <primary type="boolean">false</primary>
-                </contact>
-            </contacts>
         </data_response>
         <message_response>
             <message>success</message>

@@ -5,8 +5,8 @@ menu: intermediador
 right_code: |
   ~~~ php
     <?php
-        /* Token da conta da Loja */
-        $params['token_account'] = 'SEU_TOKEN';        
+        
+            
 
         /* Valor da Transação */
         $params['price'] = '1134.30';
