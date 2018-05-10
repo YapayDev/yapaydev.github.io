@@ -122,7 +122,7 @@ Para autenticação, enviar `login` e `senha` no HEADER:
 
 Abaixo exemplo de alteração de valor da cobrança:
 
-```json
+```curl
 
   curl
     --request PUT https://sandbox.gateway.yapay.com.br/checkout/api/v3/recorrencia/agg/10000000000000/2/atualizar
@@ -161,7 +161,7 @@ Abaixo exemplo de alteração de valor da cobrança:
 
 Exemplo de retorno atualização valor de cobrança:
 
-```json
+```curl
   --header "Content-Type: application/json"
     {
       "tipo": "REST",
