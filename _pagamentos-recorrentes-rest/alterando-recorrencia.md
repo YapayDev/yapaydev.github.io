@@ -3,7 +3,7 @@ title: Alterando recorrência
 position: 2
 menu: gateway
 right_code: |
-  ~~~ json
+  ~~~ javascript
     curl
         --request PUT https://sandbox.gateway.yapay.com.br/checkout/api/v3/recorrencia/agg/10000000000000/2/atualizar
         --header "Content-Type: application/json"
@@ -16,7 +16,7 @@ right_code: |
   ~~~
   {: title="Exemplo alteração de dia da cobrança" }
 
-  ~~~ json
+  ~~~ javascript
     --header "Content-Type: application/json"
         {
         "tipo": "REST",
@@ -122,7 +122,7 @@ Para autenticação, enviar `login` e `senha` no HEADER:
 
 Abaixo exemplo de alteração de valor da cobrança:
 
-```curl
+```javascript
 
   curl
     --request PUT https://sandbox.gateway.yapay.com.br/checkout/api/v3/recorrencia/agg/10000000000000/2/atualizar
@@ -161,7 +161,7 @@ Abaixo exemplo de alteração de valor da cobrança:
 
 Exemplo de retorno atualização valor de cobrança:
 
-```curl
+```javascript
   --header "Content-Type: application/json"
     {
       "tipo": "REST",
