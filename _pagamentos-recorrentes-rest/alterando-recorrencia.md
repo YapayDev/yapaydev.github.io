@@ -119,6 +119,22 @@ Para autenticação, enviar `login` e `senha` no HEADER:
 |-------------|------------------------------------|----------|----------------|
 | valor       | Novo valor da cobrança recorrente  | Numérico | Até 10 dígitos |
 
+
+Abaixo exemplo de alteração de valor da cobrança:
+
+```json
+
+  curl
+    --request PUT https://sandbox.gateway.yapay.com.br/checkout/api/v3/recorrencia/agg/10000000000000/2/atualizar
+    --header "Content-Type: application/json"
+    --curl -u usuario:senha .........
+    --data-binary
+      {
+      "valor": 20000
+      }
+
+```
+
 **RESPOSTA**
 
 
@@ -143,6 +159,31 @@ Para autenticação, enviar `login` e `senha` no HEADER:
 | periodicidadeCodigo     | Código da periodicidade     Numérico	1 dígito
 
 
+Exemplo de retorno atualização valor de cobrança:
+
+```json
+  --header "Content-Type: application/json"
+    {
+      "tipo": "REST",
+      "periodicidade": "MENSAL",
+      "codigoEstabelecimento": "10000000000000",
+      "numero": 2,
+      "ativo": true,
+      "dataCriacao": "02/05/2018 13:22:25",
+      "formaPagamento": 170,
+      "formaPagamentoDescricao": "Visa Cielo API",
+      "valor": 20000,
+      "quantidadeCobranca": 0,
+      "diaCobranca": 20,
+      "mesCobranca": 0,
+      "primeiraCobranca": 0,
+      "detalhes": null,
+      "logs": null,
+      "periodicidadeCodigo": 3
+    }
+
+
+```
 
 
 <div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>
