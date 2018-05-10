@@ -265,6 +265,7 @@ Para a integração via POST, segue abaixo os dados necessários para envio:
 | state                      | Sim             | Texto                | Estado                         |
 | payment_tax_code           | Não             | Número               | Código Tabela de Taxas         |
 | reseller_token             | Não             | Texto                | Token do Revendedor            |
+| password                   | Não             | Texto                | Senha do cliente para acessar o painel |
 
 
 
