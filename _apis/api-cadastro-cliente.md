@@ -281,7 +281,7 @@ Veja ao lado uma chamada de API de exemplo.
 JSON de Resposta
 {: .subtitulo }
 
-A API de Processamento de Transações retorna a resposta em XML.
+A API de Cadastro de Cliente retorna a resposta em XML.
 
 
 Exemplo de resposta com sucesso baseando no envio do exemplo acima:
