@@ -177,7 +177,7 @@ Veja ao lado uma chamada de API de exemplo.
 JSON de Resposta
 {: .subtitulo }
 
-A API de Processamento de Transações retorna a resposta em JSON.
+A API de Cancelar de Transações retorna a resposta em JSON.
 
 
 Exemplo de resposta com sucesso baseando no envio do exemplo acima:
