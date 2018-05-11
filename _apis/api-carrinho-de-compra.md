@@ -23,7 +23,7 @@ Esta ferramenta exclusiva também permite que seja possível o seu uso em um amb
 | Ambiente de Produção     | http://api.intermediador.yapay.com.br/v1/tmp_transactions/create           |
 | Protocolo                | Rest/HTTP                                                                    |
 
-Para a integração via POST, segue abaixo os dados necessários para envio:
+Para a integração via <span class="post">POST</span>, segue abaixo os dados necessários para envio:
 
 | Dados de Entrada                   |  Obrig.  | Descrição                   |
 |------------------------------------|----------|-----------------------------|

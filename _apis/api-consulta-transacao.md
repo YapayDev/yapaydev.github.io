@@ -129,7 +129,7 @@ Para esta integração, deverá ser feito uso da API a seguir:
 | Protocolo                | Rest/HTTP                                                                |
 
 
-Para a integração via API, segue abaixo os dados necessários para envio:
+Para a integração via <span class="get">GET</span>, segue abaixo os dados necessários para envio:
 
 | Dados de Entrada                       |  Obrig.  | Formato / Tam. Max   | Descrição                                                |
 |----------------------------------------|----------|----------------------|----------------------------------------------------------|

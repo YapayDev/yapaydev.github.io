@@ -54,7 +54,7 @@ Para esta integração, deverá ser feito uso da API a seguir:
 | Protocolo                | Rest/HTTP                                                                |
 
 
-Para a integração via API, segue abaixo os dados necessários para envio:
+Para a integração via <span class="post">POST</span>, segue abaixo os dados necessários para envio:
 
 | Dados de Entrada | Descrição                        |
 |------------------|----------------------------------|

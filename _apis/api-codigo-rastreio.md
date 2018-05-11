@@ -56,7 +56,7 @@ O Yapay disponibiliza uma versão transparente para a integração do código de
 | Protocolo                | Rest/HTTP                                                                 |
 
 
-Para a integração via POST, segue abaixo os dados necessários para envio:
+Para a integração via <span class="post">POST</span>, segue abaixo os dados necessários para envio:
 
 | Dados de Entrada  |  Obrig.  | Descrição                             |
 |-------------------|----------|---------------------------------------|

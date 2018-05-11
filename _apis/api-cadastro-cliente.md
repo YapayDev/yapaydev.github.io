@@ -235,7 +235,7 @@ Através da API de Cadastro de Cliente é possível criar clientes do tipo Pesso
 | Protocolo                | Rest/HTTP                                                              |
 
 
-Para a integração via POST, segue abaixo os dados necessários para envio:
+Para a integração via <span class="post">POST</span>, segue abaixo os dados necessários para envio:
 
 | Dados de Entrada           |  Obrig.         | Formato / Tam. Max   | Descrição                      |
 |----------------------------|-----------------|----------------------|--------------------------------|
