@@ -48,7 +48,7 @@ Etapas para configuração:
 * 3- Primeiramente habilite em "Modo de Teste"
 * 4- Inclua as URLs abaixo:
 
-**EM TESTES Subtituir o valor 10000000000 pelo código de estabelecimento Yapay**
+**EM TESTES Substituir o valor 10000000000 pelo código de estabelecimento Yapay**
 
 | Nome do campo            | URL                                                                                                                 |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Etapas para configuração:
 | URL de Mudança de Status | https://sandbox.gateway.yapay.com.br/checkout/PagamentoCielo/NotificacaoCheckout?codE=10000000000&acao=mudancaStatus |
 
 
-**EM PRODUÇÃO Subtituir o valor 10000000000 pelo código de estabelecimento SuperPay**
+**EM PRODUÇÃO Substituir o valor 10000000000 pelo código de estabelecimento Yapay**
 
 | Nome do Campo            | URL                                                                                                                 |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------|
