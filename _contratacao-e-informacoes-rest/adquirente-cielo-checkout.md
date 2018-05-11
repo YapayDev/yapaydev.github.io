@@ -60,7 +60,7 @@ Etapas para configuração:
 
 * 1- Acesse o gerenciador Cielo
 * 2- Clique na aba "Configurações" --> "Configurações da loja"
-* 3- Primeiramente habilite em "Modo de Teste"
+* 3- Primeiramente **desabilite** em "Modo de Teste"
 * 4- Inclua as URLs abaixo:
 
 
