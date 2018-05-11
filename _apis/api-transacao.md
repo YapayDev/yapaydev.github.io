@@ -389,7 +389,8 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | payment[billet_date_expiration]          |   Não    |  Data / 10           |  Data de Vendimento do Boleto                            |
 | affiliates[][account_email]              |   Não    |  Texto / 100         |  Email do afiliado da transação                          |
 | affiliates[][percentage]                 |   Não    |  Número / 3          |  Percentual de repasse ao afiliado <sup>4</sup>          |
-| affiliates[][commission_amount]          |   Não    |  Decimal / 11        |  Valor de repasse ao afiliado <sup>4</sup>               | 
+| affiliates[][commission_amount]          |   Não    |  Decimal / 11        |  Valor de repasse ao afiliado <sup>5</sup>               |
+| reseller_token                           |   Não    |  Texto               |  Valor de repasse ao afiliado <sup>6</sup>               |
 
 
 <sup>1</sup> Note que nas informações acima que alguns dados possuem uma característica diferente, tendo um elemento [] dentro de sua formatação. Isso ocorre justamente para permitir que sejam enviados diversos itens na mesma requisição. 
@@ -406,6 +407,10 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 
 <sup>5</sup> O parâmetro `transaction[url_notification]` é informado para comunicar a sua aplicação a cada alteração de status de uma transação. Saiba mais em <a href="/intermediador/notificacao-automatica-status/" target="_blank" class="linkPadraoVerde">Notificação Automática de Status</a>.
 {:.info}
+
+<sup>6</sup> O parâmetro `reseller_token` é informado para comunicar que a transação é vinculada a um revendedor. Dessa forma todas as transações que são enviadas com esse parâmetro ficam vinculadas ao revendedor.
+{:.info}
+
 
 
 Veja ao lado uma chamada de API de exemplo.
