@@ -131,6 +131,7 @@ Os dados adicionais que podem ser enviados neste POST são:
 | sub_store                             |  Texto / 20                     |  Sub-Loja                                |
 | url_css                               |  Url / 255                      |  URL do CSS customizado                  |
 | available_payment_methods             |  Texto /20                      |  Meios de Pagamento disponíveis          |
+| max_split_transaction                 |  Número /10                     |  Número máximo de parcelas               |
 | customer[name]                        |  Texto /100                     |  Nome do Comprador                       |
 | customer[cpf]                         |  Texto /14                      |  CPF do Comprador                        |
 | customer[email]                       |  Texto /100                     |  E-mail do Comprador                     |
