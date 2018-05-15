@@ -97,8 +97,7 @@ O que é antifraude?
 
 Um sistema de antifraude é acionado devido ao aumento de vazamento de informações. Essas informações são capturadas por hackers que são especializados em roubo desses dados na internet. 
 
-Com esses problemas, surgiram o sistema de antifraude que analisa as informações no momento da compra. Verificando algumas possibilidades de uma possível fraude.
-
+Com esses problemas surgiram os sistemas de antifraude, que analisam as informações no momento da compra, verificando algumas possibilidades de uma possível fraude.
 
 O que é fingerprint?
 {: .subtitulo }
@@ -156,6 +155,9 @@ Em que lugar da página eu cologo o fingerprint?
 
 Após esses procedimentos é enviado juntamente com o JSON de requisição o parâmetro `finger_print`, onde conseguimos realizar a analise antifraude.
 
+
+O fingerprint funciona nos ambientes `SANDBOX` e `PRODUÇÃO`.
+{:.warning }
 
 
 <div class="voltar-ao-topo"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>Voltar ao topo</a></div>

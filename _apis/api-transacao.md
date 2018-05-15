@@ -349,13 +349,17 @@ Fingerprint
 
 **4-** Também deve realizar a chamada do plugin, no final da mesma página. Essa chamada acionará o fingerprint para que seja realizada a coleta e analise de dados. Conforme código javascript abaixo:
 
-```php
+```html
     <script type="text/javascript">
         jQuery(document).FingerPrint().getFingerPrint();
     </script>
 ```
 
 <a href="/intermediador/apis/#fingerprint" target="_blank" class="linkPadraoVerde">Clique aqui</a> e veja um exemplo simples de requisição utilizando o fingerprint.
+
+
+O fingerprint funciona nos ambientes `SANDBOX` e `PRODUÇÃO`.
+{:.warning }
 
 
 Após esses procedimentos é enviado juntamente com o JSON de requisição o parâmetro `finger_print`, onde conseguimos realizar a analise antifraude.
