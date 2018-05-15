@@ -1,6 +1,6 @@
 ---
 title: Fingerprint
-position: 2
+position: 4
 menu: intermediador
 right_code: |
   ~~~ php
