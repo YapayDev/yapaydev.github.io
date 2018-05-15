@@ -314,22 +314,51 @@ O Yapay disponibiliza uma versão transparente para a integração de transaçõ
 
 Através do CPF do cliente é feita a consulta pela existência do seu cadastro e então as transações são atreladas ao mesmo. Caso não exista uma conta, o sistema irá criar uma nova conta com os dados que forem submetidos na integração. Para esta integração, deverá ser feito uso da API a seguir:
 
-Para a integração com a API de Transação, é necessário incluir um script no processamento da transação (na página de checkout), no início da página de finalização da compra. Segue abaixo código do script:
+Fingerprint
+{: .subtitulo }
+
+**1-** No momento que você criou o formulário para envio das informações da transação, você deve adiionar a tag `data-yapay="payment-form"`. Exemplo de form em HTML:
+
+```html
+    <html>
+        <body>
+            <form action="acao.php" method="post"  data-yapay="payment-form">
+                <input type="submit" name="submit" value="Submit" />
+            </form>
+        </body>
+    </html>
+```
+
+**2-** No momento do envio da transação, você deve adicionar o parâmetro `finger_print`. Exempĺo do código em PHP abaixo:
+
+```php
+    <?php
+        ...
+        
+        $data["finger_print"] = $_POST['finger_print'];
+        
+        ...
+    ?>
+```
+
+**3-** Você deve incluir um script no processamento da transação (na página de checkout), no início da página de finalização da compra. Segue abaixo código do script:
 
 ```html
  <script src="https://static.traycheckout.com.br/js/finger_print.js" type="text/javascript"></script>
 ```
 
-Além de incluir o script, é necessário realizar a chamada do plugin, no final da mesma página, conforme código javascript abaixo:
+**4-** Também deve realizar a chamada do plugin, no final da mesma página. Essa chamada acionará o fingerprint para que seja realizada a coleta e analise de dados. Conforme código javascript abaixo:
 
-```javascript
-    jQuery(document).FingerPrint({token_account: 'Token de Integração do Vendedor',
-                                  order_number: 'Número do pedido',
-                                  production: 'true'});
+```php
+    <script type="text/javascript">
+        jQuery(document).FingerPrint().getFingerPrint();
+    </script>
 ```
 
-O Fingerprint funciona SOMENTE em ambiente `PRODUÇÃO`.
-{:.error}
+<a href="/intermediador/apis/#fingerprint/" target="_blank" class="linkPadraoVerde">Clique aqui</a> e veja um exemplo simples de requisição utilizando o fingerprint.
+
+
+Após esses procedimentos é enviado juntamente com o JSON de requisição o parâmetro `finger_print`, onde conseguimos realizar a analise antifraude.
 
 
 | Endereço para Integração                                                                          |
@@ -341,8 +370,8 @@ O Fingerprint funciona SOMENTE em ambiente `PRODUÇÃO`.
 
 Para a integração via <span class="post">POST</span>, segue abaixo os dados necessários para envio:
 
-| Dados de Entrada                       |  Obrig.  | Formato / Tam. Max   | Descrição                                                  |
-|----------------------------------------|----------|----------------------|------------------------------------------------------------|
+| Dados de Entrada                         |  Obrig.  | Formato / Tam. Max   | Descrição                                                  |
+|------------------------------------------|----------|----------------------|------------------------------------------------------------|
 | token_account                            |   Sim    |  Texto /20           |  Token de identificação do vendedor                      |
 | customer[name]                           |   Sim    |  Texto /100          |  Nome do Comprador                                       |
 | customer[cpf]                            |   Sim    |  Texto /14           |  CPF do Comprador                                        |
@@ -392,6 +421,7 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | affiliates[][percentage]                 |   Não    |  Número / 3          |  Percentual de repasse ao afiliado <sup>4</sup>          |
 | affiliates[][commission_amount]          |   Não    |  Decimal / 11        |  Valor de repasse ao afiliado <sup>5</sup>               |
 | reseller_token                           |   Não    |  Texto               |  Valor de repasse ao afiliado <sup>6</sup>               |
+| finger_print                             |   Não    |  Texto /100          |  Token gerado pelo FingerPrint <sup>7</sup>              |
 
 
 <sup>1</sup> Note que nas informações acima que alguns dados possuem uma característica diferente, tendo um elemento [] dentro de sua formatação. Isso ocorre justamente para permitir que sejam enviados diversos itens na mesma requisição. 
@@ -412,6 +442,8 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 <sup>6</sup> O parâmetro `reseller_token` é informado para comunicar que a transação é vinculada a um revendedor. Dessa forma todas as transações que são enviadas com esse parâmetro ficam vinculadas ao revendedor.
 {:.info}
 
+<sup>7</sup> O parâmetro `finger_print` é informado por um script Javascript que faz uma coleta de dados e realiza a analise das informações disponíveis publicamente na máquina. Dessa forma é realizada a Análise de Risco.
+{:.warning}
 
 
 Veja ao lado uma chamada de API de exemplo.
