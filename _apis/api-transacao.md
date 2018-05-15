@@ -355,7 +355,7 @@ Fingerprint
     </script>
 ```
 
-<a href="/intermediador/apis/#fingerprint/" target="_blank" class="linkPadraoVerde">Clique aqui</a> e veja um exemplo simples de requisição utilizando o fingerprint.
+<a href="/intermediador/apis/#fingerprint" target="_blank" class="linkPadraoVerde">Clique aqui</a> e veja um exemplo simples de requisição utilizando o fingerprint.
 
 
 Após esses procedimentos é enviado juntamente com o JSON de requisição o parâmetro `finger_print`, onde conseguimos realizar a analise antifraude.
