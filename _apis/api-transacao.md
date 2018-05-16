@@ -317,7 +317,7 @@ Através do CPF do cliente é feita a consulta pela existência do seu cadastro 
 Fingerprint
 {: .subtitulo }
 
-**1-** No momento que você criou o formulário para envio das informações da transação, você deve adiionar a tag `data-yapay="payment-form"`. Exemplo de form em HTML:
+**1-** No momento que você criou o formulário para envio das informações da transação, você deve adiionar a tag `data-yapay="payment-form"`. Incluindo essa tag será criado um input do tipo `hidden`, com o valor do parâmetro `finger_print` que deve ser enviado junto com os parâmetros de criação na API de Transação. Exemplo de form em HTML:
 
 ```html
     <html>
@@ -329,7 +329,7 @@ Fingerprint
     </html>
 ```
 
-**2-** No momento do envio da transação, você deve adicionar o parâmetro `finger_print`. Exempĺo do código em PHP abaixo:
+**2-** No momento do envio para a API de Transação, você deve adicionar o parâmetro `finger_print`. Exempĺo do código em PHP abaixo:
 
 ```php
     <?php
@@ -341,21 +341,22 @@ Fingerprint
     ?>
 ```
 
+
 **3-** Você deve incluir um script no processamento da transação (na página de checkout), no início da página de finalização da compra. Segue abaixo código do script:
 
 ```html
  <script src="https://static.traycheckout.com.br/js/finger_print.js" type="text/javascript"></script>
 ```
 
-**4-** Também deve realizar a chamada do plugin, no final da mesma página. Essa chamada acionará o fingerprint para que seja realizada a coleta e analise de dados. Conforme código javascript abaixo:
+Também deve realizar a chamada do plugin, no final da mesma página. Essa chamada acionará o fingerprint para que seja realizada a coleta e analise de dados. Conforme código javascript abaixo:
 
-```html
+```php
     <script type="text/javascript">
-        jQuery(document).FingerPrint().getFingerPrint();
+        jQuery(document).FingerPrint();
     </script>
 ```
 
-<a href="/intermediador/apis/#fingerprint" target="_blank" class="linkPadraoVerde">Clique aqui</a> e veja um exemplo simples de requisição utilizando o fingerprint.
+Após esses procedimentos é enviado juntamente com o JSON de requisição o parâmetro `finger_print`, onde conseguimos realizar a analise antifraude.
 
 
 O fingerprint funciona nos ambientes `SANDBOX` e `PRODUÇÃO`.

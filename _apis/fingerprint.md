@@ -114,7 +114,7 @@ Como utilizar o fingerprint?
 Em que lugar da página eu cologo o fingerprint?
 {: .subtitulo }
 
-**1-** No momento que você criou o formulário para envio das informações da transação, você deve adiionar a tag `data-yapay="payment-form"`. Exemplo de form em HTML:
+**1-** No momento que você criou o formulário para envio das informações da transação, você deve adiionar a tag `data-yapay="payment-form"`. Incluindo essa tag será criado um input do tipo `hidden`, com o valor do parâmetro `finger_print` que deve ser enviado junto com os parâmetros de criação na API de Transação. Exemplo de form em HTML:
 
 ```html
     <html>
@@ -126,7 +126,7 @@ Em que lugar da página eu cologo o fingerprint?
     </html>
 ```
 
-**2-** No momento do envio da transação, você deve adicionar o parâmetro `finger_print`. Exempĺo do código em PHP abaixo:
+**2-** No momento do envio para a API de Transação, você deve adicionar o parâmetro `finger_print`. Exempĺo do código em PHP abaixo:
 
 ```php
     <?php
@@ -145,11 +145,11 @@ Em que lugar da página eu cologo o fingerprint?
  <script src="https://static.traycheckout.com.br/js/finger_print.js" type="text/javascript"></script>
 ```
 
-**4-** Também deve realizar a chamada do plugin, no final da mesma página. Essa chamada acionará o fingerprint para que seja realizada a coleta e analise de dados. Conforme código javascript abaixo:
+Também deve realizar a chamada do plugin, no final da mesma página. Essa chamada acionará o fingerprint para que seja realizada a coleta e analise de dados. Conforme código javascript abaixo:
 
 ```php
     <script type="text/javascript">
-        jQuery(document).FingerPrint().getFingerPrint();
+        jQuery(document).FingerPrint();
     </script>
 ```
 
