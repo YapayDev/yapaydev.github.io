@@ -67,6 +67,7 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | finish_date      | Data Final (dd/mm/aaaa)          |
 | status_id        | ID do Status <sup>Tabela 1</sup> |
 | per_page         | Quantidade por página            |
+| type_response    | Tipo de Resposta J para JSON /  OUTROS para XML |
 
 Veja ao lado uma chamada de exemplo da API de Listagem de Transação.
 
