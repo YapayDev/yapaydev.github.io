@@ -6,7 +6,7 @@ right_code: |
   ~~~ php
     <?php
 
-        $params['token_account'] = 'SEU_TOKEN';
+        $params['access_token'] = 'SEU_ACCESS_TOKEN';
         
         $params['order_number'] = '951478';
         $params['url'] = 'http://www.urlsitedeconsulta.com.br';
@@ -40,6 +40,19 @@ right_code: |
   ~~~
   {: title="PHP" }
 
+
+  ~~~ javascript
+    {
+    "access_token": "SEU_ACCESS_TOKEN",
+    "order_number": "951478",
+    "url": "http://www.urlsitedeconsulta.com.br",
+    "code": "AC44112255698998BR",
+    "tag_search": "1",
+    "date_posting": "01/03/2018",
+    "date_estimed": "30/03/2018"
+    }
+  ~~~
+  {: title="JSON" }
 
 
 ---
