@@ -29,14 +29,14 @@ collections:
     menu: intermediador  
     navbar: intermediador
 
-  pagamento-oneclick:
-    name: pagamento-oneclick
-    title: Pagamento Oneclick
-    position: 3    
-    permalink: /intermediador/pagamento-oneclick/
-    origem: /intermediador/pagamento-oneclick/
-    menu: intermediador  
-    navbar: intermediador
+  # pagamento-oneclick:
+  #   name: pagamento-oneclick
+  #   title: Pagamento Oneclick
+  #   position: 3    
+  #   permalink: /intermediador/pagamento-oneclick/
+  #   origem: /intermediador/pagamento-oneclick/
+  #   menu: intermediador  
+  #   navbar: intermediador
 
   pagamento-recorrente:
     name: pagamento-recorrente
