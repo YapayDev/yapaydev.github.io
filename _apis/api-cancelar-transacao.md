@@ -140,7 +140,8 @@ right_code: |
         "transaction_id": 79717,
         "reason_cancellation_id": "6"
     }
-  ~~~  {: title="CJSON" }    
+  ~~~  
+  {: title="JSON" }    
 ---
 
 <span class="patch">PATCH</span><span class="beforePost">/api/v3/transactions/cancel</span>
