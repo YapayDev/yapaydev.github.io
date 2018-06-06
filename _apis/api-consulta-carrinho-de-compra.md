@@ -1,53 +1,33 @@
 ---
-title: API de Carrinho de Compra
-position: 12
+title: API de Consulta Carrinho de Compra
+position: 13
 menu: intermediador
 right_code: |
 ---
 
 
-CREATE
+GET
 {: .subtituloAzul }
 
-<span class="post">POST</span><span class="beforePost">/v1/tmp_transactions/create</span>
+<span class="post">POST</span><span class="beforePost">/v1/tmp_transactions/get</span>
 
-O Yapay Intermediador fornece uma ferramenta poderosa para sites que não possuem um carrinho de compras e querem oferecer a possibilidade de visitantes escolherem produtos e finalizarem uma compra.
-
-
-Esta ferramenta exclusiva também permite que seja possível o seu uso em um ambiente multi-vendedor, onde o site/marketplace pode fornecer um carrinho de compras para todas as lojas simultaneamente, fazendo com que o comprador tenha uma experiência única de compra com o Yapay Intermediador.
+Com a API de Consulta de Carrinho de Compra você consegue visualizar se a transação temporária criada no método `CREATE` virou uma transação definitiva.
 
 
 | Endereço para Integração                                                                                |
 |--------------------------|------------------------------------------------------------------------------|
-| Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/v1/tmp_transactions/create   |
-| Ambiente de Produção     | http://api.intermediador.yapay.com.br/v1/tmp_transactions/create           |
+| Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/v1/tmp_transactions/get       |
+| Ambiente de Produção     | http://api.intermediador.yapay.com.br/v1/tmp_transactions/get                |
 | Protocolo                | Rest/HTTP                                                                    |
 
 Para a integração via <span class="post">POST</span>, segue abaixo os dados necessários para envio:
 
-| Dados de Entrada                   |  Obrig.  | Descrição                   |
-|------------------------------------|----------|-----------------------------|
-| token_account                      | Sim      | Token da conta da Loja      |
-| reseller_token                     | Não      | Token do Revendedor         |
-| transaction_product[][code]        | Sim      | Código do Produto           |
-| transaction_product[][description] | Sim      | Descrição do Produto        |
-| transaction_product[][quantity]    | Sim      | Quantidade do produto       |
-| transaction_product[][price_unit]  | Sim      | Valor do Produto            |
-| transaction_product[][extra]       | Não      | Informações extra           |
-| transaction_product[][url_img]     | Não      | URL da Imagem do Produto    |
-| transaction_product[][sku_code]    | Não      | Número do SKU do Produto    |
-| transaction_product[][weight]      | Não      | Peso do Produto             |
-| token_transaction                  | Não      | Token da Transação          |
-| url_seller                         | Não      | URL do Botão voltar a Loja  |
-| url_notification                   | Não      | URL de Notificação          |
-| price_discount                     | Não      | Valor do Desconto           |
-| postal_code_seller                 | Sim      | CEP de Origem               |
-| shipping_type                      | Sim      | Forma de Envio              |
-| shipping_price                     | Sim      | Valor do frete              |
-| sub_store                          | Não      | Sub-Store                   |
-| url_css                            | Não      | URL do CSS Customizado      |
-| affiliates[][email]                | Não      | E-mail do afiliado          |
-| affiliates[][percentage]           | Não      | Porcentagem do Afiliado     |
+| Dados de Entrada  |  Obrig.  | Descrição                                                                                     |
+|-------------------|----------|-----------------------------------------------------------------------------------------------|
+| token_account     | Não      | Token da conta da Loja                                                                        |
+| token_transaction | Sim      | Token da Transação temporária                                                                 |
+| order_number      | Não      | Número do Pedido da Transação temporária (É o mesmo número de pedido da Transação Definitiva) |
+
 
 
 Veja abaixo uma chamada de API de exemplo:
@@ -55,20 +35,10 @@ Veja abaixo uma chamada de API de exemplo:
   ~~~ php
     <?php
         $params['token_account'] = 'SEU_TOKEN_AQUI';
-
-        $params['transaction_product[1][code]'] = '5';
-        $params['transaction_product[1][description]'] = 'Kit com 3 Camisetas Wonder Woman';
-        $params['transaction_product[1][quantity]'] = '1';
-        $params['transaction_product[1][price_unit]'] = '150.00';        
+        $params['token_transaction'] = '3cfbb284fab20acbd0754feb4a1de435';
 
 
-        $params['postal_code_seller'] = '17516000';
-
-        $params['shipping_type'] = 'Sedex';       
-        $params['shipping_price'] = '10';  
-
-
-        $urlPost = "https://api.intermediador.sandbox.yapay.com.br/v1/tmp_transactions/create";
+        $urlPost = "https://api.intermediador.sandbox.yapay.com.br/v1/tmp_transactions/get";
 
         ob_start();
 
@@ -96,18 +66,7 @@ Veja abaixo uma chamada de API de exemplo:
   ~~~ json
     {
         "token_account": "SEU_TOKEN",
-        "postal_code_seller": "17516000",
-        "shipping_type": "Sedex",
-        "shipping_price": "10",
-            
-        "transaction_product":[  
-            {  
-                "description": "Camiseta Wonder Woman",
-                "quantity": "1",
-                "price_unit": "150.00",
-                "code": "1"
-            }
-        ]	
+        "token_transaction": "3cfbb284fab20acbd0754feb4a1de435"
     }
   ~~~
   {: title="JSON" }
@@ -115,35 +74,43 @@ Veja abaixo uma chamada de API de exemplo:
 XML de Resposta
 {: .subtitulo }
 
-A API de Cadastro de Carrinho retorna a resposta em XML. Exemplo de resposta com sucesso baseando no envio do exemplo acima:
+A API de Consulta de Carrinho de Compras retorna a resposta em XML. Exemplo de resposta com sucesso baseando no envio do exemplo acima:
 
 
 ``` xml
-    <tmp_transaction>
-        <message_response>
-            <message>success</message>
-        </message_response>
-        <data_response>
-            <token_transaction>c543a7c7874c71882e6ad8f12f3e46</token_transaction>
-            <url_car>https://tc.intermediador.sandbox.yapay.com.br/payment/car/v1/</url_car>
-            <transaction_products type="array">
-                <transaction_product>
-                    <code>1</code>
-                    <img nil="true"/>
-                    <sku_code nil="true"/>
-                    <description>Camiseta Wonder Woman</description>
-                    <extra nil="true"/>
-                    <price_unit type="decimal">130.0</price_unit>
-                    <quantity type="decimal">1.0</quantity>
-                    <weight nil="true"/>
-                    <id type="integer">8894</id>
-                    <type_product nil="true"/>
-                </transaction_product>
-            </transaction_products>
-        </data_response>
-    </tmp_transaction>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<tmp_transaction>
+    <data_response>
+        <tmp_transactions type="array">
+            <tmp_transaction>
+                <token_transaction>3cfbb284fab20acbd0754feb4a1de435</token_transaction>
+                <url_car>https://tc.intermediador.sandbox.yapay.com.br/payment/car/v1/</url_car>
+                <payment>6733127d2553bc640b46bf8fa69a131f</payment>
+                <transaction_products type="array">
+                    <transaction_product>
+                        <code>115</code>
+                        <img nil="true"/>
+                        <sku_code nil="true"/>
+                        <description>Teste API CObrança</description>
+                        <extra nil="true"/>
+                        <price_unit type="decimal">11.55</price_unit>
+                        <quantity type="decimal">1.0</quantity>
+                        <weight nil="true"/>
+                        <id type="integer">9725</id>
+                        <type_product nil="true"/>
+                    </transaction_product>
+                </transaction_products>
+            </tmp_transaction>
+        </tmp_transactions>
+    </data_response>
+    <message_response>
+        <message>success</message>
+    </message_response>
+</tmp_transaction>
 ```
+
+**Observação:** Observe que no retorno da API tem o campo `<payment>`, esse campo é o parâmetro o token_transaction da transação definitiva. Nesse caso essa transação temporária já foi realizado o pagamento. Caso não tenha pagamento será retornado `<payment nil="true"/>`. Com o token_transaction da transação definitiva você consegue realizar uma consulta na <a href="/intermediador/apis/#api-consulta-transacao" target="_blank" class="linkPadraoVerde">API de Consulta de Transação</a> e manipular as informações da forma que precisar!
+{:.warning}
 
 Mensagens de Erro
 {: .subtitulo }
