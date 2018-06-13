@@ -52,19 +52,129 @@ A API de Simulação de Cálculo de Parcelamento é utilizada somente para facil
 
 Para a integração via <span class="post">POST</span>, segue abaixo os dados necessários para envio:
 
-| Dados de Entrada                       |  Obrig.  | Formato / Tam. Max   | Descrição                     |
-|----------------------------------------|----------|----------------------|-------------------------------|
-| token_account                          |   Sim    |  Texto / 20          |  Token da conta da Loja       |   
-| price                                  |   Sim    |  Decimal / 11        |  Valor da Transação           |   
+| Dados de Entrada |  Obrig.  | Formato / Tam. Max   | Descrição                     |
+|------------------|----------|----------------------|-------------------------------|
+| token_account    |   Sim    |  Texto / 20          |  Token da conta da Loja       |
+| price            |   Sim    |  Decimal / 11        |  Valor da Transação           |
+| type_response    |   Não    |  Decimal / 11        |  Tipo de Resposta  `J => JSON, OUTROS => XML`         |
 
 Veja ao lado uma chamada de API de exemplo:
 
-XML de Resposta
+Resposta da API
 {: .subtitulo }
 
-A API de Processamento de Transações retorna a resposta em XML.
+A API de Simulação de Parcelamento retorna a resposta em XML ou JSON. Na resposta é mostrado todos os meios de pagamentos disponíveis.
 
-Abaixo um detalhamento de cada nó do XML de resposta:
+Abaixo um detalhamento de cada nó do JSON de resposta:
+
+
+```javascript
+{
+    "message_response": {
+        "message": "success"
+    },
+    "data_response": {
+        "payment_methods": [
+            {
+                "splittings": [
+                    {
+                        "split": 1,
+                        "value_split": "1000.00",
+                        "value_transaction": "1000.00",
+                        "addition_retention": "0.00",
+                        "split_rate": 0
+                    },
+                    {
+                        "split": 2,
+                        "value_split": "514.97",
+                        "value_transaction": "1029.94",
+                        "addition_retention": "0.00",
+                        "split_rate": "1.99"
+                    },
+                    {
+                        "split": 3,
+                        "value_split": "346.69",
+                        "value_transaction": "1040.07",
+                        "addition_retention": "0.00",
+                        "split_rate": "1.99"
+                    },
+                    {
+                        "split": 4,
+                        "value_split": "268.96",
+                        "value_transaction": "1075.84",
+                        "addition_retention": "0.00",
+                        "split_rate": "2.99"
+                    },
+                    {
+                        "split": 5,
+                        "value_split": "218.29",
+                        "value_transaction": "1091.45",
+                        "addition_retention": "0.00",
+                        "split_rate": "2.99"
+                    },
+                    {
+                        "split": 6,
+                        "value_split": "184.54",
+                        "value_transaction": "1107.24",
+                        "addition_retention": "0.00",
+                        "split_rate": "2.99"
+                    },
+                    {
+                        "split": 7,
+                        "value_split": "160.45",
+                        "value_transaction": "1123.15",
+                        "addition_retention": "0.00",
+                        "split_rate": "2.99"
+                    },
+                    {
+                        "split": 8,
+                        "value_split": "148.47",
+                        "value_transaction": "1187.76",
+                        "addition_retention": "0.00",
+                        "split_rate": "3.99"
+                    },
+                    {
+                        "split": 9,
+                        "value_split": "134.43",
+                        "value_transaction": "1209.87",
+                        "addition_retention": "0.00",
+                        "split_rate": "3.99"
+                    },
+                    {
+                        "split": 10,
+                        "value_split": "123.23",
+                        "value_transaction": "1232.30",
+                        "addition_retention": "0.00",
+                        "split_rate": "3.99"
+                    },
+                    {
+                        "split": 11,
+                        "value_split": "114.09",
+                        "value_transaction": "1254.99",
+                        "addition_retention": "0.00",
+                        "split_rate": "3.99"
+                    },
+                    {
+                        "split": 12,
+                        "value_split": "106.49",
+                        "value_transaction": "1277.88",
+                        "addition_retention": "0.00",
+                        "split_rate": "3.99"
+                    }
+                ],
+                "price_customer": "1000.00",
+                "price_seller": "935.70",
+                "price_original": "1000.00",
+                "split": 12,
+                "payment_method_name": "Visa",
+                "payment_method_id": 3
+            }
+        ]
+    }
+}
+```
+
+
 
 ```xml         
 <transaction>                                                      Nó principal da resposta
@@ -136,93 +246,14 @@ Abaixo um detalhamento de cada nó do XML de resposta:
 ```
 
 
-Exemplo de resposta com sucesso baseando no envio do exemplo acima:
 
-
-``` xml
-<?xml version="1.0" encoding="UTF-8"?>
-<transaction>
-    <data_response>
-        <payment_methods type="array">
-            <payment_method>
-                <splittings type="array">
-                    <splitting>
-                        <split type="integer">1</split>
-                        <value_split>1134.30</value_split>
-                        <value_transaction>1134.30</value_transaction>
-                        <addition_retention>0.00</addition_retention>
-                        <split_rate type="integer">0</split_rate>
-                    </splitting>
-                    <splitting>
-                        <split type="integer">2</split>
-                        <value_split>584.14</value_split>
-                        <value_transaction>1168.28</value_transaction>
-                        <addition_retention>0.00</addition_retention>
-                        <split_rate type="decimal">1.99</split_rate>
-                    </splitting>                    
-                </splittings>
-                <price_customer>1134.30</price_customer>
-                <price_seller>1061.42</price_seller>
-                <price_original>1134.30</price_original>
-                <split type="integer">12</split>
-                <payment_method_name>Visa</payment_method_name>
-                <payment_method_id type="integer">3</payment_method_id>
-            </payment_method>
-            <payment_method>
-                <splittings type="array">
-                    <splitting>
-                        <split type="integer">1</split>
-                        <value_split>1134.30</value_split>
-                        <value_transaction>1134.30</value_transaction>
-                        <addition_retention>0.00</addition_retention>
-                        <split_rate type="integer">0</split_rate>
-                    </splitting>
-                    <splitting>
-                        <split type="integer">2</split>
-                        <value_split>584.14</value_split>
-                        <value_transaction>1168.28</value_transaction>
-                        <addition_retention>0.00</addition_retention>
-                        <split_rate type="decimal">1.99</split_rate>
-                    </splitting>                    
-                </splittings>
-                <price_customer>1134.30</price_customer>
-                <price_seller>1061.42</price_seller>
-                <price_original>1134.30</price_original>
-                <split type="integer">12</split>
-                <payment_method_name>Mastercard</payment_method_name>
-                <payment_method_id type="integer">4</payment_method_id>
-            </payment_method>
-            <payment_method>
-                <splittings type="array">
-                    <splitting>
-                        <split type="integer">1</split>
-                        <value_split>1134.30</value_split>
-                        <value_transaction>1134.30</value_transaction>
-                        <addition_retention>0.00</addition_retention>
-                        <split_rate type="integer">0</split_rate>
-                    </splitting>
-                </splittings>
-                <price_customer>1134.30</price_customer>
-                <price_seller>1061.42</price_seller>
-                <price_original>1134.30</price_original>
-                <split type="integer">1</split>
-                <payment_method_name>Boleto Bancario</payment_method_name>
-                <payment_method_id type="integer">6</payment_method_id>
-            </payment_method>
-    </data_response>
-    <message_response>
-        <message>success</message>
-    </message_response>
-</transaction>
-
-```
 
 Mensagens de Erro
 {: .subtitulo }
 
 No caso de erro, a API retorna uma mensagem de erro. Assim é possível identificar o erro ocorrido e realizar o tratamento através do código e/ou mensagem retornada.
 
-Abaixo segue os detalhes de cada nó do XML de resposta:    
+Abaixo segue os detalhes de cada nó do XML de resposta:
 
 ```xml
 <transaction>                                 Nó principal da resposta

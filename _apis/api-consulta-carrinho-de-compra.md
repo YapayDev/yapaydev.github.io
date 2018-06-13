@@ -91,7 +91,7 @@ A API de Consulta de Carrinho de Compras retorna a resposta em XML. Exemplo de r
                         <code>115</code>
                         <img nil="true"/>
                         <sku_code nil="true"/>
-                        <description>Teste API CObrança</description>
+                        <description>Teste API Cobrança</description>
                         <extra nil="true"/>
                         <price_unit type="decimal">11.55</price_unit>
                         <quantity type="decimal">1.0</quantity>
