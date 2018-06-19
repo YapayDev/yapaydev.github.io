@@ -12,11 +12,14 @@ Quando um analisador de fraude/risco é ativado, ele se encaixa depois que a tra
 * Uma vez autorizada, o gateway envia a transação para análise de fraude.
 * Caso seja aprovada na análise, a transação entrará em modo de espera para ser enviada para a captura (de forma automática ou manual, de acordo com as configurações do estabelecimento). Caso seja negada na análise, a transação será automaticamente cancelada na operadora.
 
-O Gateway de Pagamento Yapay possui integração com o sistema de prevenção de risco e fraude ClearSale, nas seguintes modalidades **Total, Total Garantido, Application, ID e Start**. Caso for utilizado a funcionalidade de Finger Print da Clear Sale, o campo SessionID deverá ser enviado no `campoLivre2` do Gateway Yapay. Para maiores informações acesse: <a href="http://br.clear.sale" target="_blank" class="linkPadraoVerde">http://br.clear.sale</a>
+<!-- O Gateway de Pagamento Yapay possui integração com o sistema de prevenção de risco e fraude ClearSale, nas seguintes modalidades **Total, Total Garantido, Application, ID e Start**. Caso for utilizado a funcionalidade de Finger Print da Clear Sale, o campo SessionID deverá ser enviado no `campoLivre2` do Gateway Yapay. Para maiores informações acesse: <a href="http://br.clear.sale" target="_blank" class="linkPadraoVerde">http://br.clear.sale</a> -->
 
+Sistemas Integrados com a Yapay
+{: .subtitulo }
 
-Para consultar valores dos planos da ClearSale, entre em contato com <a href="mailto:parcerias@clear.sale" target="_blank" class="linkPadraoVerde">parcerias@clear.sale</a>.
-
+O Gateway de Pagamenta Yapay possui integração com o sistema de prevenção de risco e fraude ClearSale, nas seguintes modalidades Total, Total Garantido, Application, RealTime e Start. Caso for utilizado a funcionalidade de Fingerprint da ClearSale, o campo SessionID deverá ser enviado no campoLivre2 da Yapay. Para ter mais informações e receber um contato, sem compromisso de nosso time, acesse: <a href="https://lp.br.clear.sale/yapay" target="_blank" class="linkPadraoVerde">https://lp.br.clear.sale/yapay</a>
+ 
+Para consultar valores dos planos da ClearSale com condições especiais da parceria, entre em contato através do email: **parcerias@clear.sale**
 
 
 Informações para configuração
