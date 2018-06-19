@@ -166,6 +166,7 @@ Para a integração via <span class="patch">PATCH</span>, segue abaixo os dados 
 |----------------------------------------|----------|--------------------------------------------|
 | access_token                           |   Sim    |  Access Token de identificação do vendedor |
 | transaction_id                         |   Sim    |  ID da Transação                           |
+| message_cancellation                   |   Não    |  Mensagem de Cancelamento                  |
 | reason_cancellation_id                 |   Sim    |  Motivo Cancelamento<sup>1</sup>           |
 
 <sup>1</sup> Essa opção é necessário informar o motivo `6`. O Motivo 6 é relacionado ao **CANCELAMENTO PELA LOJA**, as outras opções são relacionadas ao cancelamento feito pelo cliente.
