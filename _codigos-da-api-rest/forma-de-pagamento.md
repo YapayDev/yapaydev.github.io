@@ -21,6 +21,7 @@ Cartões
 | 177     | JCB              | Cielo API 3.0    | Cielo         | WebService |
 | 178     | Maestro          | Cielo API 3.0    | Cielo         | WebService |
 | 179     | Visa Electron    | Cielo API 3.0    | Cielo         | WebService |
+| 180     | HiperCard        | Cielo API 3.0    | Cielo         | WebService |
 | 189     | American Express | E-Rede           | Rede          | WebService |
 | 190     | Visa             | E-Rede           | Rede          | WebService |
 | 191     | MasterCard       | E-Rede           | Rede          | WebService |
@@ -36,10 +37,11 @@ Cartões
 | 271     | MasterCard       | GetNetWS         | GetNet        | WebService |
 | 350     | Visa             | StoneWs          | Stone         | WebService |
 | 351     | MasterCard       | StoneWs          | Stone         | WebService |
+| 352     | Hipercard        | StoneWS          | Stone         | WebService |
+| 353     | Elo              | StoneWS          | Stone         | WebService |
 | 380     | Visa             | BinWS            | Bin-FirstData | WebService |
 | 381     | MasterCard       | BinWS            | Bin-FirstData | WebService |
 | 382     | Cabal            | BinWS            | Bin-FirstData | WebService |
-
 
 
 Boletos e Transferências
