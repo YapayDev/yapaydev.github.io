@@ -21,7 +21,7 @@ Instalação do Plúgin Yapay Intermediador via arquivo
 
 Para instalar plugin é necessário baixar o pacote do WooCommerce:
 
-<a href="http://integracao.traycheckout.com.br/documentacao/download/yapay/woocommerce/woo-yapay_v0.2.0.zip" class="btn  btn-default btn-wide btn-call-to-action btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>WooCommerce</a>
+<a href="http://integracao.traycheckout.com.br/documentacao/download/yapay/woocommerce/woo-yapay.zip" class="btn  btn-default btn-wide btn-call-to-action btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>WooCommerce</a>
 
 Acesse a área administrativa da plataforma e clique em **Plugins > Adicionar Novo**.
 

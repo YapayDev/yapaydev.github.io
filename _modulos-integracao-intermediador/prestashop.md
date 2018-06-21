@@ -13,7 +13,7 @@ Fique atento que sua versão de instalação, a plataforma Prestashop deve ser c
 
 Para instalar módulo é necessário baixar o pacote do PrestaShop:
 
-<a href="http://integracao.traycheckout.com.br/documentacao/download/yapay/prestashop/yapay_prestashop-1.0.0.zip" class="btn  btn-default btn-wide btn-call-to-action btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>PrestaShop</a>
+<a href="http://integracao.traycheckout.com.br/documentacao/download/yapay/prestashop/yapay_prestashop.zip" class="btn  btn-default btn-wide btn-call-to-action btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>PrestaShop</a>
 
 Descompacte o arquivo baixado e copie a pasta para o diretório de módulos da sua instalação PrestaShop.
 
